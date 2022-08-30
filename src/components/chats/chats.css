@@ -1,0 +1,9 @@
+.chats-btn {
+   width: 100px;
+   height: 40px;
+   background-color: inherit;
+   border: 1px solid black;
+   border-radius: 10px;
+   margin: 5px;
+   cursor: pointer;
+}

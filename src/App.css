@@ -1,0 +1,25 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.leftside {
+  width: 33%;
+  height: 600px;
+}
+
+
+
+.singlechat {
+
+  width: 66%;
+  text-align: center;
+}
