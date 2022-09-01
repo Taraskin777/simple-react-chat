@@ -1,25 +1,25 @@
 {
   "users": [
     {
-      "id": "1",
+      "id": 1,
       "name": "Alice Freeman",
       "date": "12.06.2017",
       "avatar": "fire"
     },
     {
-      "id": "2",
+      "id": 2,
       "name": "Sergio",
       "date": "15.07.2021",
       "avatar": "water"
     },
     {
-      "id": "3",
+      "id": 3,
       "name": "Velasqez",
       "date": "20.10.2013",
       "avatar": "wind"
     },
     {
-      "id": "4",
+      "id": 4,
       "name": "Barrera",
       "date": "02.08.2021",
       "avatar": "earth"
@@ -261,6 +261,26 @@
     {
       "comment": "new-comment",
       "id": 47
+    },
+    {
+      "comment": "new-comment",
+      "id": 48
+    },
+    {
+      "comment": "new-comment",
+      "id": 49
+    },
+    {
+      "comment": "new-comment",
+      "id": 50
+    },
+    {
+      "comment": "new-comment",
+      "id": 51
+    },
+    {
+      "comment": "new-comment",
+      "id": 52
     }
   ],
   "jokes": [

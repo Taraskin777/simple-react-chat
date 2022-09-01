@@ -2,6 +2,9 @@ import React from "react";
 import "./filter.css";
 
 const Filter = () => {
+
+
+
   return (
     <div className="main">
       <div className="useravatar">
@@ -11,7 +14,7 @@ const Filter = () => {
        <div className="search-icon"></div>
         <input
           type="search"
-          placeholder="Search or start new chat"
+          placeholder="Search or start a new chat"
           className="search-input"
         />
       </div>

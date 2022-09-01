@@ -4,43 +4,6 @@ import ChatPerson from "../chatPerson/ChatPerson";
 
 import "./chats.css";
 
-// const addComment = async (url, data) => {
-//   const res = await fetch(url, {
-//     method: "POST",
-//     body: data,
-//     headers: {
-//       "Content-type": "application/json",
-//     },
-//   });
-//   return await res.json();
-// };
-
-// addComment("http://localhost:3001/comments", JSON.stringify({
-//   new comment: "sdfdsvsv"
-// }));
-
-//  імпортуєш useState i useEffect для того щоб код
-// виконати тільки при завантаженні компонента
-
-// const someComponent = () => {
-// Створюєш стейт з порожнім массивом за умовчуванням
-// const [userData, setUserData] = sueState([]);
-// Передаєш useEffect колбек, який потрібно викликати і
-// другим аргументом порожній массив щоб код виконався
-// Тільки при завантаженні компонента
-// useEffect(() => {
-// Виклич свою функуцію
-// getUserList()
-// В блоці then засеть дані в стейт
-//         .then(data => setUesrData(data))
-//     }, []);
-//     return (
-//     <>
-//         <h1>Використай свої ... дані</h1>
-//         {userData.length ? userData.map(element => <ChatPerson id={element.id} name={element.name} date={element.date} avatar={element.avatar} />) : null}
-//     </>
-//     )
-// }
 
 const addComment = () => {
   fetch("http://localhost:3001/comments", {
@@ -66,15 +29,6 @@ const getUserList = async (url) => {
   return data;
 };
 
-// const getUsersList = () => {
-//   fetch("http://localhost:3001/users")
-//     .then((response) => {
-//       return response.json();
-//     })
-//     .then((data) => {
-//       console.log(data);
-//     });
-// };
 
 const chuckNorris = () => {
   fetch("https://api.chucknorris.io/jokes/random")
@@ -95,7 +49,7 @@ const Chats = () => {
     );
   }, []);
 
-  // console.log(usersData);
+
 
   return (
     <>
@@ -109,15 +63,16 @@ const Chats = () => {
       <button onClick={addComment} className="chats-btn">
         Comment
       </button>
-      <div>
-        {usersData.length
-          ? usersData.map(({ id, date, name, avatar }) => (
-              <ChatPerson key={id} id = {id} name={name} date={date} avatar={avatar} />
-            ))
-          : null}
-      </div>
+      {usersData.length
+        ? usersData.map(({ id, date, name, avatar }) => (
+            <div key={id}>
+              <ChatPerson id={id} name={name} date={date} avatar={avatar} />
+            </div>
+          ))
+        : null}
     </>
   );
 };
 
 export default Chats;
+
