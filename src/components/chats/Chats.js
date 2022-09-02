@@ -6,7 +6,7 @@ import "./chats.css";
 
 const comments = "http://localhost:3001/comments";
 const users = "http://localhost:3001/users";
-const jokes = "http://localhost:3001/jokes";
+const jokes = "https://api.chucknorris.io/jokes/random";
 
 const addComment = () => {
   fetch(comments, {
