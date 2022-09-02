@@ -4,25 +4,33 @@
       "id": 1,
       "name": "Alice Freeman",
       "date": "12.06.2017",
-      "avatar": "fire"
+      "avatar": "/images/alice.png",
+      "message": "dsfgsvavv sdcsd DSVSDVSD",
+      "tick": "/images/tick.png"
     },
     {
       "id": 2,
       "name": "Sergio",
       "date": "15.07.2021",
-      "avatar": "water"
+      "avatar": "/images/sergio.png",
+      "message": "dsfgsvavv sdcsd DSVSDVSD",
+      "tick": "/images/tick.png"
     },
     {
       "id": 3,
       "name": "Velasqez",
       "date": "20.10.2013",
-      "avatar": "wind"
+      "avatar": "/images/velasqez.png",
+      "message": "dsfgsvavv sdcsd DSVSDVSD",
+      "tick": "/images/tick.png"
     },
     {
       "id": 4,
       "name": "Barrera",
       "date": "02.08.2021",
-      "avatar": "earth"
+      "avatar": "/images/barera.png",
+      "message": "dsfgsvavv sdcsd DSVSDVSD",
+      "tick": "/images/tick.png"
     }
   ],
   "comments": [
@@ -297,6 +305,22 @@
     {
       "comment": "new-comment",
       "id": 56
+    },
+    {
+      "comment": "new-comment",
+      "id": 57
+    },
+    {
+      "comment": "new-comment",
+      "id": 58
+    },
+    {
+      "comment": "new-comment",
+      "id": 59
+    },
+    {
+      "comment": "new-comment",
+      "id": 60
     }
   ],
   "jokes": [

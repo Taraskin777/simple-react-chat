@@ -4,6 +4,7 @@ import ChatPerson from "../chatPerson/ChatPerson";
 
 import "./chats.css";
 
+// npx json-server --watch users.json --port 3001
 const comments = "http://localhost:3001/comments";
 const users = "http://localhost:3001/users";
 const jokes = "https://api.chucknorris.io/jokes/random";
@@ -32,7 +33,6 @@ const getUserList = async (url) => {
   return data;
 };
 
-
 const chuckNorris = () => {
   fetch(jokes)
     .then((response) => {
@@ -47,12 +47,8 @@ const Chats = () => {
   const [usersData, setUsersData] = useState([]);
 
   useEffect(() => {
-    getUserList(users).then((data) =>
-      setUsersData(data)
-    );
+    getUserList(users).then((data) => setUsersData(data));
   }, []);
-
-
 
   return (
     <>
@@ -67,9 +63,9 @@ const Chats = () => {
         Comment
       </button>
       {usersData.length
-        ? usersData.map(({ id, date, name, avatar }) => (
+        ? usersData.map(({ id, date, name, avatar,message, tick }) => (
             <div key={id}>
-              <ChatPerson id={id} name={name} date={date} avatar={avatar} />
+              <ChatPerson id={id} name={name} date={date} avatar={avatar} message={message} tick={tick}  />
             </div>
           ))
         : null}
@@ -78,4 +74,3 @@ const Chats = () => {
 };
 
 export default Chats;
-
