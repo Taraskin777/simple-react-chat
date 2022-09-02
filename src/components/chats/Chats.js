@@ -4,9 +4,12 @@ import ChatPerson from "../chatPerson/ChatPerson";
 
 import "./chats.css";
 
+const comments = "http://localhost:3001/comments";
+const users = "http://localhost:3001/users";
+const jokes = "http://localhost:3001/jokes";
 
 const addComment = () => {
-  fetch("https://my-simple--react-chat.herokuapp.com/api/comments", {
+  fetch("https://my-simple--react-chat.herokuapp.com/api", {
     method: "POST",
     body: JSON.stringify({
       comment: "new-comment",
@@ -31,7 +34,7 @@ const getUserList = async (url) => {
 
 
 const chuckNorris = () => {
-  fetch("https://api.chucknorris.io/jokes/api/users")
+  fetch("https://api.chucknorris.io/jokes/random")
     .then((response) => {
       return response.json();
     })
@@ -44,7 +47,7 @@ const Chats = () => {
   const [usersData, setUsersData] = useState([]);
 
   useEffect(() => {
-    getUserList("https://my-simple--react-chat.herokuapp.com/users").then((data) =>
+    getUserList("https://my-simple--react-chat.herokuapp.com/api").then((data) =>
       setUsersData(data)
     );
   }, []);
