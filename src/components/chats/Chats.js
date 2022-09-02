@@ -6,7 +6,7 @@ import "./chats.css";
 
 
 const addComment = () => {
-  fetch("https://my-simple--react-chat.herokuapp.com/api", {
+  fetch("https://my-simple--react-chat.herokuapp.com/api/comments", {
     method: "POST",
     body: JSON.stringify({
       comment: "new-comment",
@@ -31,7 +31,7 @@ const getUserList = async (url) => {
 
 
 const chuckNorris = () => {
-  fetch("https://api.chucknorris.io/jokes/api")
+  fetch("https://api.chucknorris.io/jokes/api/users")
     .then((response) => {
       return response.json();
     })
