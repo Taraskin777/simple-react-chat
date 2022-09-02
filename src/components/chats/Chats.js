@@ -9,7 +9,7 @@ const users = "http://localhost:3001/users";
 const jokes = "http://localhost:3001/jokes";
 
 const addComment = () => {
-  fetch("https://my-simple--react-chat.herokuapp.com/api", {
+  fetch("https://my-simple--react-chat.herokuapp.com/comments", {
     method: "POST",
     body: JSON.stringify({
       comment: "new-comment",
@@ -47,7 +47,7 @@ const Chats = () => {
   const [usersData, setUsersData] = useState([]);
 
   useEffect(() => {
-    getUserList("https://my-simple--react-chat.herokuapp.com/api").then((data) =>
+    getUserList("https://my-simple--react-chat.herokuapp.com/users").then((data) =>
       setUsersData(data)
     );
   }, []);
