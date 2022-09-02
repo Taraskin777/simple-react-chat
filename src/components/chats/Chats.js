@@ -6,7 +6,7 @@ import "./chats.css";
 
 
 const addComment = () => {
-  fetch("http://localhost:3001/comments", {
+  fetch("https://my-simple--react-chat.herokuapp.com/api", {
     method: "POST",
     body: JSON.stringify({
       comment: "new-comment",
@@ -31,7 +31,7 @@ const getUserList = async (url) => {
 
 
 const chuckNorris = () => {
-  fetch("https://api.chucknorris.io/jokes/random")
+  fetch("https://api.chucknorris.io/jokes/api")
     .then((response) => {
       return response.json();
     })
@@ -44,7 +44,7 @@ const Chats = () => {
   const [usersData, setUsersData] = useState([]);
 
   useEffect(() => {
-    getUserList("http://localhost:3001/users").then((data) =>
+    getUserList("https://my-simple--react-chat.herokuapp.com/users").then((data) =>
       setUsersData(data)
     );
   }, []);
