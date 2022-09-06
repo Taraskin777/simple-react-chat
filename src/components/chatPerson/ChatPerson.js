@@ -4,7 +4,7 @@ import "./chatperson.css";
 
 const ChatPerson = ({ id, name, date, avatar, tick, message }) => {
   return (
-    <div className="chatlist">
+    <div className="chatperson">
       <div className="user-img">
         <div className="avatar">
           <img src={avatar} alt="avatar" />

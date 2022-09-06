@@ -6,7 +6,7 @@ import "./chats.css";
 
 // npx json-server --watch users.json --port 3001
 const comments = "http://localhost:3001/comments";
-const users = "http://localhost:3001/users";
+const users = "http://localhost:3001/users?_sort=date";
 const jokes = "https://api.chucknorris.io/jokes/random";
 
 const addComment = () => {
@@ -63,9 +63,16 @@ const Chats = () => {
         Comment
       </button>
       {usersData.length
-        ? usersData.map(({ id, date, name, avatar,message, tick }) => (
+        ? usersData.map(({ id, date, name, avatar, message, tick }) => (
             <div key={id}>
-              <ChatPerson id={id} name={name} date={date} avatar={avatar} message={message} tick={tick}  />
+              <ChatPerson
+                id={id}
+                name={name}
+                date={date}
+                avatar={avatar}
+                message={message}
+                tick={tick}
+              />
             </div>
           ))
         : null}

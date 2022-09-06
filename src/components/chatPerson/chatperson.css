@@ -1,7 +1,9 @@
-.chatlist {
+.chatperson {
    display: flex;
    justify-content: space-between;
    align-items: center;
+   border-bottom: 1px solid rgba(0, 0, 0, 0.495);
+   margin-top: 20px;
 }
 
 
@@ -15,4 +17,17 @@
    width: 10px;
    height: 10px;
    background-size: contain;
+}
+
+.person-ifo {
+   text-align: start;
+}
+
+.name {
+   margin: 0 0 10px 0;
+}
+
+.message {
+   margin-bottom: 20px;
+   color: rgba(0, 0, 0, 0.662);
 }
