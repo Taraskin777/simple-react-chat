@@ -7,10 +7,10 @@ const ChatPerson = ({ id, name, date, avatar, tick, message }) => {
     <div className="chatperson">
       <div className="user-img">
         <div className="avatar">
-          <img src={avatar} alt="avatar" />
+          <img src={avatar} alt="avatar"/>
         </div>
         <div className="avatar-tick">
-          <img src={tick} alt="tick" />
+          <img src={tick} alt="tick"/>
         </div>
       </div>
       <div className="person-ifo">

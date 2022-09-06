@@ -12,11 +12,11 @@
 }
 
 .leftside {
-  width: 33%;
-  height: 600px;
+ 
+  width: 40%;
+  height: 800px;
+  border: solid 1px black;
 }
-
-
 
 .singlechat {
 

@@ -1,22 +1,40 @@
 .chatperson {
    display: flex;
    justify-content: space-between;
-   align-items: center;
+   align-items: top;
    border-bottom: 1px solid rgba(0, 0, 0, 0.495);
-   margin-top: 20px;
+ padding-top: 20px;
+   cursor: pointer;
+   transition: all 0.5s;
 }
 
+.chatperson:hover{
+   background-color: rgba(128, 128, 128, 0.201);
+}
 
+.user-img {
+   position: relative;
+   margin-left: 20px;
+   margin-bottom: 20px;
+}
 .avatar {
    width: 30px;
    height: 30px;
-   background-size: contain;
 }
 
+.avatar img {
+   width: 40px;
+   height: 40px;
+}
 .avatar-tick {
-   width: 10px;
-   height: 10px;
-   background-size: contain;
+   position: absolute;
+   right: -18px;
+   bottom: -10px;
+}
+
+.avatar-tick img {
+   width: 20px;
+   height: 20px;
 }
 
 .person-ifo {
@@ -24,10 +42,18 @@
 }
 
 .name {
-   margin: 0 0 10px 0;
+   margin: 0 0 0 0;
+   font-size: 20px;
+   font-weight: normal;
 }
 
 .message {
    margin-bottom: 20px;
    color: rgba(0, 0, 0, 0.662);
+}
+
+.date {
+   margin-right: 20px;
+   font-size: 15px;
+   color: rgba(0, 0, 0, 0.543);
 }

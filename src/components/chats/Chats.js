@@ -6,14 +6,15 @@ import "./chats.css";
 
 // npx json-server --watch users.json --port 3001
 const comments = "http://localhost:3001/comments";
-const users = "http://localhost:3001/users?_sort=date";
+const users = "http://localhost:3001/users?_sort=date&_order=desc";
 const jokes = "https://api.chucknorris.io/jokes/random";
+const newComment = "new comment";
 
 const addComment = () => {
   fetch(comments, {
     method: "POST",
     body: JSON.stringify({
-      comment: "new-comment",
+      comment: newComment,
     }),
     headers: {
       "Content-type": "application/json",
@@ -51,8 +52,8 @@ const Chats = () => {
   }, []);
 
   return (
-    <>
-      <h2>Chats</h2>
+    <div className="chats-wrapper">
+      <h2 className="chats">Chats</h2>
       <button onClick={() => console.log(usersData)} className="chats-btn">
         Users
       </button>
@@ -76,7 +77,7 @@ const Chats = () => {
             </div>
           ))
         : null}
-    </>
+    </div>
   );
 };
 
