@@ -4,9 +4,8 @@ import ChatPerson from "../chatPerson/ChatPerson";
 
 import "./chats.css";
 
-// npx json-server --watch users.json --port 3001
 const comments = "http://localhost:3001/comments";
-const users = "http://localhost:3001/users?_sort=date&_order=desc";
+const sortedUsers = "http://localhost:3001/users?_sort=date&_order=desc";
 const jokes = "https://api.chucknorris.io/jokes/random";
 const newComment = "new comment";
 
@@ -44,12 +43,14 @@ const chuckNorris = () => {
     });
 };
 
-const Chats = () => {
+const Chats = ({ filter, searchUsers }) => {
   const [usersData, setUsersData] = useState([]);
 
   useEffect(() => {
-    getUserList(users).then((data) => setUsersData(data));
+    getUserList(sortedUsers).then((data) => setUsersData(data));
   }, []);
+
+  const filteredUsers = searchUsers(usersData, filter);
 
   return (
     <div className="chats-wrapper">
@@ -57,14 +58,17 @@ const Chats = () => {
       <button onClick={() => console.log(usersData)} className="chats-btn">
         Users
       </button>
+      <button onClick={() => console.log(filteredUsers)} className="chats-btn">
+        Filtered
+      </button>
       <button onClick={chuckNorris} className="chats-btn">
         Chuck
       </button>
       <button onClick={addComment} className="chats-btn">
         Comment
       </button>
-      {usersData.length
-        ? usersData.map(({ id, date, name, avatar, message, tick }) => (
+      {filteredUsers.length
+        ? filteredUsers.map(({ id, date, name, avatar, message, tick }) => (
             <div key={id}>
               <ChatPerson
                 id={id}

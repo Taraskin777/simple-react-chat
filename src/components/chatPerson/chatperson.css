@@ -2,13 +2,26 @@
    display: flex;
    justify-content: space-between;
    align-items: top;
-   border-bottom: 1px solid rgba(0, 0, 0, 0.495);
- padding-top: 20px;
+   border-bottom: 1px solid rgba(0, 0, 0, 0.304);
+   padding-top: 20px;
    cursor: pointer;
    transition: all 0.5s;
+   opacity: 0;
+   animation: ani 1s forwards;
 }
 
-.chatperson:hover{
+
+@keyframes ani {
+   0% {
+      opacity: 0;
+   }
+
+   100% {
+      opacity: 1;
+   }
+}
+
+.chatperson:hover {
    background-color: rgba(128, 128, 128, 0.201);
 }
 
@@ -17,6 +30,7 @@
    margin-left: 20px;
    margin-bottom: 20px;
 }
+
 .avatar {
    width: 30px;
    height: 30px;
@@ -26,10 +40,11 @@
    width: 40px;
    height: 40px;
 }
+
 .avatar-tick {
    position: absolute;
    right: -18px;
-   bottom: -10px;
+   bottom: -5px;
 }
 
 .avatar-tick img {
