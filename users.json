@@ -3,20 +3,15 @@
     {
       "id": 1,
       "name": "Alice Freeman",
-      "date": "2022.12.05",
+      "date": "2022/02/05",
       "avatar": "/images/alice.png",
       "message": "dsfgsvavv sdcsd DSVSDVSD",
-      "tick": "/images/tick.png",
-      "comment": [
-        {
-          "comment": "new comment"
-        }
-      ]
+      "tick": "/images/tick.png"
     },
     {
       "id": 2,
       "name": "Sergio",
-      "date": "2022.02.10",
+      "date": "2022/10/10",
       "avatar": "/images/sergio.png",
       "message": "dsfgsvavv sdcsd DSVSDVSD",
       "tick": "/images/tick.png"
@@ -38,41 +33,52 @@
       "tick": "/images/tick.png"
     }
   ],
-  "comments": [
+  "messagesFromAlice": [
     {
-      "comment": "new-comment",
+      "comment": "new comment",
+      "date": "2022-09-09T12:45:02.667Z",
       "id": 1
     },
     {
-      "comment": "new-comment",
+      "comment": "new comment",
+      "date": "2022-09-12T09:29:41.488Z",
       "id": 2
     },
     {
       "comment": "new comment",
+      "date": "2022-09-12T09:29:41.609Z",
       "id": 3
     },
     {
       "comment": "new comment",
+      "date": "2022-09-12T09:29:53.828Z",
       "id": 4
     },
     {
       "comment": "new comment",
+      "date": "2022-09-12T09:30:18.101Z",
       "id": 5
-    },
-    {
-      "comment": "new comment",
-      "id": 6
-    },
-    {
-      "comment": "new comment",
-      "id": 7
     }
   ],
-  "jokes": [
+  "messagesFromBarrera": [
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "comment": "new comment",
+      "date": "2022-09-09T12:45:02.667Z",
+      "id": 1
+    }
+  ],
+  "messagesFromSergio": [
+    {
+      "comment": "new comment",
+      "date": "2022-09-09T12:45:02.667Z",
+      "id": 1
+    }
+  ],
+  "messagesFromVelasqez": [
+    {
+      "comment": "new comment",
+      "date": "2022-09-09T12:45:02.667Z",
+      "id": 1
     }
   ]
 }

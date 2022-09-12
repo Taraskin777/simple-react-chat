@@ -5,8 +5,6 @@ import "./filter.css";
 const Filter = ({onFilterChange, filter}) => {
   
  
-
- 
   return (
     <div className="main">
       <div className="useravatar">

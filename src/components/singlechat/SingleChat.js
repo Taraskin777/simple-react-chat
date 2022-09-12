@@ -1,15 +1,18 @@
 import React from "react";
-import "./singlechat.css"
-
+import ChatOfSingleUser from "../chatOfSingleUser/ChatOfSingleUser";
+import InputForSendMessage from "../inputForSendMessage/InputForSendMessage";
+import "./singlechat.css";
 
 const SingleChat = () => {
-   
-   return (
-      <div>
-         <h2>Singlechat</h2>
+  return (
+    <div className="chat">
+      <div className="nameofuser">
+        <h2>Josefina</h2>
       </div>
-   )
-}
-
+      <ChatOfSingleUser />
+      <InputForSendMessage />
+    </div>
+  );
+};
 
 export default SingleChat;

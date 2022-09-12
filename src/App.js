@@ -9,8 +9,54 @@ function App() {
   const [filter, setFilter] = useState([]);
 
   const onFilterChange = (e) => {
-    setFilter(e.target.value);
+    setFilter(e.target.value.toLowerCase());
   };
+
+  const fullDate = new Date();
+  const fullYear = fullDate.getFullYear();
+  const month = fullDate.getMonth();
+  const day = fullDate.getDate();
+  const dayOfWeek = fullDate.getDay();
+  const hours = fullDate.getHours();
+  const minutes = fullDate.getMinutes();
+
+  const convertDay = (day) => {
+
+    switch (day) {
+      case 0:
+        day = "Sun";
+        break;
+      case 1:
+        day = "Mon";
+        break;
+      case 2:
+        day = "Tue";
+        break;
+      case 3:
+        day = "Wed";
+        break;
+      case 4:
+        day = "Thu";
+        break;
+      case 5:
+        day = "Fri";
+        break;
+      case 6:
+        day = "Sat";
+        break;
+      default:
+        day = "Щось не так!";
+    }
+   
+    return day;
+  };
+
+  const convertedDayOfWeek = convertDay(dayOfWeek);
+
+  console.log(
+    `Зараз ${fullYear} рік, ${month} місяць і ${day} число. День тижня - ${convertedDayOfWeek}. Час у Львові - ${hours} година і ${minutes} хвилин`
+  );
+
 
   const searchUsers = (users, filter) => {
     if (filter.length === 0) {

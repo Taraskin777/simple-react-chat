@@ -4,16 +4,18 @@ import ChatPerson from "../chatPerson/ChatPerson";
 
 import "./chats.css";
 
-const comments = "http://localhost:3001/comments";
+const commentsToAlice = "http://localhost:3001/messagesFromAlice";
 const sortedUsers = "http://localhost:3001/users?_sort=date&_order=desc";
 const jokes = "https://api.chucknorris.io/jokes/random";
 const newComment = "new comment";
 
-const addComment = () => {
-  fetch(comments, {
+
+const addComment = (toUser) => {
+  fetch(toUser, {
     method: "POST",
     body: JSON.stringify({
       comment: newComment,
+      date: new Date()
     }),
     headers: {
       "Content-type": "application/json",
@@ -23,7 +25,8 @@ const addComment = () => {
       return response.json();
     })
     .then((data) => {
-      console.log(`${data.comment} має id ${data.id}`);
+      console.log(data);
+      console.log(`${data.comment} має id ${data.id} і відправлено ${data.date}`);
     });
 };
 
@@ -64,7 +67,7 @@ const Chats = ({ filter, searchUsers }) => {
       <button onClick={chuckNorris} className="chats-btn">
         Chuck
       </button>
-      <button onClick={addComment} className="chats-btn">
+      <button onClick={()=>addComment(commentsToAlice)} className="chats-btn">
         Comment
       </button>
       {filteredUsers.length
