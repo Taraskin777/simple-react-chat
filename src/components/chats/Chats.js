@@ -1,50 +1,12 @@
 import React from "react";
 import { useState, useEffect } from "react";
 import ChatPerson from "../chatPerson/ChatPerson";
+import App from "../../App";
+import { commentsToAlice, sortedUsers, getUserList, chuckNorris, addComment } from "../../services/httpservices";
 
 import "./chats.css";
 
-const commentsToAlice = "http://localhost:3001/messagesFromAlice";
-const sortedUsers = "http://localhost:3001/users?_sort=date&_order=desc";
-const jokes = "https://api.chucknorris.io/jokes/random";
-const newComment = "new comment";
 
-
-const addComment = (toUser) => {
-  fetch(toUser, {
-    method: "POST",
-    body: JSON.stringify({
-      comment: newComment,
-      date: new Date()
-    }),
-    headers: {
-      "Content-type": "application/json",
-    },
-  })
-    .then((response) => {
-      return response.json();
-    })
-    .then((data) => {
-      console.log(data);
-      console.log(`${data.comment} має id ${data.id} і відправлено ${data.date}`);
-    });
-};
-
-const getUserList = async (url) => {
-  const response = await fetch(url);
-  const data = await response.json();
-  return data;
-};
-
-const chuckNorris = () => {
-  fetch(jokes)
-    .then((response) => {
-      return response.json();
-    })
-    .then((data) => {
-      console.log(data.value);
-    });
-};
 
 const Chats = ({ filter, searchUsers }) => {
   const [usersData, setUsersData] = useState([]);

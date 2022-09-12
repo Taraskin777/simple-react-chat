@@ -17,11 +17,11 @@ function App() {
   const month = fullDate.getMonth();
   const day = fullDate.getDate();
   const dayOfWeek = fullDate.getDay();
+  const time = fullDate.toLocaleTimeString().slice(0, -3);
   const hours = fullDate.getHours();
   const minutes = fullDate.getMinutes();
 
   const convertDay = (day) => {
-
     switch (day) {
       case 0:
         day = "Sun";
@@ -47,16 +47,15 @@ function App() {
       default:
         day = "Щось не так!";
     }
-   
+
     return day;
   };
 
   const convertedDayOfWeek = convertDay(dayOfWeek);
 
   console.log(
-    `Зараз ${fullYear} рік, ${month} місяць і ${day} число. День тижня - ${convertedDayOfWeek}. Час у Львові - ${hours} година і ${minutes} хвилин`
+    `Зараз ${fullYear} рік, ${month} місяць і ${day} число. День тижня - ${convertedDayOfWeek}. Час у Львові - ${time}`
   );
-
 
   const searchUsers = (users, filter) => {
     if (filter.length === 0) {
@@ -76,7 +75,7 @@ function App() {
             filter={filter}
             onFilterChange={onFilterChange}
           />
-          <Chats className="chats" filter={filter} searchUsers={searchUsers} />
+          <Chats className="chats" filter={filter} searchUsers={searchUsers} time={time}/>
         </div>
         <div className="singlechat">
           <SingleChat />
@@ -87,3 +86,4 @@ function App() {
 }
 
 export default App;
+
