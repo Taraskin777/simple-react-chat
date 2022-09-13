@@ -1,15 +1,28 @@
 import React from "react";
-import { useState } from "react";
-import "./App.css";
+import { useState, useEffect } from "react";
 import Filter from "./components/filter/Filter";
 import Chats from "./components/chats/Chats";
 import SingleChat from "./components/singlechat/SingleChat";
+import {
+  commentsToAlice,
+  commentsToSergio,
+  commentsToBarrera,
+  commentsToVelasqez,
+  getListOfMessages,
+} from "./services/httpservices";
+
+import "./App.css";
 
 function App() {
   const [filter, setFilter] = useState([]);
+  const [name, setName] = useState();
 
   const onFilterChange = (e) => {
     setFilter(e.target.value.toLowerCase());
+  };
+
+  const getUserName = (name) => {
+    setName(name);
   };
 
   const fullDate = new Date();
@@ -66,24 +79,53 @@ function App() {
     });
   };
 
+  const onChooseUser = (url) => {
+    switch (name) {
+      case "Alice Freeman":
+        url = commentsToAlice;
+        break;
+      case "Sergio":
+        url = commentsToSergio;
+        break;
+      case "Velasqez":
+        url = commentsToVelasqez;
+        break;
+      case "Barrera":
+        url = commentsToBarrera;
+        break;
+      default:
+        url = "";
+    }
+    return url;
+  };
+
+  const newUrl = onChooseUser();
+
   return (
-    <div className="container">
-      <div className="row">
-        <div className="leftside">
-          <Filter
-            className="filter"
-            filter={filter}
-            onFilterChange={onFilterChange}
-          />
-          <Chats className="chats" filter={filter} searchUsers={searchUsers} time={time}/>
-        </div>
-        <div className="singlechat">
-          <SingleChat />
+    <section className="head">
+      <div className="container">
+        <div className="row">
+          <div className="leftside">
+            <Filter
+              className="filter"
+              filter={filter}
+              onFilterChange={onFilterChange}
+            />
+            <Chats
+              className="chats"
+              filter={filter}
+              searchUsers={searchUsers}
+              time={time}
+              getUserName={getUserName}
+            />
+          </div>
+          <div className="singlechat">
+            <SingleChat newUrl={newUrl} name={name} />
+          </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 
 export default App;
-

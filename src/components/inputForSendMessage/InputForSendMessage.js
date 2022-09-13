@@ -5,7 +5,10 @@ const InputForSendMessage = () => {
   return (
     <>
       <div className="input-for-message">
-        <input type="text" placeholder="Please, write your message" />
+        <div className="input-wrapper">
+          <input type="text" placeholder="Type your message" />
+          <div className="sendmessage"></div>
+        </div>
       </div>
     </>
   );

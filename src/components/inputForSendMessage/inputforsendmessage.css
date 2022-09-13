@@ -1,3 +1,34 @@
 .input-for-message {
+   display: flex;
+   justify-content: center;
+   align-items: center;
    height: 20%;
+   border-top: 1px solid black;
+   background-color: rgba(128, 128, 128, 0.087);
+}
+
+.input-wrapper {
+   background-color: #fff;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   width: 90%;
+   height: 40%;
+   border: 1px solid rgba(0, 0, 0, 0.484);
+   border-radius: 20px;
+}
+
+.input-for-message input {
+   width: 80%;
+   border: none;
+   outline: none;
+}
+
+.sendmessage {
+   width: 25px;
+   height: 25px;
+   background-image: url(../../icons/sendmessage.png);
+   background-size: contain;
+   background-repeat: no-repeat;
+   cursor: pointer;
 }

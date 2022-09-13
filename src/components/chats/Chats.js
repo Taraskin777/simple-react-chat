@@ -2,13 +2,17 @@ import React from "react";
 import { useState, useEffect } from "react";
 import ChatPerson from "../chatPerson/ChatPerson";
 import App from "../../App";
-import { commentsToAlice, sortedUsers, getUserList, chuckNorris, addComment } from "../../services/httpservices";
+import {
+  commentsToAlice,
+  sortedUsers,
+  getUserList,
+  chuckNorris,
+  addComment,
+} from "../../services/httpservices";
 
 import "./chats.css";
 
-
-
-const Chats = ({ filter, searchUsers }) => {
+const Chats = ({ filter, searchUsers, getUserName }) => {
   const [usersData, setUsersData] = useState([]);
 
   useEffect(() => {
@@ -23,13 +27,10 @@ const Chats = ({ filter, searchUsers }) => {
       <button onClick={() => console.log(usersData)} className="chats-btn">
         Users
       </button>
-      <button onClick={() => console.log(filteredUsers)} className="chats-btn">
-        Filtered
-      </button>
       <button onClick={chuckNorris} className="chats-btn">
         Chuck
       </button>
-      <button onClick={()=>addComment(commentsToAlice)} className="chats-btn">
+      <button onClick={() => addComment(commentsToAlice)} className="chats-btn">
         Comment
       </button>
       {filteredUsers.length
@@ -42,6 +43,7 @@ const Chats = ({ filter, searchUsers }) => {
                 avatar={avatar}
                 message={message}
                 tick={tick}
+                getUserName={getUserName}
               />
             </div>
           ))
