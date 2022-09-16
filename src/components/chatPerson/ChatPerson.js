@@ -2,16 +2,15 @@ import React from "react";
 import PropTypes from "prop-types";
 import "./chatperson.css";
 
-const ChatPerson = ({ name, date, avatar, tick, message, getUserName }) => {
-
+const ChatPerson = ({ name, date, avatar, tick, message, getUserData }) => {
   return (
-    <div className="chatperson" onClick={()=>getUserName(name)}>
+    <div className="chatperson" onClick={() => getUserData(name, avatar)}>
       <div className="user-img">
         <div className="avatar">
-          <img src={avatar} alt="avatar"/>
+          <img src={avatar} alt="avatar" />
         </div>
         <div className="avatar-tick">
-          <img src={tick} alt="tick"/>
+          <img src={tick} alt="tick" />
         </div>
       </div>
       <div className="person-ifo">

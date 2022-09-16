@@ -1,12 +1,16 @@
 import React from "react";
 import "./chatofsingleuser.css";
 
-const ChatOfSingleUser = () => {
+const ChatOfSingleUser = ({ comment, date, avatar }) => {
+  
   return (
-    <>
-        <div>Chatting</div>
-        
-    </>
+    <div className="single-chat">
+      <div className="userphoto">
+        <img src={avatar} alt="" />
+      </div>
+      <div className="comment">{comment}</div>
+      <div className="date">{date}</div>
+    </div>
   );
 };
 

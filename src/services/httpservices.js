@@ -33,8 +33,8 @@ export const getUserList = async (url) => {
   return data;
 };
 
-export const chuckNorris = () => {
-  fetch(jokes)
+export const chuckNorris = async () => {
+  await fetch(jokes)
     .then((response) => {
       return response.json();
     })

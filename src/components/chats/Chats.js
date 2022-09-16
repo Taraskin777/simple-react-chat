@@ -12,7 +12,7 @@ import {
 
 import "./chats.css";
 
-const Chats = ({ filter, searchUsers, getUserName }) => {
+const Chats = ({ filter, searchUsers, getUserData }) => {
   const [usersData, setUsersData] = useState([]);
 
   useEffect(() => {
@@ -43,7 +43,7 @@ const Chats = ({ filter, searchUsers, getUserName }) => {
                 avatar={avatar}
                 message={message}
                 tick={tick}
-                getUserName={getUserName}
+                getUserData={getUserData}
               />
             </div>
           ))

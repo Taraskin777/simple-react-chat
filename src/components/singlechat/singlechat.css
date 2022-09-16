@@ -4,14 +4,54 @@
    display: flex;
    flex-direction: column;
    justify-content: space-between;
+   
 }
 
-.nameofuser {
-   height: 10%;
+.userinfo {
+   display: flex;
+   justify-content: flex-start;
+   min-height: 10%;
    border-bottom: 1px solid black;
    line-height: 100%;
+   padding: 15px;
+}
+
+.user-avatar {
+   position: relative;
+   margin-right: 20px;
+   align-self: center;
+
+}
+
+.user-avatar img {
+   width: 45px;
+   height: 45px;
+}
+
+
+.user-tick {
+   position: absolute;
+   right: -5px;
+   bottom: -8px;
+ 
+}
+
+.user-tick img {
+   width: 20px;
+   height: 20px;
+
 }
 
 .nameofuser h2 {
+   display: block;
+   font-size: 15px;
+   font-weight: 100;
+}
 
+.single-chat-wrapper {
+   height: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: baseline;
+   
 }

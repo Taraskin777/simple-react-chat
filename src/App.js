@@ -14,16 +14,24 @@ import {
 import "./App.css";
 
 function App() {
+
   const [filter, setFilter] = useState([]);
   const [name, setName] = useState();
+  const [avatar, setAvatar] = useState();
+  
 
   const onFilterChange = (e) => {
     setFilter(e.target.value.toLowerCase());
   };
 
-  const getUserName = (name) => {
+
+
+  const getUserData = (name, avatar) => {
     setName(name);
+    setAvatar(avatar);
   };
+
+  
 
   const fullDate = new Date();
   const fullYear = fullDate.getFullYear();
@@ -116,11 +124,16 @@ function App() {
               filter={filter}
               searchUsers={searchUsers}
               time={time}
-              getUserName={getUserName}
+              getUserData={getUserData}
             />
           </div>
           <div className="singlechat">
-            <SingleChat newUrl={newUrl} name={name} />
+            <SingleChat
+              newUrl={newUrl}
+              name={name}
+              avatar={avatar}
+            
+            />
           </div>
         </div>
       </div>

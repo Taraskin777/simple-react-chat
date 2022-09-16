@@ -5,23 +5,32 @@ import { getListOfMessages } from "../../services/httpservices";
 import { useState, useEffect } from "react";
 import "./singlechat.css";
 
-const SingleChat = ({ newUrl, name }) => {
-
+const SingleChat = ({ newUrl, name, avatar }) => {
   const [messagesList, setMessagesList] = useState([]);
 
   useEffect(() => {
     getListOfMessages(newUrl).then((data) => setMessagesList(data));
   }, [newUrl]);
 
-  console.log(newUrl);
-  console.log(messagesList);
-
   return (
     <div className="chat">
-      <div className="nameofuser">
+      <div className="userinfo">
+        <div className="user-avatar">
+          <img src={avatar} alt="avatar" />
+          <div className="user-tick">
+            <img src="/images/tick.png" alt="tick" />
+          </div>
+        </div>
         <h2>{name}</h2>
       </div>
-      <ChatOfSingleUser />
+      <div className="single-chat-wrapper">
+        {messagesList.map(({ id, comment, date }) => (
+          <div key={id}>
+            <ChatOfSingleUser comment={comment} date={date} avatar={avatar} />
+          </div>
+        ))}
+      </div>
+
       <InputForSendMessage />
     </div>
   );
