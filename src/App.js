@@ -14,12 +14,11 @@ import {
 import "./App.css";
 
 function App() {
+  
   const [filter, setFilter] = useState([]);
   const [name, setName] = useState();
   const [avatar, setAvatar] = useState();
   
-
-
   const onFilterChange = (e) => {
     setFilter(e.target.value.toLowerCase());
   };

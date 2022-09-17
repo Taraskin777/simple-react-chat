@@ -157,6 +157,16 @@
       "comment": "new comment",
       "date": "20:28",
       "id": 2
+    },
+    {
+      "comment": "new comment",
+      "date": "20:38",
+      "id": 3
+    },
+    {
+      "comment": "new comment",
+      "date": "20:38",
+      "id": 4
     }
   ],
   "messagesFromSergio": [
