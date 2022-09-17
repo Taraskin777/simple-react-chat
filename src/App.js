@@ -14,24 +14,20 @@ import {
 import "./App.css";
 
 function App() {
-
   const [filter, setFilter] = useState([]);
   const [name, setName] = useState();
   const [avatar, setAvatar] = useState();
   
 
+
   const onFilterChange = (e) => {
     setFilter(e.target.value.toLowerCase());
   };
-
-
 
   const getUserData = (name, avatar) => {
     setName(name);
     setAvatar(avatar);
   };
-
-  
 
   const fullDate = new Date();
   const fullYear = fullDate.getFullYear();
@@ -90,19 +86,23 @@ function App() {
   const onChooseUser = (url) => {
     switch (name) {
       case "Alice Freeman":
+        // setUrl(commentsToAlice);
         url = commentsToAlice;
         break;
       case "Sergio":
+        // setUrl(commentsToSergio);
         url = commentsToSergio;
         break;
       case "Velasqez":
+        // setUrl(commentsToVelasqez);
         url = commentsToVelasqez;
         break;
       case "Barrera":
+        // setUrl(commentsToBarrera);
         url = commentsToBarrera;
         break;
       default:
-        url = "";
+        url = commentsToSergio;
     }
     return url;
   };
@@ -132,7 +132,7 @@ function App() {
               newUrl={newUrl}
               name={name}
               avatar={avatar}
-            
+              time={time}
             />
           </div>
         </div>

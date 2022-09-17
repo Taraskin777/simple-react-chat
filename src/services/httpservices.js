@@ -7,12 +7,12 @@ const jokes = "https://api.chucknorris.io/jokes/random";
 const newComment = "new comment";
 
 
-export const addComment = (toUser) => {
+export const addComment = (toUser, date) => {
   fetch(toUser, {
     method: "POST",
     body: JSON.stringify({
       comment: newComment,
-      date: new Date()
+      date: date
     }),
     headers: {
       "Content-type": "application/json",
@@ -33,15 +33,23 @@ export const getUserList = async (url) => {
   return data;
 };
 
+// export const chuckNorris = async () => {
+//   await fetch(jokes)
+//     .then((response) => {
+//       return response.json();
+//     })
+//     .then((data) => {
+//       console.log(data.value);
+//     });
+// };
+
 export const chuckNorris = async () => {
-  await fetch(jokes)
-    .then((response) => {
-      return response.json();
-    })
-    .then((data) => {
-      console.log(data.value);
-    });
+  const response = await fetch(jokes);
+  const data = await response.json();
+  return data;
 };
+
+
 
 export const getListOfMessages = async (url) => {
   const response = await fetch(url);

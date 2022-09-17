@@ -8,12 +8,14 @@ import {
   getUserList,
   chuckNorris,
   addComment,
+  
 } from "../../services/httpservices";
 
 import "./chats.css";
 
 const Chats = ({ filter, searchUsers, getUserData }) => {
   const [usersData, setUsersData] = useState([]);
+
 
   useEffect(() => {
     getUserList(sortedUsers).then((data) => setUsersData(data));

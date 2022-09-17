@@ -7,7 +7,7 @@
    background-color: rgba(128, 128, 128, 0.087);
 }
 
-.input-wrapper {
+.form {
    background-color: #fff;
    display: flex;
    justify-content: space-around;
@@ -20,6 +20,7 @@
 
 .input-for-message input {
    width: 80%;
+   min-height:50px;
    border: none;
    outline: none;
 }
@@ -27,6 +28,8 @@
 .sendmessage {
    width: 25px;
    height: 25px;
+   border: none;
+   background-color: #fff;
    background-image: url(../../icons/sendmessage.png);
    background-size: contain;
    background-position: center;

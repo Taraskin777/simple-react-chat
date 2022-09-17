@@ -1,14 +1,31 @@
 import React from "react";
+import {
+  addComment,
+  getListOfMessages,
+  chuckNorris,
+  commentsToSergio,
+} from "../../services/httpservices";
 import "./inputforsendmessage.css";
 
-const InputForSendMessage = () => {
+const InputForSendMessage = ({ time, newUrl }) => {
+ 
+  
+  const onSendMessage = (e) => {
+    e.preventDefault();
+    console.log("message sent");
+    addComment(newUrl, time);
+    setTimeout(() => {
+      chuckNorris().then((data) => console.log(data.value));
+    }, 3000);
+  };
+
   return (
     <>
       <div className="input-for-message">
-        <div className="input-wrapper">
+        <form className="form" onSubmit={onSendMessage}>
           <input type="text" placeholder="Type your message" />
-          <div className="sendmessage"></div>
-        </div>
+          <button className="sendmessage" type="submit"></button>
+        </form>
       </div>
     </>
   );

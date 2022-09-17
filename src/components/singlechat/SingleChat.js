@@ -9,7 +9,7 @@ import {
 import { useState, useEffect } from "react";
 import "./singlechat.css";
 
-const SingleChat = ({ newUrl, name, avatar }) => {
+const SingleChat = ({ newUrl, name, avatar, time }) => {
   const [messagesList, setMessagesList] = useState([]);
 
   useEffect(() => {
@@ -19,8 +19,6 @@ const SingleChat = ({ newUrl, name, avatar }) => {
   useEffect(() => {
     getListOfMessages(newUrl).then((data) => setMessagesList(data));
   }, [newUrl]);
-
-
 
   return (
     <div className="chat">
@@ -36,12 +34,17 @@ const SingleChat = ({ newUrl, name, avatar }) => {
       <div className="single-chat-wrapper">
         {messagesList.map(({ id, comment, date }) => (
           <div key={id}>
-            <ChatOfSingleUser comment={comment} date={date} avatar={avatar} />
+            <ChatOfSingleUser
+              comment={comment}
+              date={date}
+              avatar={avatar}
+              time={time}
+            />
           </div>
         ))}
       </div>
 
-      <InputForSendMessage />
+      <InputForSendMessage time={time} newUrl={newUrl}/>
     </div>
   );
 };
