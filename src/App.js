@@ -112,7 +112,7 @@ function App() {
 
   useEffect(() => {
     getListOfMessages(newUrl).then((data) => setMessagesList(data));
-  }, [newUrl, messagesList]);
+  }, [newUrl]);
 
   return (
     <section className="head">
