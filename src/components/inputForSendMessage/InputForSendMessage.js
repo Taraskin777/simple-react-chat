@@ -3,11 +3,10 @@ import {
   addComment,
   getListOfMessages,
   chuckNorris,
-  commentsToSergio,
 } from "../../services/httpservices";
 import "./inputforsendmessage.css";
 
-const InputForSendMessage = ({ time, newUrl }) => {
+const InputForSendMessage = ({ time, newUrl, setMessagesList }) => {
  
   
   const onSendMessage = (e) => {
@@ -17,6 +16,7 @@ const InputForSendMessage = ({ time, newUrl }) => {
     setTimeout(() => {
       chuckNorris().then((data) => console.log(data.value));
     }, 3000);
+    getListOfMessages(newUrl).then((data) => setMessagesList(data));
   };
 
   return (

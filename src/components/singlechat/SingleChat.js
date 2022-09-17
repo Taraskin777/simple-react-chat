@@ -9,17 +9,14 @@ import {
 import { useState, useEffect } from "react";
 import "./singlechat.css";
 
-const SingleChat = ({ newUrl, name, avatar, time }) => {
-  const [messagesList, setMessagesList] = useState([]);
-
-  useEffect(() => {
-    getListOfMessages(commentsToSergio).then((data) => setMessagesList(data));
-  }, [newUrl]);
-
-  useEffect(() => {
-    getListOfMessages(newUrl).then((data) => setMessagesList(data));
-  }, [newUrl]);
-
+const SingleChat = ({
+  newUrl,
+  name,
+  avatar,
+  time,
+  messagesList,
+  setMessagesList,
+}) => {
   return (
     <div className="chat">
       <div className="userinfo">
@@ -44,7 +41,11 @@ const SingleChat = ({ newUrl, name, avatar, time }) => {
         ))}
       </div>
 
-      <InputForSendMessage time={time} newUrl={newUrl}/>
+      <InputForSendMessage
+        time={time}
+        newUrl={newUrl}
+        setMessagesList={setMessagesList}
+      />
     </div>
   );
 };

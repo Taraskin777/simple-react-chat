@@ -53,6 +53,6 @@
    display: flex;
    flex-direction: column;
    justify-content: baseline;
-   overflow: hidden;
+   overflow-y: scroll;
    
 }

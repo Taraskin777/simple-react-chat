@@ -32,9 +32,6 @@ const Chats = ({ filter, searchUsers, getUserData }) => {
       <button onClick={chuckNorris} className="chats-btn">
         Chuck
       </button>
-      <button onClick={() => addComment(commentsToAlice)} className="chats-btn">
-        Comment
-      </button>
       {filteredUsers.length
         ? filteredUsers.map(({ id, date, name, avatar, message, tick }) => (
             <div key={id}>

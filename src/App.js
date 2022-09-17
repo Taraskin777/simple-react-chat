@@ -9,15 +9,17 @@ import {
   commentsToBarrera,
   commentsToVelasqez,
   getListOfMessages,
+  sortedUsers
 } from "./services/httpservices";
 
 import "./App.css";
 
 function App() {
-  
+
   const [filter, setFilter] = useState([]);
   const [name, setName] = useState();
   const [avatar, setAvatar] = useState();
+  const [messagesList, setMessagesList] = useState([]);
   
   const onFilterChange = (e) => {
     setFilter(e.target.value.toLowerCase());
@@ -85,19 +87,15 @@ function App() {
   const onChooseUser = (url) => {
     switch (name) {
       case "Alice Freeman":
-        // setUrl(commentsToAlice);
         url = commentsToAlice;
         break;
       case "Sergio":
-        // setUrl(commentsToSergio);
         url = commentsToSergio;
         break;
       case "Velasqez":
-        // setUrl(commentsToVelasqez);
         url = commentsToVelasqez;
         break;
       case "Barrera":
-        // setUrl(commentsToBarrera);
         url = commentsToBarrera;
         break;
       default:
@@ -107,6 +105,14 @@ function App() {
   };
 
   const newUrl = onChooseUser();
+
+  useEffect(() => {
+    getListOfMessages(commentsToSergio).then((data) => setMessagesList(data));
+  }, [newUrl]);
+
+  useEffect(() => {
+    getListOfMessages(newUrl).then((data) => setMessagesList(data));
+  }, [newUrl, messagesList]);
 
   return (
     <section className="head">
@@ -132,6 +138,8 @@ function App() {
               name={name}
               avatar={avatar}
               time={time}
+              messagesList={messagesList}
+              setMessagesList={setMessagesList}
             />
           </div>
         </div>
