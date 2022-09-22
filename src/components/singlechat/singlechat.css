@@ -10,6 +10,7 @@
 .userinfo {
    display: flex;
    justify-content: flex-start;
+   align-items: center;
    min-height: 10%;
    border-bottom: 1px solid black;
    line-height: 100%;

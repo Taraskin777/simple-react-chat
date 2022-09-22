@@ -31,114 +31,284 @@
       "avatar": "/images/barera.png",
       "message": "dsfgsvavv sdcsd DSVSDVSD",
       "tick": "/images/tick.png"
+    },
+    {
+      "id": 5,
+      "name": "Mia",
+      "date": "2017.04.15",
+      "avatar": "/images/mia.png",
+      "message": "Hello !",
+      "tick": "/images/tick.png"
     }
   ],
   "messagesFromAlice": [
     {
-      "comment": "new comment",
-      "date": "2022-09-09T12:45:02.667Z",
+      "comment": "Привіт!",
+      "date": "9/22/22, 04:28 PM",
       "id": 1
     },
     {
-      "comment": "new comment",
-      "date": "21:14",
+      "comment": "I once walked into Chuck Norris' house, he had a bear rug.It was still alive,just too afraid to get up.",
+      "date": "9/22/22, 04:28 PM",
       "id": 2
     },
     {
-      "comment": "new comment",
-      "date": "21:15",
+      "comment": "sdfsfd",
+      "date": "9/22/22, 04:37 PM",
       "id": 3
     },
     {
-      "comment": "new comment",
-      "date": "21:15",
+      "comment": "Chuck Norris Doesnt Sleep..................... He Just Doesnt Sleep",
+      "date": "9/22/22, 04:37 PM",
       "id": 4
     },
     {
-      "comment": "new comment",
-      "date": "23:40",
+      "comment": "fdgdfg",
+      "date": "9/22/22, 04:38 PM",
       "id": 5
+    },
+    {
+      "comment": "Every attractive woman on Earth either gave her virginity, or will give her virginity, to Chuck Norris.",
+      "date": "9/22/22, 04:38 PM",
+      "id": 6
+    },
+    {
+      "comment": "sdfdsfsd",
+      "date": "9/22/22, 04:38 PM",
+      "id": 7
+    },
+    {
+      "comment": "Chuck Norris once beat Ricky Gervais in a British accent impersonation contest.",
+      "date": "9/22/22, 04:38 PM",
+      "id": 8
     }
   ],
   "messagesFromBarrera": [
     {
-      "comment": "new comment",
-      "date": "2022-09-09T13453543t",
+      "comment": "Hello!",
+      "date": "9/22/22, 04:29 PM",
       "id": 1
     },
     {
-      "comment": "new comment",
-      "date": "21:14",
+      "comment": "Chuck Norris knows who shot J.R",
+      "date": "9/22/22, 04:29 PM",
       "id": 2
     },
     {
-      "comment": "new comment",
-      "date": "21:15",
+      "comment": "dfdf",
+      "date": "9/22/22, 04:41 PM",
       "id": 3
     },
     {
-      "comment": "new comment",
-      "date": "23:40",
+      "comment": "Chuck Norris is easily the most intensely awesome thing in the known universe. But of course, anything in the unknown universe would readily agree immediately if asked.",
+      "date": "9/22/22, 04:41 PM",
+      "chuck": false,
       "id": 4
     },
     {
-      "comment": "new comment",
-      "date": "23:40",
+      "comment": "dfdf",
+      "date": "9/22/22, 04:41 PM",
       "id": 5
     },
     {
-      "comment": "new comment",
-      "date": "23:40",
+      "comment": "When Chuck Norris plays IWBTG he never died",
+      "date": "9/22/22, 04:41 PM",
+      "chuck": {
+        "true": true,
+        "false": false
+      },
       "id": 6
+    },
+    {
+      "comment": "dfdsgdfg",
+      "date": "9/22/22, 04:42 PM",
+      "id": 7
+    },
+    {
+      "comment": "In every computer game, the final level is Chuck Norris. If you don't beat those before, he does.",
+      "date": "9/22/22, 04:42 PM",
+      "chuck": true,
+      "id": 8
     }
   ],
   "messagesFromSergio": [
     {
-      "comment": "new comment",
-      "date": "2022vrgrg",
+      "comment": "Привіт!",
+      "date": "9/22/22, 04:28 PM",
       "id": 1
     },
     {
-      "comment": "new comment",
-      "date": "21:14",
+      "comment": "Chuck Norris once played a game of basketball with Walt Disney's head.",
+      "date": "9/22/22, 04:28 PM",
       "id": 2
     },
     {
-      "comment": "new comment",
-      "date": "21:15",
+      "comment": "Як справи?",
+      "date": "9/22/22, 04:30 PM",
       "id": 3
     },
     {
-      "comment": "new comment",
-      "date": "23:39",
+      "comment": "Chuck Norris once paralyzed a man in a thumb-wrestle.",
+      "date": "9/22/22, 04:30 PM",
       "id": 4
     },
     {
-      "comment": "new comment",
-      "date": "23:41",
+      "comment": "dfdf",
+      "date": "9/22/22, 04:34 PM",
       "id": 5
+    },
+    {
+      "comment": "If Chuck Norris is a zombie, your screwed.",
+      "date": "9/22/22, 04:34 PM",
+      "id": 6
+    },
+    {
+      "comment": "fgddf",
+      "date": "9/22/22, 04:34 PM",
+      "id": 7
+    },
+    {
+      "comment": "Peanut Butter has a Chuck Norris allergy...",
+      "date": "9/22/22, 04:34 PM",
+      "id": 8
+    },
+    {
+      "comment": "dfsdfsdf",
+      "date": "9/22/22, 04:42 PM",
+      "id": 9
+    },
+    {
+      "comment": "Chuck Norris is all the rage.",
+      "date": "9/22/22, 04:42 PM",
+      "chuck": true,
+      "id": 10
+    },
+    {
+      "comment": "safsddf",
+      "date": "9/22/22, 04:43 PM",
+      "id": 11
+    },
+    {
+      "comment": "Jack Links Beef Jerky wanted to film a series of \"Messin' with Chuck Norris\" commercials. They later had to settle for Sasquatch because they couldn't find any actors dumb enough to mess with Chuck Norris.",
+      "date": "9/22/22, 04:43 PM",
+      "chuck": true,
+      "id": 12
+    },
+    {
+      "comment": "dsfdfdf",
+      "date": "9/22/22, 04:46 PM",
+      "id": 13
+    },
+    {
+      "comment": "How come there are no pictures of Chuck Norris and Santa Claus together because Chuck Norris is f**king real.",
+      "date": "9/22/22, 04:46 PM",
+      "chuck": true,
+      "id": 14
     }
   ],
   "messagesFromVelasqez": [
     {
-      "comment": "new comment",
-      "date": "2022-09-09Trdtrryht",
+      "comment": "Yo!",
+      "date": "9/22/22, 04:29 PM",
       "id": 1
     },
     {
-      "comment": "new comment",
-      "date": "21:15",
+      "comment": "lightening struck Chuck Norris... he struck back",
+      "date": "9/22/22, 04:29 PM",
       "id": 2
     },
     {
-      "comment": "new comment",
-      "date": "23:40",
+      "comment": "Good for you!",
+      "date": "9/22/22, 04:32 PM",
       "id": 3
     },
     {
-      "comment": "new comment",
-      "date": "23:40",
+      "comment": "If you ask Chuck Norris what time it is, he'll answer 'Two seconds 'till...' When you ask him 'Two seconds 'till what?', that's when he roundhouse kicks you in the face",
+      "date": "9/22/22, 04:32 PM",
       "id": 4
+    },
+    {
+      "comment": "dfdsgfbdfvf",
+      "date": "9/22/22, 04:32 PM",
+      "id": 5
+    },
+    {
+      "comment": "Chuck Norris invented beef jerky by throwing a bull through a chain-link fence.",
+      "date": "9/22/22, 04:32 PM",
+      "id": 6
+    },
+    {
+      "comment": "sadsf",
+      "date": "9/22/22, 04:32 PM",
+      "id": 7
+    },
+    {
+      "comment": "Duke Nukem was based on Chuck Norris.",
+      "date": "9/22/22, 04:32 PM",
+      "id": 8
+    },
+    {
+      "comment": "sdfdsfdf",
+      "date": "9/22/22, 04:33 PM",
+      "id": 9
+    },
+    {
+      "comment": "when Chuck Norris is asleep the sheep count him",
+      "date": "9/22/22, 04:33 PM",
+      "id": 10
+    }
+  ],
+  "messagesFromMia": [
+    {
+      "comment": "Hello!",
+      "date": "9/22/22, 04:33 PM",
+      "id": 1
+    },
+    {
+      "comment": "Two Mary Kay salesmen knocked on Chuck Norris' door. They introduced themselves as Ben Dover & Phil McCrakin. They are no longer in business together.",
+      "date": "9/22/22, 04:33 PM",
+      "id": 2
+    },
+    {
+      "comment": "how are you?",
+      "date": "9/22/22, 04:33 PM",
+      "id": 3
+    },
+    {
+      "comment": "Silence and peach terrifies Chuck Norris.",
+      "date": "9/22/22, 04:33 PM",
+      "id": 4
+    },
+    {
+      "comment": "dfdf",
+      "date": "9/22/22, 04:33 PM",
+      "id": 5
+    },
+    {
+      "comment": "Industrial logging isn't the cause of deforestation. Chuck Norris needs toothpicks.",
+      "date": "9/22/22, 04:33 PM",
+      "id": 6
+    },
+    {
+      "comment": "Fddfd",
+      "date": "9/22/22, 04:34 PM",
+      "id": 7
+    },
+    {
+      "comment": "One of Chuck Norris' bumper stickers reads 'This is just a distraction - I'm now sitting behind you'.",
+      "date": "9/22/22, 04:34 PM",
+      "id": 8
+    },
+    {
+      "comment": "sdsf",
+      "date": "9/22/22, 04:39 PM",
+      "id": 9
+    },
+    {
+      "comment": "Chuck Norris can see his shadow and catch it- at night.",
+      "date": "9/22/22, 04:39 PM",
+      "chuck": false,
+      "id": 10
     }
   ]
 }

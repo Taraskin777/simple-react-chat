@@ -3,19 +3,19 @@ import { useState, useEffect } from "react";
 import ChatPerson from "../chatPerson/ChatPerson";
 import App from "../../App";
 import {
-  commentsToAlice,
+  
   sortedUsers,
   getUserList,
   chuckNorris,
-  addComment,
+
   
 } from "../../services/httpservices";
 
 import "./chats.css";
 
 const Chats = ({ filter, searchUsers, getUserData }) => {
+  
   const [usersData, setUsersData] = useState([]);
-
 
   useEffect(() => {
     getUserList(sortedUsers).then((data) => setUsersData(data));

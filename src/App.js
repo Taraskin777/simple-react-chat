@@ -8,19 +8,23 @@ import {
   commentsToSergio,
   commentsToBarrera,
   commentsToVelasqez,
+  commentsToMia,
   getListOfMessages,
-  sortedUsers
+  addComment,
+  chuckNorris,
 } from "./services/httpservices";
 
 import "./App.css";
 
 function App() {
-
   const [filter, setFilter] = useState([]);
   const [name, setName] = useState();
   const [avatar, setAvatar] = useState();
   const [messagesList, setMessagesList] = useState([]);
-  
+  const [newComment, setNewComment] = useState();
+
+
+
   const onFilterChange = (e) => {
     setFilter(e.target.value.toLowerCase());
   };
@@ -30,50 +34,30 @@ function App() {
     setAvatar(avatar);
   };
 
-  const fullDate = new Date();
-  const fullYear = fullDate.getFullYear();
-  const month = fullDate.getMonth();
-  const day = fullDate.getDate();
-  const dayOfWeek = fullDate.getDay();
-  const time = fullDate.toLocaleTimeString().slice(0, -3);
-  const hours = fullDate.getHours();
-  const minutes = fullDate.getMinutes();
+  const date = new Date();
 
-  const convertDay = (day) => {
-    switch (day) {
-      case 0:
-        day = "Sun";
-        break;
-      case 1:
-        day = "Mon";
-        break;
-      case 2:
-        day = "Tue";
-        break;
-      case 3:
-        day = "Wed";
-        break;
-      case 4:
-        day = "Thu";
-        break;
-      case 5:
-        day = "Fri";
-        break;
-      case 6:
-        day = "Sat";
-        break;
-      default:
-        day = "Щось не так!";
-    }
-
-    return day;
+  const options1 = {
+    year: "numeric",
+    month: "short",
+    day: "numeric",
   };
 
-  const convertedDayOfWeek = convertDay(dayOfWeek);
+  const timeForListOfUsers = new Intl.DateTimeFormat(
+    "en-US",
+    options1
+  ).format();
 
-  console.log(
-    `Зараз ${fullYear} рік, ${month} місяць і ${day} число. День тижня - ${convertedDayOfWeek}. Час у Львові - ${time}`
-  );
+  const options2 = {
+    year: "2-digit",
+    month: "numeric",
+    day: "numeric",
+    hour: "2-digit",
+    minute: "2-digit",
+  };
+
+  const timeForSingleChat = new Intl.DateTimeFormat("en-US", options2).format();
+
+  console.log(`Зараз у Львові ${timeForSingleChat}`);
 
   const searchUsers = (users, filter) => {
     if (filter.length === 0) {
@@ -98,6 +82,9 @@ function App() {
       case "Barrera":
         url = commentsToBarrera;
         break;
+      case "Mia":
+        url = commentsToMia;
+        break;
       default:
         url = commentsToSergio;
     }
@@ -105,14 +92,43 @@ function App() {
   };
 
   const newUrl = onChooseUser();
+ 
 
   useEffect(() => {
     getListOfMessages(commentsToSergio).then((data) => setMessagesList(data));
   }, [newUrl]);
 
+  const onMessageValue = (e) => {
+    setNewComment(e.target.value);
+    console.log(newComment);
+  };
+
+  const chuck = true;
+
+  const onSendMessage = (e) => {
+    e.preventDefault();
+    addComment(newUrl, timeForSingleChat, newComment);
+    setNewComment("");
+    getListOfMessages(newUrl).then((data) => setMessagesList(data));
+    setTimeout(() => {
+      chuckNorris().then((data) => {
+        addComment(newUrl, timeForSingleChat, data.value, chuck);
+        setMessagesList((prevdata) => [
+          ...prevdata,
+          {
+            comment: data.value,
+            date: timeForSingleChat,
+            chuck: chuck,
+            id: data.id,
+          },
+        ]);
+      });
+    }, 3000);
+  };
+
   useEffect(() => {
     getListOfMessages(newUrl).then((data) => setMessagesList(data));
-  }, [newUrl]);
+  }, [name, newComment]);
 
   return (
     <section className="head">
@@ -128,18 +144,20 @@ function App() {
               className="chats"
               filter={filter}
               searchUsers={searchUsers}
-              time={time}
+              time={timeForListOfUsers}
               getUserData={getUserData}
             />
           </div>
           <div className="singlechat">
             <SingleChat
-              newUrl={newUrl}
               name={name}
               avatar={avatar}
-              time={time}
               messagesList={messagesList}
-              setMessagesList={setMessagesList}
+              onMessageValue={onMessageValue}
+              onSendMessage={onSendMessage}
+              newComment={newComment}
+              getListOfMessages={getListOfMessages}
+              chuck={chuck}
             />
           </div>
         </div>

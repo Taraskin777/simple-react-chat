@@ -1,21 +1,18 @@
 import React from "react";
 import ChatOfSingleUser from "../chatOfSingleUser/ChatOfSingleUser";
 import InputForSendMessage from "../inputForSendMessage/InputForSendMessage";
-import {
-  commentsToSergio,
-  getListOfMessages,
-  sortedUsers,
-} from "../../services/httpservices";
-import { useState, useEffect } from "react";
+
 import "./singlechat.css";
 
 const SingleChat = ({
-  newUrl,
   name,
   avatar,
-  time,
   messagesList,
-  setMessagesList,
+  onMessageValue,
+  onSendMessage,
+  newComment,
+  getListOfMessage,
+  chuck,
 }) => {
   return (
     <div className="chat">
@@ -29,22 +26,23 @@ const SingleChat = ({
         <h2>{name ? name : "Sergio"}</h2>
       </div>
       <div className="single-chat-wrapper">
-        {messagesList.map(({ id, comment, date }) => (
+        {messagesList.map(({ id, comment, date, chuck }) => (
           <div key={id}>
             <ChatOfSingleUser
               comment={comment}
               date={date}
               avatar={avatar}
-              time={time}
+              chuck={chuck}
             />
           </div>
         ))}
       </div>
 
       <InputForSendMessage
-        time={time}
-        newUrl={newUrl}
-        setMessagesList={setMessagesList}
+        onMessageValue={onMessageValue}
+        onSendMessage={onSendMessage}
+        newComment={newComment}
+        getListOfMessage={getListOfMessage}
       />
     </div>
   );

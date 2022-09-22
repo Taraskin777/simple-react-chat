@@ -1,12 +1,18 @@
 import React from "react";
 import "./chatofsingleuser.css";
 
-const ChatOfSingleUser = ({ comment, date, avatar }) => {
+const ChatOfSingleUser = ({ comment, date, avatar, chuck }) => {
 
-  
-  
+  const styleForChuck = {
+    justifyContent: "right",
+    backgroundColor: "grey",
+    color: "white",
+  };
+
+
+
   return (
-    <div className="single-chat">
+    <div className="single-chat" style={ chuck ? styleForChuck : null}>
       <div className="userphoto">
         <img src={avatar ? avatar : "/images/sergio.png"} alt="avatar" />
       </div>
