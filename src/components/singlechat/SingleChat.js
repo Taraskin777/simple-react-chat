@@ -1,7 +1,7 @@
 import React from "react";
 import ChatOfSingleUser from "../chatOfSingleUser/ChatOfSingleUser";
 import InputForSendMessage from "../inputForSendMessage/InputForSendMessage";
-
+import { useEffect } from "react";
 import "./singlechat.css";
 
 const SingleChat = ({
@@ -12,8 +12,11 @@ const SingleChat = ({
   onSendMessage,
   newComment,
   getListOfMessage,
-  chuck,
+  scrollToBottom
 }) => {
+
+
+
   return (
     <div className="chat">
       <div className="userinfo">
@@ -25,7 +28,7 @@ const SingleChat = ({
         </div>
         <h2>{name ? name : "Sergio"}</h2>
       </div>
-      <div className="single-chat-wrapper">
+      <div className="single-chat-wrapper" id="chatscroll">
         {messagesList.map(({ id, comment, date, chuck }) => (
           <div key={id}>
             <ChatOfSingleUser
@@ -33,6 +36,7 @@ const SingleChat = ({
               date={date}
               avatar={avatar}
               chuck={chuck}
+              scrollToBottom={scrollToBottom}
             />
           </div>
         ))}

@@ -3,18 +3,14 @@ import { useState, useEffect } from "react";
 import ChatPerson from "../chatPerson/ChatPerson";
 import App from "../../App";
 import {
-  
   sortedUsers,
-  getUserList,
-  chuckNorris,
-
-  
+  getUserList,  
 } from "../../services/httpservices";
 
 import "./chats.css";
 
 const Chats = ({ filter, searchUsers, getUserData }) => {
-  
+
   const [usersData, setUsersData] = useState([]);
 
   useEffect(() => {
@@ -26,12 +22,7 @@ const Chats = ({ filter, searchUsers, getUserData }) => {
   return (
     <div className="chats-wrapper">
       <h2 className="chats">Chats</h2>
-      <button onClick={() => console.log(usersData)} className="chats-btn">
-        Users
-      </button>
-      <button onClick={chuckNorris} className="chats-btn">
-        Chuck
-      </button>
+     
       {filteredUsers.length
         ? filteredUsers.map(({ id, date, name, avatar, message, tick }) => (
             <div key={id}>

@@ -43,90 +43,147 @@
   ],
   "messagesFromAlice": [
     {
-      "comment": "Привіт!",
-      "date": "9/22/22, 04:28 PM",
+      "comment": "Hello",
+      "date": "9/22/22, 07:02 PM",
       "id": 1
     },
     {
-      "comment": "I once walked into Chuck Norris' house, he had a bear rug.It was still alive,just too afraid to get up.",
-      "date": "9/22/22, 04:28 PM",
+      "comment": "Chuck Norris dung glows in the dark and emits a barely audible hum.",
+      "date": "9/22/22, 07:02 PM",
+      "chuck": true,
       "id": 2
     },
     {
-      "comment": "sdfsfd",
-      "date": "9/22/22, 04:37 PM",
+      "comment": "cdsfddegf",
+      "date": "9/22/22, 07:02 PM",
       "id": 3
     },
     {
-      "comment": "Chuck Norris Doesnt Sleep..................... He Just Doesnt Sleep",
-      "date": "9/22/22, 04:37 PM",
+      "comment": "Shit got the Chuck Norris scared out of it..;)",
+      "date": "9/22/22, 07:02 PM",
+      "chuck": true,
       "id": 4
     },
     {
-      "comment": "fdgdfg",
-      "date": "9/22/22, 04:38 PM",
+      "comment": "sceergdrg",
+      "date": "9/22/22, 07:02 PM",
       "id": 5
     },
     {
-      "comment": "Every attractive woman on Earth either gave her virginity, or will give her virginity, to Chuck Norris.",
-      "date": "9/22/22, 04:38 PM",
+      "comment": "The reason Charlie Sheen is winning, is because Chuck Norris isn't playing.",
+      "date": "9/22/22, 07:02 PM",
+      "chuck": true,
       "id": 6
     },
     {
-      "comment": "sdfdsfsd",
-      "date": "9/22/22, 04:38 PM",
+      "comment": "scsdefsf",
+      "date": "9/22/22, 07:02 PM",
       "id": 7
     },
     {
-      "comment": "Chuck Norris once beat Ricky Gervais in a British accent impersonation contest.",
-      "date": "9/22/22, 04:38 PM",
+      "comment": "Chuck Norris can Unscramble Eggs",
+      "date": "9/22/22, 07:02 PM",
+      "chuck": true,
       "id": 8
+    },
+    {
+      "comment": "апавпап",
+      "date": "9/22/22, 10:53 PM",
+      "id": 9
+    },
+    {
+      "comment": "Chuck Norris was the demon in \"paranormal activity.\" and the demon in \"the exorcism of emily rose\" and \"the exorcist.\" thanks chuck for killing that stupid fuckin micah guy!",
+      "date": "9/22/22, 10:53 PM",
+      "chuck": true,
+      "id": 10
+    },
+    {
+      "comment": "апапр",
+      "date": "9/22/22, 10:53 PM",
+      "id": 11
+    },
+    {
+      "comment": "Chuck Norris owns the Elephant Man's skeleton, and recently aquired Michael Jackson's.",
+      "date": "9/22/22, 10:53 PM",
+      "chuck": true,
+      "id": 12
+    },
+    {
+      "comment": "dfdf",
+      "date": "9/26/22, 06:35 PM",
+      "id": 13
+    },
+    {
+      "comment": "Chuck Norris destroyed my mommy.",
+      "date": "9/26/22, 06:35 PM",
+      "chuck": true,
+      "id": 14
+    },
+    {
+      "comment": "dfdf",
+      "date": "9/26/22, 06:35 PM",
+      "id": 15
+    },
+    {
+      "comment": "There is a Chuck Norris fact number zero, but those who read it will get blind because that was Chuck Norrir's first created by Chuck Norris himself.",
+      "date": "9/26/22, 06:35 PM",
+      "chuck": true,
+      "id": 16
+    },
+    {
+      "comment": "fdgf",
+      "date": "9/26/22, 06:35 PM",
+      "id": 17
+    },
+    {
+      "comment": "Q: Who would win in a beer dinking contest between Stone Cold Steve Austin and Chuck Norris? A:Noone because no bar can hold that much awesomness!",
+      "date": "9/26/22, 06:35 PM",
+      "chuck": true,
+      "id": 18
     }
   ],
   "messagesFromBarrera": [
     {
-      "comment": "Hello!",
-      "date": "9/22/22, 04:29 PM",
+      "comment": "fsdfds",
+      "date": "9/22/22, 05:23 PM",
       "id": 1
     },
     {
-      "comment": "Chuck Norris knows who shot J.R",
-      "date": "9/22/22, 04:29 PM",
+      "comment": "Chuck Norris is so tough he scares the shit out of toilet paper.",
+      "date": "9/22/22, 05:23 PM",
+      "chuck": true,
       "id": 2
     },
     {
-      "comment": "dfdf",
-      "date": "9/22/22, 04:41 PM",
+      "comment": "kvdshjkdhfdffffffffffffffffffffffffffffffffffffff",
+      "date": "9/22/22, 06:14 PM",
       "id": 3
     },
     {
-      "comment": "Chuck Norris is easily the most intensely awesome thing in the known universe. But of course, anything in the unknown universe would readily agree immediately if asked.",
-      "date": "9/22/22, 04:41 PM",
-      "chuck": false,
+      "comment": "When Chuck Norris opened his mouth he made dodo birds extinct.",
+      "date": "9/22/22, 06:14 PM",
+      "chuck": true,
       "id": 4
     },
     {
-      "comment": "dfdf",
-      "date": "9/22/22, 04:41 PM",
+      "comment": "one",
+      "date": "9/26/22, 06:46 PM",
       "id": 5
     },
     {
-      "comment": "When Chuck Norris plays IWBTG he never died",
-      "date": "9/22/22, 04:41 PM",
-      "chuck": {
-        "true": true,
-        "false": false
-      },
+      "comment": "Chuck Norris just had an incredible threesome with Courtney Love and Yoko Ono.",
+      "date": "9/26/22, 06:46 PM",
+      "chuck": true,
       "id": 6
     },
     {
-      "comment": "dfdsgdfg",
-      "date": "9/22/22, 04:42 PM",
+      "comment": "two",
+      "date": "9/26/22, 06:46 PM",
       "id": 7
     },
     {
-      "comment": "In every computer game, the final level is Chuck Norris. If you don't beat those before, he does.",
-      "date": "9/22/22, 04:42 PM",
+      "comment": "Q: How much wood could a woodchuck chuck if a woodchuck could Chuck Norris? A: All of it...",
+      "date": "9/26/22, 06:46 PM",
       "chuck": true,
       "id": 8
     }
@@ -134,181 +191,881 @@
   "messagesFromSergio": [
     {
       "comment": "Привіт!",
-      "date": "9/22/22, 04:28 PM",
+      "date": "9/22/22, 05:15 PM",
       "id": 1
     },
     {
-      "comment": "Chuck Norris once played a game of basketball with Walt Disney's head.",
-      "date": "9/22/22, 04:28 PM",
+      "comment": "when the incredible hulk gets mad, he turns to Chuck Norris",
+      "date": "9/22/22, 05:15 PM",
+      "chuck": true,
       "id": 2
     },
     {
       "comment": "Як справи?",
-      "date": "9/22/22, 04:30 PM",
+      "date": "9/22/22, 05:16 PM",
       "id": 3
     },
     {
-      "comment": "Chuck Norris once paralyzed a man in a thumb-wrestle.",
-      "date": "9/22/22, 04:30 PM",
+      "comment": "Chuck Norris can power-shit a large ball bearing through your skull from half a mile away.",
+      "date": "9/22/22, 05:16 PM",
+      "chuck": true,
       "id": 4
     },
     {
-      "comment": "dfdf",
-      "date": "9/22/22, 04:34 PM",
+      "comment": "cdsdvg",
+      "date": "9/22/22, 05:17 PM",
       "id": 5
     },
     {
-      "comment": "If Chuck Norris is a zombie, your screwed.",
-      "date": "9/22/22, 04:34 PM",
+      "comment": "A lady once asked Chuck Norris to kiss her baby. He thought she said 'kick'. Oops.",
+      "date": "9/22/22, 05:17 PM",
+      "chuck": true,
       "id": 6
     },
     {
-      "comment": "fgddf",
-      "date": "9/22/22, 04:34 PM",
+      "comment": "sdsf",
+      "date": "9/22/22, 05:24 PM",
       "id": 7
     },
     {
-      "comment": "Peanut Butter has a Chuck Norris allergy...",
-      "date": "9/22/22, 04:34 PM",
+      "comment": "fddf",
+      "date": "9/22/22, 05:37 PM",
       "id": 8
     },
     {
-      "comment": "dfsdfsdf",
-      "date": "9/22/22, 04:42 PM",
+      "comment": "Satan has a ultimate weapon to try to destroy Chuck Norris. But sadly, it worked. But then Chuck Norris revived himself and kicked Satan's ass.",
+      "date": "9/22/22, 05:37 PM",
+      "chuck": true,
       "id": 9
     },
     {
-      "comment": "Chuck Norris is all the rage.",
-      "date": "9/22/22, 04:42 PM",
-      "chuck": true,
+      "comment": "ffgf",
+      "date": "9/22/22, 05:37 PM",
       "id": 10
     },
     {
-      "comment": "safsddf",
-      "date": "9/22/22, 04:43 PM",
+      "comment": "Superman is afraid of only two things, kryptonite--and Chuck Norris.",
+      "date": "9/22/22, 05:37 PM",
+      "chuck": true,
       "id": 11
     },
     {
-      "comment": "Jack Links Beef Jerky wanted to film a series of \"Messin' with Chuck Norris\" commercials. They later had to settle for Sasquatch because they couldn't find any actors dumb enough to mess with Chuck Norris.",
-      "date": "9/22/22, 04:43 PM",
-      "chuck": true,
+      "comment": "sadgdfgffg",
+      "date": "9/22/22, 05:39 PM",
       "id": 12
     },
     {
-      "comment": "dsfdfdf",
-      "date": "9/22/22, 04:46 PM",
+      "comment": "NASA wants to save money so they asked Chuck Norris to kick the rockets into space and he tied a rope to the rocket to pull it back.",
+      "date": "9/22/22, 05:39 PM",
+      "chuck": true,
       "id": 13
     },
     {
-      "comment": "How come there are no pictures of Chuck Norris and Santa Claus together because Chuck Norris is f**king real.",
-      "date": "9/22/22, 04:46 PM",
-      "chuck": true,
+      "comment": "lkdskvklsdv",
+      "date": "9/22/22, 05:42 PM",
       "id": 14
+    },
+    {
+      "comment": "Pwnage was originally the term for being touched by Chuck Norris",
+      "date": "9/22/22, 05:42 PM",
+      "chuck": true,
+      "id": 15
+    },
+    {
+      "comment": "dsfsdvdsgdfg",
+      "date": "9/22/22, 05:42 PM",
+      "id": 16
+    },
+    {
+      "comment": "Chuck Norris happened to bump into a tower with his erection during a visit to Pisa, Italy. This tower is now called the leaning tower of Pisa.",
+      "date": "9/22/22, 05:42 PM",
+      "chuck": true,
+      "id": 17
+    },
+    {
+      "comment": "dsfsdvdsdgfgfb",
+      "date": "9/22/22, 05:42 PM",
+      "id": 18
+    },
+    {
+      "comment": "Chuck Norris is the only man to swim the entire length of the Amazon. He swam all 4048 miles in 7 days.",
+      "date": "9/22/22, 05:42 PM",
+      "chuck": true,
+      "id": 19
+    },
+    {
+      "comment": "sdfsdfasdf",
+      "date": "9/22/22, 06:01 PM",
+      "id": 20
+    },
+    {
+      "comment": "Chuck Norris' turban can hold a Glock and twelve grenades.",
+      "date": "9/22/22, 06:01 PM",
+      "chuck": true,
+      "id": 21
+    },
+    {
+      "comment": "cdsfdsvfdvf",
+      "date": "9/22/22, 06:01 PM",
+      "id": 22
+    },
+    {
+      "comment": "In 1969, man landed on the Moon. By 1969, Chuck Norris had already landed on eight planets, skipping Pluto \"because it's too damn small.\"",
+      "date": "9/22/22, 06:01 PM",
+      "chuck": true,
+      "id": 23
+    },
+    {
+      "comment": "fsdfsdf;s,df;lsdlksnrkjvkjbkjnlkrmglkds;lg",
+      "date": "9/22/22, 06:14 PM",
+      "id": 24
+    },
+    {
+      "comment": "The Draught of Living Death is not a magical potion or anything like it, it's not even liquid. It's the state of a human which, by some hell of an accident, survived a Chuck Norris roundhouse kick.",
+      "date": "9/22/22, 06:14 PM",
+      "chuck": true,
+      "id": 25
+    },
+    {
+      "comment": "fdsddg",
+      "date": "9/22/22, 06:18 PM",
+      "id": 26
+    },
+    {
+      "comment": "Just a little over 50 years ago, Chuck Norris once helped President Kennedy mount a horse when they went horseback riding in Texas. He didn't later help Jack off the horse.",
+      "date": "9/22/22, 06:18 PM",
+      "chuck": true,
+      "id": 27
+    },
+    {
+      "comment": "sfsfsdfsd",
+      "date": "9/22/22, 07:02 PM",
+      "id": 28
+    },
+    {
+      "comment": "Hitler killed himself the year Chuck Norris died... COINIDENCE?!?!?!",
+      "date": "9/22/22, 07:02 PM",
+      "chuck": true,
+      "id": 29
+    },
+    {
+      "comment": "scdegrg",
+      "date": "9/22/22, 07:02 PM",
+      "id": 30
+    },
+    {
+      "comment": "Chuck Norris is so hard that he mows the lawn with his teeth.",
+      "date": "9/22/22, 07:02 PM",
+      "chuck": true,
+      "id": 31
+    },
+    {
+      "comment": "ds",
+      "date": "9/22/22, 07:04 PM",
+      "id": 32
+    },
+    {
+      "comment": "Chuck Norris does not cast a shadow, light knows it cannot hit him and politely goes around.",
+      "date": "9/22/22, 07:04 PM",
+      "chuck": true,
+      "id": 33
+    },
+    {
+      "comment": "sdd",
+      "date": "9/22/22, 07:05 PM",
+      "id": 34
+    },
+    {
+      "comment": "'Come with me if you want to live.' That's what Chuck Norris says as he approaches nut. And he means it.",
+      "date": "9/22/22, 07:05 PM",
+      "chuck": true,
+      "id": 35
+    },
+    {
+      "comment": "dfdf",
+      "date": "9/22/22, 07:06 PM",
+      "id": 36
+    },
+    {
+      "comment": "Chuck Norris is a cock!!! wheyyyyy",
+      "date": "9/22/22, 07:06 PM",
+      "chuck": true,
+      "id": 37
+    },
+    {
+      "comment": "dffd",
+      "date": "9/22/22, 07:07 PM",
+      "id": 38
+    },
+    {
+      "comment": "Chuck Norris can end a sentence with a preposition.",
+      "date": "9/22/22, 07:07 PM",
+      "chuck": true,
+      "id": 39
+    },
+    {
+      "comment": "ytyu",
+      "date": "9/22/22, 07:08 PM",
+      "id": 40
+    },
+    {
+      "comment": "Converse were originally called Chuck Norris...not Chuck Taylor.",
+      "date": "9/22/22, 07:08 PM",
+      "chuck": true,
+      "id": 41
+    },
+    {
+      "comment": "ssdf",
+      "date": "9/22/22, 07:11 PM",
+      "id": 42
+    },
+    {
+      "comment": "Chuck Norris is a poet and his feet know it. Each one has an impression of your face on it.",
+      "date": "9/22/22, 07:11 PM",
+      "chuck": true,
+      "id": 43
+    },
+    {
+      "comment": "ggjgh",
+      "date": "9/22/22, 07:13 PM",
+      "id": 44
+    },
+    {
+      "comment": "The last digit of pi is Chuck Norris. He is the end of all things.",
+      "date": "9/22/22, 07:13 PM",
+      "chuck": true,
+      "id": 45
+    },
+    {
+      "comment": "sds",
+      "date": "9/22/22, 07:15 PM",
+      "id": 46
+    },
+    {
+      "comment": "It is impossible to beat Chuck Norris in rock, paper, scissors since his roundhouse kick beats all. Yes, even the bomb.",
+      "date": "9/22/22, 07:15 PM",
+      "chuck": true,
+      "id": 47
+    },
+    {
+      "comment": "вава",
+      "date": "9/22/22, 10:54 PM",
+      "id": 48
+    },
+    {
+      "comment": "Chuck Norris doesnt have AIDS but he gives it to people anyway.",
+      "date": "9/22/22, 10:54 PM",
+      "chuck": true,
+      "id": 49
+    },
+    {
+      "comment": "апап",
+      "date": "9/22/22, 10:54 PM",
+      "id": 50
+    },
+    {
+      "comment": "Chuck Norris is so fast he can punch himself in the back the head",
+      "date": "9/22/22, 10:54 PM",
+      "chuck": true,
+      "id": 51
+    },
+    {
+      "comment": "ojioihhkjj",
+      "date": "9/22/22, 11:01 PM",
+      "id": 52
+    },
+    {
+      "comment": "Chuck Norris knows at least forty-seven words that end in -gasm.",
+      "date": "9/22/22, 11:01 PM",
+      "chuck": true,
+      "id": 53
+    },
+    {
+      "comment": "Hello!",
+      "date": "9/26/22, 03:49 PM",
+      "id": 54
+    },
+    {
+      "comment": "Chuck Norris counted to infinity... twice.",
+      "date": "9/26/22, 03:49 PM",
+      "chuck": true,
+      "id": 55
+    },
+    {
+      "comment": "dsfdsf",
+      "date": "9/26/22, 03:50 PM",
+      "id": 56
+    },
+    {
+      "comment": "Chuck Norris's Total Gym Contract: $10 million 5% of total sales 30 days of banging Christie Brinkley Christie Brinkley's Total Gym Contract: 30 days of getting banged by Chuck Norris",
+      "date": "9/26/22, 03:50 PM",
+      "chuck": true,
+      "id": 57
+    },
+    {
+      "comment": "sfdsf",
+      "date": "9/26/22, 06:28 PM",
+      "id": 58
+    },
+    {
+      "comment": "If Chuck Norris coughs on you, you owe him 50 bucks.",
+      "date": "9/26/22, 06:28 PM",
+      "chuck": true,
+      "id": 59
+    },
+    {
+      "comment": "sfddsdf",
+      "date": "9/26/22, 06:28 PM",
+      "id": 60
+    },
+    {
+      "comment": "Fred Long won the Oscar for Best Costume Design for Invasion USA, for providing Chuck Norris with tight jeans.",
+      "date": "9/26/22, 06:28 PM",
+      "chuck": true,
+      "id": 61
+    },
+    {
+      "comment": "sddfdfdg",
+      "date": "9/26/22, 06:28 PM",
+      "id": 62
+    },
+    {
+      "comment": "There's a word for someone who doesn't like Chuck Norris movies: pussy.",
+      "date": "9/26/22, 06:28 PM",
+      "chuck": true,
+      "id": 63
+    },
+    {
+      "comment": "ddfdgdfg",
+      "date": "9/26/22, 06:28 PM",
+      "id": 64
+    },
+    {
+      "comment": "Chuck Norris doesnt fight, he just lets you lose.",
+      "date": "9/26/22, 06:28 PM",
+      "chuck": true,
+      "id": 65
+    },
+    {
+      "comment": "sdfdsf",
+      "date": "9/26/22, 06:28 PM",
+      "id": 66
+    },
+    {
+      "comment": "Chuck Norris doesn't need to blow out the candles on his birthday cake . They just know what to do and when to do it.",
+      "date": "9/26/22, 06:28 PM",
+      "chuck": true,
+      "id": 67
+    },
+    {
+      "comment": "dfdf",
+      "date": "9/26/22, 06:40 PM",
+      "id": 68
+    },
+    {
+      "comment": "Chuck Norris CAN kill a dead body!",
+      "date": "9/26/22, 06:40 PM",
+      "chuck": true,
+      "id": 69
+    },
+    {
+      "comment": "fdfdf",
+      "date": "9/26/22, 06:40 PM",
+      "id": 70
+    },
+    {
+      "comment": "Doctor who's real name is Chuck Norris",
+      "date": "9/26/22, 06:40 PM",
+      "chuck": true,
+      "id": 71
+    },
+    {
+      "comment": "dfdfdf",
+      "date": "9/26/22, 06:41 PM",
+      "id": 72
+    },
+    {
+      "comment": "Chuck Norris can headbutt himself in the face.",
+      "date": "9/26/22, 06:41 PM",
+      "chuck": true,
+      "id": 73
+    },
+    {
+      "comment": "dfdf",
+      "date": "9/26/22, 06:41 PM",
+      "id": 74
+    },
+    {
+      "comment": "When Chuck Norris asks for change for a penny, he always gets it.",
+      "date": "9/26/22, 06:41 PM",
+      "chuck": true,
+      "id": 75
+    },
+    {
+      "comment": "hhfghhth",
+      "date": "9/26/22, 06:41 PM",
+      "id": 76
+    },
+    {
+      "comment": "Chuck Norris can leave the door open at night cause no one messes with Chuck Norris",
+      "date": "9/26/22, 06:41 PM",
+      "chuck": true,
+      "id": 77
+    },
+    {
+      "comment": "one",
+      "date": "9/26/22, 06:41 PM",
+      "id": 78
+    },
+    {
+      "comment": "'Deja Vu' is when nature replays, for the benefit of someone, what Chuck Norris did too quickly for his memory to correctly register",
+      "date": "9/26/22, 06:41 PM",
+      "chuck": true,
+      "id": 79
+    },
+    {
+      "comment": "two",
+      "date": "9/26/22, 06:41 PM",
+      "id": 80
+    },
+    {
+      "comment": "People ask for the time.. Time asks Chuck Norris.",
+      "date": "9/26/22, 06:41 PM",
+      "chuck": true,
+      "id": 81
+    },
+    {
+      "comment": "fgdfg",
+      "date": "9/26/22, 06:43 PM",
+      "id": 82
+    },
+    {
+      "comment": "You may be wondering, 'why can't Chuck Norris use his incredible powers to end poverty, starvation and disease and bring about world peace?' Shut the fuck up, that's why.",
+      "date": "9/26/22, 06:43 PM",
+      "chuck": true,
+      "id": 83
+    },
+    {
+      "comment": "dffgfg",
+      "date": "9/26/22, 06:43 PM",
+      "id": 84
+    },
+    {
+      "comment": "Chuck Norris isn't gay, he's just run out of women",
+      "date": "9/26/22, 06:43 PM",
+      "chuck": true,
+      "id": 85
+    },
+    {
+      "comment": "sdfsdf",
+      "date": "9/26/22, 06:44 PM",
+      "id": 86
+    },
+    {
+      "comment": "If you look directly at Chuck Norris you will go blind and loose your will to live.",
+      "date": "9/26/22, 06:44 PM",
+      "chuck": true,
+      "id": 87
+    },
+    {
+      "comment": "dfdsf",
+      "date": "9/26/22, 06:45 PM",
+      "id": 88
+    },
+    {
+      "comment": "Chuck Norris can brew coffee out of tea leaves",
+      "date": "9/26/22, 06:45 PM",
+      "chuck": true,
+      "id": 89
+    },
+    {
+      "comment": "dfdgfhgfh",
+      "date": "9/26/22, 06:45 PM",
+      "id": 90
+    },
+    {
+      "comment": "Chuck Norris can solve a paradox.",
+      "date": "9/26/22, 06:45 PM",
+      "chuck": true,
+      "id": 91
+    },
+    {
+      "comment": "fdgdf",
+      "date": "9/26/22, 06:45 PM",
+      "id": 92
+    },
+    {
+      "comment": "Chuck Norris is who taught Pai Mei from Kill Bill.",
+      "date": "9/26/22, 06:45 PM",
+      "chuck": true,
+      "id": 93
+    },
+    {
+      "comment": "dsfdsf",
+      "date": "9/26/22, 06:45 PM",
+      "id": 94
+    },
+    {
+      "comment": "Chuck Norris puts the cunning in cunnilingus.",
+      "date": "9/26/22, 06:45 PM",
+      "chuck": true,
+      "id": 95
+    },
+    {
+      "comment": "one",
+      "date": "9/26/22, 06:45 PM",
+      "id": 96
+    },
+    {
+      "comment": "only you can prevent forest fires, only Chuck Norris can prevent roundhouse kicks..he just doesn't try",
+      "date": "9/26/22, 06:45 PM",
+      "chuck": true,
+      "id": 97
+    },
+    {
+      "comment": "sfsfdfsdfsdf",
+      "date": "9/26/22, 06:46 PM",
+      "id": 98
+    },
+    {
+      "comment": "Every February 2nd, Chuck Norris sees his shadow and beats the hell out of it.",
+      "date": "9/26/22, 06:46 PM",
+      "chuck": true,
+      "id": 99
+    },
+    {
+      "comment": "dsfdsffgdfhg",
+      "date": "9/26/22, 06:46 PM",
+      "id": 100
+    },
+    {
+      "comment": "ddgfg",
+      "date": "9/26/22, 06:46 PM",
+      "id": 101
+    },
+    {
+      "comment": "Scientists have linked a powerful male pheromone in Chuck Norris's farts to multiple orgasms in women, a new study has shown.",
+      "date": "9/26/22, 06:46 PM",
+      "chuck": true,
+      "id": 102
+    },
+    {
+      "comment": "Chuck Norris enjoys plucking chickens while skydiving.",
+      "date": "9/26/22, 06:46 PM",
+      "chuck": true,
+      "id": 103
     }
   ],
   "messagesFromVelasqez": [
     {
-      "comment": "Yo!",
-      "date": "9/22/22, 04:29 PM",
+      "comment": "Hello!",
+      "date": "9/22/22, 05:17 PM",
       "id": 1
     },
     {
-      "comment": "lightening struck Chuck Norris... he struck back",
-      "date": "9/22/22, 04:29 PM",
+      "comment": "Chuck Norris doesn't believe in God, God believes in Chuck Norris.",
+      "date": "9/22/22, 05:17 PM",
+      "chuck": true,
       "id": 2
     },
     {
-      "comment": "Good for you!",
-      "date": "9/22/22, 04:32 PM",
+      "comment": "dssfsfdf",
+      "date": "9/22/22, 05:19 PM",
       "id": 3
     },
     {
-      "comment": "If you ask Chuck Norris what time it is, he'll answer 'Two seconds 'till...' When you ask him 'Two seconds 'till what?', that's when he roundhouse kicks you in the face",
-      "date": "9/22/22, 04:32 PM",
+      "comment": "Chuck Norris can go platinum on a Blank CD",
+      "date": "9/22/22, 05:19 PM",
+      "chuck": true,
       "id": 4
     },
     {
-      "comment": "dfdsgfbdfvf",
-      "date": "9/22/22, 04:32 PM",
+      "comment": "sfdg",
+      "date": "9/22/22, 05:19 PM",
       "id": 5
     },
     {
-      "comment": "Chuck Norris invented beef jerky by throwing a bull through a chain-link fence.",
-      "date": "9/22/22, 04:32 PM",
+      "comment": "Once when Chuck Norris was denied a Bacon McDouble at McDonald's because it was 9:35, he roundhouse kicked the store so hard that it became a KFC.",
+      "date": "9/22/22, 05:19 PM",
+      "chuck": true,
       "id": 6
     },
     {
-      "comment": "sadsf",
-      "date": "9/22/22, 04:32 PM",
+      "comment": "xcxcx",
+      "date": "9/22/22, 05:19 PM",
       "id": 7
     },
     {
-      "comment": "Duke Nukem was based on Chuck Norris.",
-      "date": "9/22/22, 04:32 PM",
+      "comment": "Chuck Norris never needs toilet paper to wipe his ass,his Godly ass wipes it himself.",
+      "date": "9/22/22, 05:19 PM",
+      "chuck": true,
       "id": 8
     },
     {
-      "comment": "sdfdsfdf",
-      "date": "9/22/22, 04:33 PM",
+      "comment": "sdasf",
+      "date": "9/22/22, 05:23 PM",
       "id": 9
     },
     {
-      "comment": "when Chuck Norris is asleep the sheep count him",
-      "date": "9/22/22, 04:33 PM",
+      "comment": "If you ask Chuck Norris what time it is, he always says, \"Two seconds till.\" After you ask, \"Two seconds till what?\" He roundhouse kicks you in the face.",
+      "date": "9/22/22, 05:23 PM",
+      "chuck": true,
       "id": 10
+    },
+    {
+      "comment": "dfgdfdffg",
+      "date": "9/22/22, 05:45 PM",
+      "id": 11
+    },
+    {
+      "comment": "When Chuck Norris watches a movie, you can notice an unmistakable fear on the faces of the actors on the screen.",
+      "date": "9/22/22, 05:45 PM",
+      "chuck": true,
+      "id": 12
+    },
+    {
+      "comment": "ddgfg",
+      "date": "9/22/22, 06:55 PM",
+      "id": 13
+    },
+    {
+      "comment": "When Chuck Norris sees a screamer, he roundhouse kicks it so hard, that the ghost gets hit.",
+      "date": "9/22/22, 06:55 PM",
+      "chuck": true,
+      "id": 14
+    },
+    {
+      "comment": "fdfdfhg",
+      "date": "9/22/22, 06:55 PM",
+      "id": 15
+    },
+    {
+      "comment": "Carly Fiorina once crawled through the entire Waco, TX sewer system just to watch Chuck Norris take a shit in a Taco Bell restroom.",
+      "date": "9/22/22, 06:55 PM",
+      "chuck": true,
+      "id": 16
+    },
+    {
+      "comment": "sdsd",
+      "date": "9/22/22, 07:06 PM",
+      "id": 17
+    },
+    {
+      "comment": "Chuck Norris invented rap when his heart started beating",
+      "date": "9/22/22, 07:06 PM",
+      "chuck": true,
+      "id": 18
+    },
+    {
+      "comment": "sfsfd",
+      "date": "9/22/22, 07:14 PM",
+      "id": 19
+    },
+    {
+      "comment": "A man once took Chuck Norris to court for alleged assult. After the shortest jury deliberation in history, the man was found guilty of first-degree Talking Shit About Mr. Norris and sentenced to death by instant roundhouse kick.",
+      "date": "9/22/22, 07:14 PM",
+      "chuck": true,
+      "id": 20
+    },
+    {
+      "comment": "dfvbrgrb",
+      "date": "9/22/22, 09:18 PM",
+      "id": 21
+    },
+    {
+      "comment": "Chuck Norris can eat fire and air.",
+      "date": "9/22/22, 09:18 PM",
+      "chuck": true,
+      "id": 22
+    },
+    {
+      "comment": "sdvfrg",
+      "date": "9/22/22, 09:18 PM",
+      "id": 23
+    },
+    {
+      "comment": "Chuck Norris has only vomited once. It was a giant ball of 100% pussy hair.",
+      "date": "9/22/22, 09:18 PM",
+      "chuck": true,
+      "id": 24
+    },
+    {
+      "comment": "привіт!",
+      "date": "9/22/22, 10:36 PM",
+      "id": 25
+    },
+    {
+      "comment": "Chuck Norris invented guns so the rest of us have a fighting chance....",
+      "date": "9/22/22, 10:36 PM",
+      "chuck": true,
+      "id": 26
+    },
+    {
+      "comment": "авпвпап",
+      "date": "9/22/22, 10:37 PM",
+      "id": 27
+    },
+    {
+      "comment": "Chuck Norris once roundhouse kicked a horse in the face, its descendants are now called the giraffe",
+      "date": "9/22/22, 10:37 PM",
+      "chuck": true,
+      "id": 28
+    },
+    {
+      "comment": "dfdfddf",
+      "date": "9/26/22, 06:17 PM",
+      "id": 29
+    },
+    {
+      "comment": "The plastic flamingoes on Chuck Norris' front lawn contain motion-activated laser-sighted miniguns. The rosebush houses the SSMs.",
+      "date": "9/26/22, 06:17 PM",
+      "chuck": true,
+      "id": 30
+    },
+    {
+      "comment": "ouiououo",
+      "date": "9/26/22, 06:18 PM",
+      "id": 31
+    },
+    {
+      "comment": "Sticks and stones may break your bones, but a Chuck Norris glare will liquefy your kidneys.",
+      "date": "9/26/22, 06:18 PM",
+      "chuck": true,
+      "id": 32
+    },
+    {
+      "comment": "dsfdsf",
+      "date": "9/26/22, 06:31 PM",
+      "id": 33
+    },
+    {
+      "comment": "A cobra once bit Chuck Norris. After five days of excruciating pain, the cobra died",
+      "date": "9/26/22, 06:31 PM",
+      "chuck": true,
+      "id": 34
+    },
+    {
+      "comment": "dfd",
+      "date": "9/26/22, 06:31 PM",
+      "id": 35
+    },
+    {
+      "comment": "Life is like a box of chocolates. They are all for Chuck Norris.",
+      "date": "9/26/22, 06:31 PM",
+      "chuck": true,
+      "id": 36
     }
   ],
   "messagesFromMia": [
     {
-      "comment": "Hello!",
-      "date": "9/22/22, 04:33 PM",
+      "comment": "xcxv",
+      "date": "9/22/22, 05:19 PM",
       "id": 1
     },
     {
-      "comment": "Two Mary Kay salesmen knocked on Chuck Norris' door. They introduced themselves as Ben Dover & Phil McCrakin. They are no longer in business together.",
-      "date": "9/22/22, 04:33 PM",
+      "comment": "Chuck Norris' leg kicks hit hard enough to knock the polio vaccine out of your body",
+      "date": "9/22/22, 05:19 PM",
+      "chuck": true,
       "id": 2
     },
     {
-      "comment": "how are you?",
-      "date": "9/22/22, 04:33 PM",
+      "comment": "xvcbvfb",
+      "date": "9/22/22, 05:19 PM",
       "id": 3
     },
     {
-      "comment": "Silence and peach terrifies Chuck Norris.",
-      "date": "9/22/22, 04:33 PM",
+      "comment": "Chuck Norris can disable his shadow.",
+      "date": "9/22/22, 05:19 PM",
+      "chuck": true,
       "id": 4
     },
     {
-      "comment": "dfdf",
-      "date": "9/22/22, 04:33 PM",
+      "comment": "sddf",
+      "date": "9/22/22, 05:41 PM",
       "id": 5
     },
     {
-      "comment": "Industrial logging isn't the cause of deforestation. Chuck Norris needs toothpicks.",
-      "date": "9/22/22, 04:33 PM",
+      "comment": "If any one of Chuck Norris' sextapes was ever released publicly, it would win the Best Picture Oscar",
+      "date": "9/22/22, 05:41 PM",
+      "chuck": true,
       "id": 6
     },
     {
-      "comment": "Fddfd",
-      "date": "9/22/22, 04:34 PM",
+      "comment": "fdhffghgf",
+      "date": "9/22/22, 05:41 PM",
       "id": 7
     },
     {
-      "comment": "One of Chuck Norris' bumper stickers reads 'This is just a distraction - I'm now sitting behind you'.",
-      "date": "9/22/22, 04:34 PM",
+      "comment": "Chuck Norris was on safari in The Congo and suddenly came face to face with a huge Silverback Gorilla. Once the Gorilla realized who it was, he wet himself and ran screaming into the jungle.",
+      "date": "9/22/22, 05:41 PM",
+      "chuck": true,
       "id": 8
     },
     {
-      "comment": "sdsf",
-      "date": "9/22/22, 04:39 PM",
+      "comment": "sdfds",
+      "date": "9/22/22, 06:00 PM",
       "id": 9
     },
     {
-      "comment": "Chuck Norris can see his shadow and catch it- at night.",
-      "date": "9/22/22, 04:39 PM",
-      "chuck": false,
+      "comment": "Great minds think like Chuck Norris",
+      "date": "9/22/22, 06:00 PM",
+      "chuck": true,
       "id": 10
+    },
+    {
+      "comment": "sdfdsfsadvasdfg",
+      "date": "9/22/22, 06:00 PM",
+      "id": 11
+    },
+    {
+      "comment": "If you ever dare to 'axe' Chuck Norris a question, he will 'axe' your forehead.",
+      "date": "9/22/22, 06:00 PM",
+      "chuck": true,
+      "id": 12
+    },
+    {
+      "comment": "вава",
+      "date": "9/22/22, 10:53 PM",
+      "id": 13
+    },
+    {
+      "comment": "Tony the Tiger knows that Chuck Norris is G-R-E-A-T!",
+      "date": "9/22/22, 10:53 PM",
+      "chuck": true,
+      "id": 14
+    },
+    {
+      "comment": "hey!",
+      "date": "9/22/22, 11:09 PM",
+      "id": 15
+    },
+    {
+      "comment": "Sperm clinics provide Chuck Norris with Shop-Vac and an empty 55 gallon drum for every single donation.",
+      "date": "9/22/22, 11:09 PM",
+      "chuck": true,
+      "id": 16
+    },
+    {
+      "comment": "dfgfdg",
+      "date": "9/26/22, 06:36 PM",
+      "id": 17
+    },
+    {
+      "comment": "Chuck Norris' favorite yoghurt flavor is beef jerky.",
+      "date": "9/26/22, 06:36 PM",
+      "chuck": true,
+      "id": 18
+    },
+    {
+      "comment": "sdfsdf",
+      "date": "9/26/22, 06:36 PM",
+      "id": 19
+    },
+    {
+      "comment": "In carpentry there's a saying: \"Measure twice, cut once.\" Chuck Norris has a similar saying: \"Fuck measurements, let's rock.\"",
+      "date": "9/26/22, 06:36 PM",
+      "chuck": true,
+      "id": 20
     }
   ]
 }

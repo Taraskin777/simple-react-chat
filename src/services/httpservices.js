@@ -29,6 +29,10 @@ export const addComment = (toUser, date, comment, chuck) => {
     });
 };
 
+export const changeLastMessage = (toUser, date, comment) => {
+
+}
+
 export const getUserList = async (url) => {
   const response = await fetch(url);
   const data = await response.json();

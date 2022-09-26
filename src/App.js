@@ -23,8 +23,6 @@ function App() {
   const [messagesList, setMessagesList] = useState([]);
   const [newComment, setNewComment] = useState();
 
-
-
   const onFilterChange = (e) => {
     setFilter(e.target.value.toLowerCase());
   };
@@ -32,6 +30,11 @@ function App() {
   const getUserData = (name, avatar) => {
     setName(name);
     setAvatar(avatar);
+  };
+
+  const scrollToBottom = (id) => {
+    const element = document.getElementById(id);
+    element.scrollTop = element.scrollHeight;
   };
 
   const date = new Date();
@@ -92,7 +95,6 @@ function App() {
   };
 
   const newUrl = onChooseUser();
- 
 
   useEffect(() => {
     getListOfMessages(commentsToSergio).then((data) => setMessagesList(data));
@@ -158,6 +160,7 @@ function App() {
               newComment={newComment}
               getListOfMessages={getListOfMessages}
               chuck={chuck}
+              scrollToBottom={scrollToBottom}
             />
           </div>
         </div>

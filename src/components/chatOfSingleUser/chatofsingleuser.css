@@ -1,13 +1,10 @@
 .single-chat {
    display: flex;
-   /* width: fit-content; */
-   padding: 5px;
+   justify-content: flex-start;
    margin: 10px;
-   border: 1px solid black;
-   border-radius: 10px;
+   align-items: flex-start;
    transition:all 0.5s;
    animation: ani 1s forwards;
-  
 }
 
 @keyframes ani {
@@ -20,6 +17,20 @@
    }
 }
 
-.date {
-   color: white;
+.single-chat img {
+   margin-right: 10px;
+  
+}
+
+.single-chat .comment {
+   background-color: rgba(128, 128, 128, 0.151);
+   padding: 10px 15px;
+   border: 1px solid white;
+   border-radius: 20px;
+   width: fit-content;
+   height:fit-content;
+}
+
+.single-chat .date {
+   margin: 10px 0;
 }
