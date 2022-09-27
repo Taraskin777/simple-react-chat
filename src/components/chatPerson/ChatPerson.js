@@ -2,9 +2,9 @@ import React from "react";
 import PropTypes from "prop-types";
 import "./chatperson.css";
 
-const ChatPerson = ({ name, date, avatar, tick, message, getUserData }) => {
+const ChatPerson = ({ name, date, avatar, tick, message, getUserData, id }) => {
   return (
-    <div className="chatperson" onClick={() => getUserData(name, avatar)}>
+    <div className="chatperson" onClick={() => getUserData(name, avatar, id)}>
       <div className="user-img">
         <div className="avatar">
           <img src={avatar} alt="avatar" />

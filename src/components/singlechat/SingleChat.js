@@ -47,6 +47,7 @@ const SingleChat = ({
         onSendMessage={onSendMessage}
         newComment={newComment}
         getListOfMessage={getListOfMessage}
+        scrollToBottom={scrollToBottom}
       />
     </div>
   );

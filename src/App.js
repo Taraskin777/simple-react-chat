@@ -12,6 +12,9 @@ import {
   getListOfMessages,
   addComment,
   chuckNorris,
+  changeLastMessage,
+  getUserList,
+  sortedUsers,
 } from "./services/httpservices";
 
 import "./App.css";
@@ -22,19 +25,24 @@ function App() {
   const [avatar, setAvatar] = useState();
   const [messagesList, setMessagesList] = useState([]);
   const [newComment, setNewComment] = useState();
+  const [id, setId] = useState(2);
+  console.log(messagesList);
 
   const onFilterChange = (e) => {
     setFilter(e.target.value.toLowerCase());
   };
 
-  const getUserData = (name, avatar) => {
+  const getUserData = (name, avatar, id) => {
     setName(name);
     setAvatar(avatar);
+    setId(id);
+    // scrollToBottom("chatscroll");
   };
 
   const scrollToBottom = (id) => {
     const element = document.getElementById(id);
     element.scrollTop = element.scrollHeight;
+    console.log("scroll");
   };
 
   const date = new Date();
@@ -95,6 +103,7 @@ function App() {
   };
 
   const newUrl = onChooseUser();
+  console.log(newUrl);
 
   useEffect(() => {
     getListOfMessages(commentsToSergio).then((data) => setMessagesList(data));
@@ -102,14 +111,26 @@ function App() {
 
   const onMessageValue = (e) => {
     setNewComment(e.target.value);
-    console.log(newComment);
   };
 
   const chuck = true;
 
+  let urlForPutLastMessage = "http://localhost:3001/users/" + id;
+  console.log(urlForPutLastMessage);
+
   const onSendMessage = (e) => {
     e.preventDefault();
     addComment(newUrl, timeForSingleChat, newComment);
+   
+    changeLastMessage(
+      urlForPutLastMessage,
+      id,
+      avatar,
+      "/images/tick.png",
+      timeForListOfUsers,
+      newComment,
+      name
+    );
     setNewComment("");
     getListOfMessages(newUrl).then((data) => setMessagesList(data));
     setTimeout(() => {
@@ -125,11 +146,13 @@ function App() {
           },
         ]);
       });
+      
     }, 3000);
   };
 
   useEffect(() => {
     getListOfMessages(newUrl).then((data) => setMessagesList(data));
+  
   }, [name, newComment]);
 
   return (
@@ -161,6 +184,7 @@ function App() {
               getListOfMessages={getListOfMessages}
               chuck={chuck}
               scrollToBottom={scrollToBottom}
+             
             />
           </div>
         </div>

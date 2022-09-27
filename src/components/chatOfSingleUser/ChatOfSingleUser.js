@@ -3,13 +3,17 @@ import { useEffect } from "react";
 import "./chatofsingleuser.css";
 
 const ChatOfSingleUser = ({ comment, date, avatar, chuck, scrollToBottom }) => {
-  
+
   const styleForChuck = {
     backgroundColor: "#696969",
     color: "white",
   };
 
-  scrollToBottom("chatscroll");
+  useEffect(()=>{
+    scrollToBottom("chatscroll");
+  },[])
+
+ 
 
   return (
     <>
