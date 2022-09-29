@@ -13,7 +13,7 @@
       "name": "Sergio",
       "date": "Sep 29, 2022",
       "avatar": "/images/sergio.png",
-      "message": "How are you?",
+      "message": "dsfdsfdfg",
       "tick": "/images/tick.png"
     },
     {
@@ -977,6 +977,17 @@
       "date": "9/29/22, 01:53 PM",
       "chuck": true,
       "id": 130
+    },
+    {
+      "comment": "dsfdsfdfg",
+      "date": "9/29/22, 03:54 PM",
+      "id": 131
+    },
+    {
+      "comment": "Ninjas want to grow up to be just like Chuck Norris. But usually they grow up just to be killed by Chuck Norris.",
+      "date": "9/29/22, 03:54 PM",
+      "chuck": true,
+      "id": 132
     }
   ],
   "messagesFromVelasqez": [

@@ -13,8 +13,7 @@ import {
   addComment,
   chuckNorris,
   changeLastMessage,
-  getUserList,
-  sortedUsers,
+
 } from "./services/httpservices";
 
 import "./App.css";
@@ -48,7 +47,7 @@ function App() {
     console.log("scroll");
   };
 
-  const date = new Date();
+  // const date = new Date();
 
   const options1 = {
     year: "numeric",
