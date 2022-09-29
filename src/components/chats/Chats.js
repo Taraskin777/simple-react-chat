@@ -1,7 +1,7 @@
 import React from "react";
 import { useState, useEffect } from "react";
 import ChatPerson from "../chatPerson/ChatPerson";
-import App from "../../App";
+// import App from "../../App";
 import { sortedUsers, getUserList } from "../../services/httpservices";
 
 import "./chats.css";

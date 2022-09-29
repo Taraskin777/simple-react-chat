@@ -37,7 +37,7 @@
       "name": "Mia",
       "date": "Sep 29, 2022",
       "avatar": "/images/mia.png",
-      "message": "dvdvdv",
+      "message": "Hello!",
       "tick": "/images/tick.png"
     }
   ],
@@ -1536,6 +1536,17 @@
       "date": "9/29/22, 06:56 PM",
       "chuck": true,
       "id": 39
+    },
+    {
+      "comment": "Hello!",
+      "date": "9/29/22, 06:58 PM",
+      "id": 40
+    },
+    {
+      "comment": "Godzilla is lucky that Chuck Norris doesn't live in Japan",
+      "date": "9/29/22, 06:58 PM",
+      "chuck": true,
+      "id": 41
     }
   ]
 }
