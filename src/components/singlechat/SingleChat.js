@@ -1,7 +1,7 @@
 import React from "react";
 import ChatOfSingleUser from "../chatOfSingleUser/ChatOfSingleUser";
 import InputForSendMessage from "../inputForSendMessage/InputForSendMessage";
-import { useEffect } from "react";
+// import { useEffect } from "react";
 import "./singlechat.css";
 
 const SingleChat = ({

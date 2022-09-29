@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { getUserList } from "../../services/httpservices";
+// import { getUserList } from "../../services/httpservices";
 import "./chatperson.css";
 
 const ChatPerson = ({ name, date, avatar, tick, message, getUserData, id }) => {
