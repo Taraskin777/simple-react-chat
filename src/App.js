@@ -21,11 +21,14 @@ import "./App.css";
 
 function App() {
   const [filter, setFilter] = useState([]);
-  const [name, setName] = useState();
-  const [avatar, setAvatar] = useState();
+  const [name, setName] = useState("Sergio");
+  const [avatar, setAvatar] = useState("/images/sergio.png");
   const [messagesList, setMessagesList] = useState([]);
-  const [newComment, setNewComment] = useState();
+  const [newComment, setNewComment] = useState("");
   const [id, setId] = useState(2);
+  const [commentId, setCommentId] = useState("");
+
+  console.log(commentId);
   console.log(messagesList);
 
   const onFilterChange = (e) => {
@@ -103,25 +106,25 @@ function App() {
   };
 
   const newUrl = onChooseUser();
-  console.log(newUrl);
+  console.log(newUrl, newComment);
 
-  useEffect(() => {
-    getListOfMessages(commentsToSergio).then((data) => setMessagesList(data));
-  }, [newUrl]);
+  // useEffect(() => {
+  //   getListOfMessages(commentsToSergio).then((data) => setMessagesList(data));
+  //   console.log("use effect");
+  // }, [newUrl]);
 
-  const onMessageValue = (e) => {
+  const onMessageValue = (e, newCommentId) => {
     setNewComment(e.target.value);
+    setCommentId(newCommentId);
   };
 
   const chuck = true;
 
   let urlForPutLastMessage = "http://localhost:3001/users/" + id;
   console.log(urlForPutLastMessage);
-
   const onSendMessage = (e) => {
     e.preventDefault();
     addComment(newUrl, timeForSingleChat, newComment);
-   
     changeLastMessage(
       urlForPutLastMessage,
       id,
@@ -130,30 +133,29 @@ function App() {
       timeForListOfUsers,
       newComment,
       name
-    );
-    setNewComment("");
-    getListOfMessages(newUrl).then((data) => setMessagesList(data));
-    setTimeout(() => {
-      chuckNorris().then((data) => {
-        addComment(newUrl, timeForSingleChat, data.value, chuck);
-        setMessagesList((prevdata) => [
-          ...prevdata,
-          {
-            comment: data.value,
-            date: timeForSingleChat,
-            chuck: chuck,
-            id: data.id,
-          },
-        ]);
-      });
-      
-    }, 3000);
+    ).finally(() => {
+      setTimeout(() => {
+        chuckNorris().then((data) => {
+          addComment(newUrl, timeForSingleChat, data.value, chuck);
+          setMessagesList((prevdata) => [
+            ...prevdata,
+            {
+              comment: data.value,
+              date: timeForSingleChat,
+              chuck: chuck,
+              id: data.id,
+            },
+          ]);
+        });
+      }, 3000);
+      getListOfMessages(newUrl).then((data) => setMessagesList(data));
+      setNewComment("");
+    });
   };
 
   useEffect(() => {
     getListOfMessages(newUrl).then((data) => setMessagesList(data));
-  
-  }, [name, newComment]);
+  }, [newUrl, newComment]);
 
   return (
     <section className="head">
@@ -171,6 +173,8 @@ function App() {
               searchUsers={searchUsers}
               time={timeForListOfUsers}
               getUserData={getUserData}
+              newComment={newComment}
+              commentId={commentId}
             />
           </div>
           <div className="singlechat">
@@ -184,7 +188,7 @@ function App() {
               getListOfMessages={getListOfMessages}
               chuck={chuck}
               scrollToBottom={scrollToBottom}
-             
+              id={id}
             />
           </div>
         </div>

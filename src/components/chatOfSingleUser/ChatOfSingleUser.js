@@ -13,7 +13,7 @@ const ChatOfSingleUser = ({ comment, date, avatar, chuck, scrollToBottom }) => {
     scrollToBottom("chatscroll");
   },[])
 
- 
+  console.log('chat');
 
   return (
     <>

@@ -1,9 +1,13 @@
 import React from "react";
 import "./inputforsendmessage.css";
 
-const InputForSendMessage = ({ onSendMessage, onMessageValue, newComment }) => {
-
-
+const InputForSendMessage = ({
+  onSendMessage,
+  onMessageValue,
+  newComment,
+  id,
+}) => {
+  console.log(id);
   return (
     <>
       <div className="input-for-message">
@@ -11,7 +15,7 @@ const InputForSendMessage = ({ onSendMessage, onMessageValue, newComment }) => {
           <input
             type="text"
             placeholder="Type your message"
-            onChange={onMessageValue}
+            onChange={(e) => onMessageValue(e, id)}
             value={newComment}
           />
           <button className="sendmessage" type="submit"></button>

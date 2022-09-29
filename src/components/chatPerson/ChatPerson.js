@@ -1,8 +1,12 @@
 import React from "react";
 import PropTypes from "prop-types";
+import { getUserList } from "../../services/httpservices";
 import "./chatperson.css";
 
 const ChatPerson = ({ name, date, avatar, tick, message, getUserData, id }) => {
+
+
+  
   return (
     <div className="chatperson" onClick={() => getUserData(name, avatar, id)}>
       <div className="user-img">

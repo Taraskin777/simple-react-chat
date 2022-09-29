@@ -3,41 +3,41 @@
     {
       "id": 1,
       "name": "Alice Freeman",
-      "date": "2022/02/05",
+      "date": "Sep 29, 2022",
       "avatar": "/images/alice.png",
-      "message": "dsfgsvavv sdcsd DSVSDVSD",
+      "message": "dfgdfgfdgf",
       "tick": "/images/tick.png"
     },
     {
       "id": 2,
       "name": "Sergio",
-      "date": "2022/10/10",
+      "date": "Sep 29, 2022",
       "avatar": "/images/sergio.png",
-      "message": "dsfgsvavv sdcsd DSVSDVSD",
+      "message": "How are you?",
       "tick": "/images/tick.png"
     },
     {
       "id": 3,
       "name": "Velasqez",
-      "date": "2016.12.17",
+      "date": "Sep 29, 2022",
       "avatar": "/images/velasqez.png",
-      "message": "dsfgsvavv sdcsd DSVSDVSD",
+      "message": "xzsdf",
       "tick": "/images/tick.png"
     },
     {
       "id": 4,
       "name": "Barrera",
-      "date": "2017.04.10",
+      "date": "Sep 29, 2022",
       "avatar": "/images/barera.png",
-      "message": "dsfgsvavv sdcsd DSVSDVSD",
+      "message": "ddfgdgdg",
       "tick": "/images/tick.png"
     },
     {
       "id": 5,
       "name": "Mia",
-      "date": "2017.04.15",
+      "date": "Sep 29, 2022",
       "avatar": "/images/mia.png",
-      "message": "Hello !",
+      "message": "What's your name?",
       "tick": "/images/tick.png"
     }
   ],
@@ -140,6 +140,17 @@
       "date": "9/26/22, 06:35 PM",
       "chuck": true,
       "id": 18
+    },
+    {
+      "comment": "dfgdfgfdgf",
+      "date": "9/29/22, 01:48 PM",
+      "id": 19
+    },
+    {
+      "comment": "There is great debate over whether The Book Of Chuck (written by Chuck Norris in 1989) should be included in the Bible. It mostly contains stories of Norris' sexual conquests and his overall Godliness, but the occasional philosophy contained within easily renders the rest of the books obsolete.",
+      "date": "9/29/22, 01:48 PM",
+      "chuck": true,
+      "id": 20
     }
   ],
   "messagesFromBarrera": [
@@ -186,6 +197,71 @@
       "date": "9/26/22, 06:46 PM",
       "chuck": true,
       "id": 8
+    },
+    {
+      "comment": "dfgfdfdfgb",
+      "date": "9/29/22, 01:04 PM",
+      "id": 9
+    },
+    {
+      "comment": "A lot of people like to slam Tequila shots. Chuck Norris enjoys slamming people who enjoy slamming Tequila shots.",
+      "date": "9/29/22, 01:04 PM",
+      "chuck": true,
+      "id": 10
+    },
+    {
+      "comment": "Hello!",
+      "date": "9/29/22, 01:04 PM",
+      "id": 11
+    },
+    {
+      "comment": "Chuck Norris can drink water in a saucer.",
+      "date": "9/29/22, 01:04 PM",
+      "chuck": true,
+      "id": 12
+    },
+    {
+      "comment": "Hi!",
+      "date": "9/29/22, 01:34 PM",
+      "id": 13
+    },
+    {
+      "comment": "Chuck Norris can pick oranges from an apple tree and make the best lemonade you've ever tasted.",
+      "date": "9/29/22, 01:34 PM",
+      "chuck": true,
+      "id": 14
+    },
+    {
+      "comment": "fdsfsddsggfgfg",
+      "date": "9/29/22, 01:39 PM",
+      "id": 15
+    },
+    {
+      "comment": "jkjhkjk",
+      "date": "9/29/22, 01:44 PM",
+      "id": 16
+    },
+    {
+      "comment": "Chuck Norris can take a shit while his buttocks are tied around his front.",
+      "date": "9/29/22, 01:44 PM",
+      "chuck": true,
+      "id": 17
+    },
+    {
+      "comment": "sdfdsfdsfdffdfddfdf",
+      "date": "9/29/22, 01:47 PM",
+      "id": 18
+    },
+    {
+      "comment": "ddfgdgdg",
+      "date": "9/29/22, 01:48 PM",
+      "id": 19
+    },
+    {
+      "comment": "Chuck Norris can rub two fire's together and make wood",
+      "date": "9/29/22, 01:48 PM",
+      "chuck": true,
+      "id": 20
     }
   ],
   "messagesFromSergio": [
@@ -754,6 +830,153 @@
       "date": "9/26/22, 06:46 PM",
       "chuck": true,
       "id": 103
+    },
+    {
+      "comment": "kdfdfdf",
+      "date": "9/29/22, 12:59 PM",
+      "id": 104
+    },
+    {
+      "comment": "god created jesus-Chuck Norris created god",
+      "date": "9/29/22, 12:59 PM",
+      "chuck": true,
+      "id": 105
+    },
+    {
+      "comment": "asdasfef",
+      "date": "9/29/22, 12:59 PM",
+      "id": 106
+    },
+    {
+      "comment": "dclmdlvjmldv",
+      "date": "9/29/22, 12:59 PM",
+      "id": 107
+    },
+    {
+      "comment": "fgfgf",
+      "date": "9/29/22, 01:00 PM",
+      "id": 108
+    },
+    {
+      "comment": "Everything on Chuck Norris' properties are powered by a deus ex machina",
+      "date": "9/29/22, 01:00 PM",
+      "chuck": true,
+      "id": 109
+    },
+    {
+      "comment": "Hello!",
+      "date": "9/29/22, 01:00 PM",
+      "id": 110
+    },
+    {
+      "comment": "Chuck Norris can unhinge his jaw, to better facilitate swallowing things whole.",
+      "date": "9/29/22, 01:00 PM",
+      "chuck": true,
+      "id": 111
+    },
+    {
+      "comment": "dfdf",
+      "date": "9/29/22, 01:02 PM",
+      "id": 112
+    },
+    {
+      "comment": "Chuck Norris doesnt take showers to be clean, he lays in boiling water until all germs are killed.",
+      "date": "9/29/22, 01:02 PM",
+      "chuck": true,
+      "id": 113
+    },
+    {
+      "comment": "sdsdfd",
+      "date": "9/29/22, 01:03 PM",
+      "id": 114
+    },
+    {
+      "comment": "According to an assay report filed with the Texas Dept of Minerals & Land Mgt, Chuck Norris' front yard is comprised of 37.8% silver ore, 14.7% iron ore, 12.2% gold, 11% other tangent minerals & 24.3% fragmented skulls.",
+      "date": "9/29/22, 01:03 PM",
+      "chuck": true,
+      "id": 115
+    },
+    {
+      "comment": "dsfdfdsf",
+      "date": "9/29/22, 01:04 PM",
+      "id": 116
+    },
+    {
+      "comment": "Chuck Norris cuts his fingernails with a hatchet.",
+      "date": "9/29/22, 01:04 PM",
+      "chuck": true,
+      "id": 117
+    },
+    {
+      "comment": "fgfgd",
+      "date": "9/29/22, 01:34 PM",
+      "id": 118
+    },
+    {
+      "comment": "Chuck Norris knows how many roundhouse kicks to your asshole that it takes to create your personal hemorrhoid bouquet.",
+      "date": "9/29/22, 01:34 PM",
+      "chuck": true,
+      "id": 119
+    },
+    {
+      "comment": "fdgdfg",
+      "date": "9/29/22, 01:35 PM",
+      "id": 120
+    },
+    {
+      "comment": "dfgdfgfdg",
+      "date": "9/29/22, 01:38 PM",
+      "id": 121
+    },
+    {
+      "comment": "Chuck Norris knows the wrong way to eat a reeses",
+      "date": "9/29/22, 01:38 PM",
+      "chuck": true,
+      "id": 122
+    },
+    {
+      "comment": "sdfdfd",
+      "date": "9/29/22, 01:39 PM",
+      "id": 123
+    },
+    {
+      "comment": "Chuck Norris says that fact is not about him",
+      "date": "9/29/22, 01:39 PM",
+      "chuck": true,
+      "id": 124
+    },
+    {
+      "comment": "dsfdf",
+      "date": "9/29/22, 01:43 PM",
+      "id": 125
+    },
+    {
+      "comment": "Chuck Norris will never die. Every time Death pays him a visit, Chuck Norris will kick his ass with a roundhouse kick in the face.",
+      "date": "9/29/22, 01:43 PM",
+      "chuck": true,
+      "id": 126
+    },
+    {
+      "comment": "hjhjhj",
+      "date": "9/29/22, 01:43 PM",
+      "id": 127
+    },
+    {
+      "comment": "Chuck Norris created girafes wen he uppercutted a horse",
+      "date": "9/29/22, 01:43 PM",
+      "chuck": true,
+      "id": 128
+    },
+    {
+      "comment": "How are you?",
+      "date": "9/29/22, 01:53 PM",
+      "id": 129
+    },
+    {
+      "comment": "Chuck Norris knows how many licks it takes to get to the center of a tootsie pop.",
+      "date": "9/29/22, 01:53 PM",
+      "chuck": true,
+      "id": 130
     }
   ],
   "messagesFromVelasqez": [
@@ -954,6 +1177,17 @@
       "date": "9/26/22, 06:31 PM",
       "chuck": true,
       "id": 36
+    },
+    {
+      "comment": "xzsdf",
+      "date": "9/29/22, 01:06 PM",
+      "id": 37
+    },
+    {
+      "comment": "colten is stupid lets have Chuck Norris round house him... Sound good? if it does give a check!!!",
+      "date": "9/29/22, 01:06 PM",
+      "chuck": true,
+      "id": 38
     }
   ],
   "messagesFromMia": [
@@ -1066,6 +1300,22 @@
       "date": "9/26/22, 06:36 PM",
       "chuck": true,
       "id": 20
+    },
+    {
+      "comment": "How are you?",
+      "date": "9/29/22, 01:37 PM",
+      "id": 21
+    },
+    {
+      "comment": "What's your name?",
+      "date": "9/29/22, 01:48 PM",
+      "id": 22
+    },
+    {
+      "comment": "Chuck Norris is a man of action.",
+      "date": "9/29/22, 01:48 PM",
+      "chuck": true,
+      "id": 23
     }
   ]
 }

@@ -12,9 +12,9 @@ const SingleChat = ({
   onSendMessage,
   newComment,
   getListOfMessage,
-  scrollToBottom
+  scrollToBottom,
+  id
 }) => {
-
 
 
   return (
@@ -48,6 +48,7 @@ const SingleChat = ({
         newComment={newComment}
         getListOfMessage={getListOfMessage}
         scrollToBottom={scrollToBottom}
+        id={id}
       />
     </div>
   );
