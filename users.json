@@ -5,7 +5,7 @@
       "name": "Alice Freeman",
       "date": "Sep 29, 2022",
       "avatar": "/images/alice.png",
-      "message": "dfretrtrebreb",
+      "message": "sdfdsvdsv",
       "tick": "/images/tick.png"
     },
     {
@@ -29,7 +29,7 @@
       "name": "Barrera",
       "date": "Sep 29, 2022",
       "avatar": "/images/barera.png",
-      "message": "ddfgdgdg",
+      "message": "Df",
       "tick": "/images/tick.png"
     },
     {
@@ -37,7 +37,7 @@
       "name": "Mia",
       "date": "Sep 29, 2022",
       "avatar": "/images/mia.png",
-      "message": "bgnggjghj",
+      "message": "dvdvdv",
       "tick": "/images/tick.png"
     }
   ],
@@ -217,6 +217,39 @@
       "date": "9/29/22, 06:51 PM",
       "chuck": true,
       "id": 32
+    },
+    {
+      "comment": "fgbgfgb",
+      "date": "9/29/22, 06:55 PM",
+      "id": 33
+    },
+    {
+      "comment": "Chuck Norris can't rob a store, because everything on earth belongs to him!",
+      "date": "9/29/22, 06:55 PM",
+      "chuck": true,
+      "id": 34
+    },
+    {
+      "comment": "ffgfbgf",
+      "date": "9/29/22, 06:55 PM",
+      "id": 35
+    },
+    {
+      "comment": "Adobe Flash runs on Chuck Norris' iPhone.",
+      "date": "9/29/22, 06:55 PM",
+      "chuck": true,
+      "id": 36
+    },
+    {
+      "comment": "sdfdsvdsv",
+      "date": "9/29/22, 06:55 PM",
+      "id": 37
+    },
+    {
+      "comment": "The sun really shines on Chuck Norris. We just happen to live close enough to him.",
+      "date": "9/29/22, 06:55 PM",
+      "chuck": true,
+      "id": 38
     }
   ],
   "messagesFromBarrera": [
@@ -328,6 +361,28 @@
       "date": "9/29/22, 01:48 PM",
       "chuck": true,
       "id": 20
+    },
+    {
+      "comment": "Hello",
+      "date": "9/29/22, 06:56 PM",
+      "id": 21
+    },
+    {
+      "comment": "Chuck Norris won the Texas state lottery by turning in a bingo card.",
+      "date": "9/29/22, 06:56 PM",
+      "chuck": true,
+      "id": 22
+    },
+    {
+      "comment": "Df",
+      "date": "9/29/22, 06:56 PM",
+      "id": 23
+    },
+    {
+      "comment": "Chuck Norris was never aware of the filming of Walker Texas Ranger",
+      "date": "9/29/22, 06:56 PM",
+      "chuck": true,
+      "id": 24
     }
   ],
   "messagesFromSergio": [
@@ -1437,6 +1492,50 @@
       "date": "9/29/22, 06:49 PM",
       "chuck": true,
       "id": 31
+    },
+    {
+      "comment": "sdvdsvdv",
+      "date": "9/29/22, 06:55 PM",
+      "id": 32
+    },
+    {
+      "comment": "Few people are aware that the entire lead-in of the Iron Butterfly hit \"In-A-Gadda-Da-Vida\" was actually recorded solely by Chuck Norris playing a piccolo.",
+      "date": "9/29/22, 06:55 PM",
+      "chuck": true,
+      "id": 33
+    },
+    {
+      "comment": "dvdg",
+      "date": "9/29/22, 06:55 PM",
+      "id": 34
+    },
+    {
+      "comment": "Chuck Norris doesn't get crabs... he gets lobsters",
+      "date": "9/29/22, 06:55 PM",
+      "chuck": true,
+      "id": 35
+    },
+    {
+      "comment": "dsvsdv",
+      "date": "9/29/22, 06:56 PM",
+      "id": 36
+    },
+    {
+      "comment": "You must always pay attention while driving, in case you are distracted for a split second and Chuck Norris drop-kicks a midget through your windscreen",
+      "date": "9/29/22, 06:56 PM",
+      "chuck": true,
+      "id": 37
+    },
+    {
+      "comment": "dvdvdv",
+      "date": "9/29/22, 06:56 PM",
+      "id": 38
+    },
+    {
+      "comment": "Chuck Norris can teach his teachings to teach better.",
+      "date": "9/29/22, 06:56 PM",
+      "chuck": true,
+      "id": 39
     }
   ]
 }
