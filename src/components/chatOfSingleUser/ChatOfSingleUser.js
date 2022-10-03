@@ -25,7 +25,7 @@ const ChatOfSingleUser = ({ comment, date, avatar, chuck, scrollToBottom }) => {
         <div>
           <div
             className="userphoto"
-            style={chuck ? { display: "none" } : { display: "block" }}
+            style={chuck ? { display: "block" } : { display: "none" }}
           >
             <img src={avatar ? avatar : "/images/sergio.png"} alt="avatar" />
           </div>

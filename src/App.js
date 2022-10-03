@@ -25,10 +25,7 @@ function App() {
   const [messagesList, setMessagesList] = useState([]);
   const [newComment, setNewComment] = useState("");
   const [id, setId] = useState(2);
-  const [commentId, setCommentId] = useState("");
-
-  console.log(commentId);
-  console.log(messagesList);
+ 
 
   const onFilterChange = (e) => {
     setFilter(e.target.value.toLowerCase());
@@ -114,13 +111,15 @@ function App() {
 
   const onMessageValue = (e, newCommentId) => {
     setNewComment(e.target.value);
-    setCommentId(newCommentId);
+    // setCommentId(newCommentId);
   };
 
   const chuck = true;
 
-  let urlForPutLastMessage = "http://localhost:3001/users/" + id;
+  const urlForPutLastMessage = "http://localhost:3001/users/" + id;
+
   console.log(urlForPutLastMessage);
+
   const onSendMessage = (e) => {
     e.preventDefault();
     addComment(newUrl, timeForSingleChat, newComment);
@@ -173,7 +172,7 @@ function App() {
               time={timeForListOfUsers}
               getUserData={getUserData}
               newComment={newComment}
-              commentId={commentId}
+              // commentId={commentId}
             />
           </div>
           <div className="singlechat">

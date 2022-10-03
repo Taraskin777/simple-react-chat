@@ -15,7 +15,7 @@ const InputForSendMessage = ({
           <input
             type="text"
             placeholder="Type your message"
-            onChange={(e) => onMessageValue(e, id)}
+            onChange={onMessageValue}
             value={newComment}
           />
           <button className="sendmessage" type="submit"></button>

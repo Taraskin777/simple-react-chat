@@ -13,10 +13,8 @@ const SingleChat = ({
   newComment,
   getListOfMessage,
   scrollToBottom,
-  id
+  id,
 }) => {
-
-
   return (
     <div className="chat">
       <div className="userinfo">
