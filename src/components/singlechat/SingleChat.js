@@ -2,6 +2,8 @@ import React from "react";
 import ChatOfSingleUser from "../chatOfSingleUser/ChatOfSingleUser";
 import InputForSendMessage from "../inputForSendMessage/InputForSendMessage";
 import "./singlechat.css";
+import { useSelector } from "react-redux";
+import { comment } from "../../features/userData/userDataSlice";
 
 const SingleChat = ({
   name,
@@ -14,7 +16,10 @@ const SingleChat = ({
   scrollToBottom,
   id,
 }) => {
-  
+  const testComment = useSelector(comment);
+
+  console.log(testComment.newComment);
+
   console.count("single chat render");
 
   return (

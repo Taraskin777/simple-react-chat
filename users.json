@@ -5,15 +5,14 @@
       "name": "Alice Freeman",
       "date": "Apr 20, 2023",
       "avatar": "/images/alice.png",
-      "message": "dfbfdbfbfdbfdbfbffb",
-      "tick": "/images/tick.png"
+      "message": "dfbfdbfbfdbfdbfbffb"
     },
     {
       "id": 2,
       "name": "Sergio",
       "date": "Feb 22, 2024",
       "avatar": "/images/sergio.png",
-      "message": "ghghgh",
+      "message": "sddsd",
       "tick": "/images/tick.png"
     },
     {
@@ -21,24 +20,21 @@
       "name": "Velasqez",
       "date": "Feb 22, 2024",
       "avatar": "/images/velasqez.png",
-      "message": "kj;opiopppi",
-      "tick": "/images/tick.png"
+      "message": "kj;opiopppi"
     },
     {
       "id": 4,
       "name": "Barrera",
       "date": "Feb 22, 2024",
       "avatar": "/images/barera.png",
-      "message": "rtrttr",
-      "tick": "/images/tick.png"
+      "message": "rtrttr"
     },
     {
       "id": 5,
       "name": "Mia",
       "date": "May 4, 2023",
       "avatar": "/images/mia.png",
-      "message": "Як справи?",
-      "tick": "/images/tick.png"
+      "message": "Як справи?"
     }
   ],
   "messagesFromAlice": [
@@ -3609,6 +3605,17 @@
       "date": "2/22/24, 12:00 PM",
       "chuck": true,
       "id": 355
+    },
+    {
+      "comment": "sddsd",
+      "date": "2/22/24, 01:20 PM",
+      "id": 356
+    },
+    {
+      "comment": "Chuck Norris kills time. With two meat cleavers.",
+      "date": "2/22/24, 01:20 PM",
+      "chuck": true,
+      "id": 357
     }
   ],
   "messagesFromVelasqez": [
