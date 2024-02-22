@@ -13,10 +13,10 @@ import {
   addComment,
   chuckNorris,
   changeLastMessage,
-
 } from "./services/httpservices";
 
 import "./App.css";
+
 
 function App() {
   const [filter, setFilter] = useState([]);
@@ -25,7 +25,8 @@ function App() {
   const [messagesList, setMessagesList] = useState([]);
   const [newComment, setNewComment] = useState("");
   const [id, setId] = useState(2);
- 
+
+  console.count("app render");
 
   const onFilterChange = (e) => {
     setFilter(e.target.value.toLowerCase());
@@ -35,7 +36,6 @@ function App() {
     setName(name);
     setAvatar(avatar);
     setId(id);
-    // scrollToBottom("chatscroll");
   };
 
   const scrollToBottom = (id) => {
@@ -43,8 +43,6 @@ function App() {
     element.scrollTop = element.scrollHeight;
     console.log("scroll");
   };
-
-  // const date = new Date();
 
   const options1 = {
     year: "numeric",
@@ -66,8 +64,6 @@ function App() {
   };
 
   const timeForSingleChat = new Intl.DateTimeFormat("en-US", options2).format();
-
-  console.log(`Зараз у Львові ${timeForSingleChat}`);
 
   const searchUsers = (users, filter) => {
     if (filter.length === 0) {
@@ -109,9 +105,8 @@ function App() {
   //   console.log("use effect");
   // }, [newUrl]);
 
-  const onMessageValue = (e, newCommentId) => {
+  const onMessageValue = (e) => {
     setNewComment(e.target.value);
-    // setCommentId(newCommentId);
   };
 
   const chuck = true;
@@ -131,8 +126,8 @@ function App() {
       timeForListOfUsers,
       newComment,
       name
-    ).finally(() => {
-      setTimeout(() => {
+    ).then(() => {
+      const chuckTimer = setTimeout(() => {
         chuckNorris().then((data) => {
           addComment(newUrl, timeForSingleChat, data.value, chuck);
           setMessagesList((prevdata) => [
@@ -145,6 +140,7 @@ function App() {
             },
           ]);
         });
+        return clearInterval(chuckTimer);
       }, 3000);
       getListOfMessages(newUrl).then((data) => setMessagesList(data));
       setNewComment("");

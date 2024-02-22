@@ -11,9 +11,9 @@ const ChatOfSingleUser = ({ comment, date, avatar, chuck, scrollToBottom }) => {
 
   useEffect(()=>{
     scrollToBottom("chatscroll");
-  })
+  },[])
 
-  console.log('chat');
+  // console.log('render');
 
   return (
     <>

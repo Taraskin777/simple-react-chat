@@ -10,9 +10,9 @@ export const addComment = (toUser, date, comment, chuck) => {
   fetch(toUser, {
     method: "POST",
     body: JSON.stringify({
-      comment: comment,
-      date: date,
-      chuck: chuck,
+      comment,
+      date,
+      chuck,
     }),
     headers: {
       "Content-type": "application/json",
@@ -22,7 +22,6 @@ export const addComment = (toUser, date, comment, chuck) => {
       return response.json();
     })
     .then((data) => {
-      console.log(data);
       console.log(
         `${data.comment} має id ${data.id} і відправлено ${data.date}`
       );
@@ -41,12 +40,12 @@ export const changeLastMessage = async (
   await fetch(url, {
     method: "PUT",
     body: JSON.stringify({
-      id: id,
-      name: name,
-      date: date,
-      avatar: avatar,
+      id,
+      name,
+      date,
+      avatar,
       message: comment,
-      tick: tick,
+      tick,
     }),
     headers: {
       "Content-type": "application/json",
@@ -56,7 +55,6 @@ export const changeLastMessage = async (
       return response.json();
     })
     .then((data) => {
-      console.log(data);
     });
 };
 

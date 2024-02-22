@@ -7,7 +7,7 @@ const InputForSendMessage = ({
   newComment,
   id,
 }) => {
-  console.log(id);
+
   return (
     <>
       <div className="input-for-message">
@@ -15,6 +15,7 @@ const InputForSendMessage = ({
           <input
             type="text"
             placeholder="Type your message"
+            autoFocus
             onChange={onMessageValue}
             value={newComment}
           />

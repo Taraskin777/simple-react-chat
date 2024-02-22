@@ -1,7 +1,6 @@
 import React from "react";
 import ChatOfSingleUser from "../chatOfSingleUser/ChatOfSingleUser";
 import InputForSendMessage from "../inputForSendMessage/InputForSendMessage";
-// import { useEffect } from "react";
 import "./singlechat.css";
 
 const SingleChat = ({
@@ -15,6 +14,9 @@ const SingleChat = ({
   scrollToBottom,
   id,
 }) => {
+  
+  console.count("single chat render");
+
   return (
     <div className="chat">
       <div className="userinfo">
