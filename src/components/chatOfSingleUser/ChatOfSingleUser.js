@@ -1,19 +1,19 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import React from "react";
 import { useEffect } from "react";
+import { useSelector } from "react-redux";
+import { data } from "../../store/userDataSlice";
 import "./chatofsingleuser.css";
 
-const ChatOfSingleUser = ({ comment, date, avatar, chuck, scrollToBottom }) => {
-
+const ChatOfSingleUser = ({ comment, date, avatar, scrollToBottom, chuck }) => {
   const styleForChuck = {
     backgroundColor: "#696969",
     color: "white",
   };
 
-  useEffect(()=>{
+  useEffect(() => {
     scrollToBottom("chatscroll");
-  },[])
-
-  // console.log('render');
+  }, []);
 
   return (
     <>

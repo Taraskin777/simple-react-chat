@@ -3,7 +3,7 @@ import ChatOfSingleUser from "../chatOfSingleUser/ChatOfSingleUser";
 import InputForSendMessage from "../inputForSendMessage/InputForSendMessage";
 import "./singlechat.css";
 import { useSelector } from "react-redux";
-import { comment } from "../../features/userData/userDataSlice";
+import { data } from "../../store/userDataSlice";
 
 const SingleChat = ({
   name,
@@ -16,10 +16,6 @@ const SingleChat = ({
   scrollToBottom,
   id,
 }) => {
-  const testComment = useSelector(comment);
-
-  console.log(testComment.newComment);
-
   console.count("single chat render");
 
   return (
@@ -34,19 +30,18 @@ const SingleChat = ({
         <h2>{name ? name : "Sergio"}</h2>
       </div>
       <div className="single-chat-wrapper" id="chatscroll">
-        {messagesList.map(({ id, comment, date, chuck }) => (
+        {messagesList.map(({ id, comment, date , chuck}) => (
           <div key={id}>
             <ChatOfSingleUser
               comment={comment}
               date={date}
               avatar={avatar}
-              chuck={chuck}
               scrollToBottom={scrollToBottom}
+              chuck={chuck}
             />
           </div>
         ))}
       </div>
-
       <InputForSendMessage
         onMessageValue={onMessageValue}
         onSendMessage={onSendMessage}

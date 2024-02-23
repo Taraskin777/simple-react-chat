@@ -1,25 +1,24 @@
-import React from "react";
-import { useState, useEffect } from "react";
-import ChatPerson from "../chatPerson/ChatPerson";
+import React from 'react';
+import { useState, useEffect } from 'react';
+import ChatPerson from '../chatPerson/ChatPerson';
 
-import { sortedUsers, getUserList } from "../../services/httpservices";
+import { sortedUsers, getUserList } from '../../services/httpservices';
 
-import "./chats.css";
+import './chats.css';
 
-const Chats = ({ filter, searchUsers, getUserData, newComment }) => {
+const Chats = ({ searchName, searchUsers, getUserData, newComment }) => {
   const [usersData, setUsersData] = useState([]);
 
   useEffect(() => {
     getUserList(sortedUsers).then((data) => setUsersData(data));
   }, [newComment]);
-  
 
-  const filteredUsers = searchUsers(usersData, filter);
+  const filteredUsers = searchUsers(usersData, searchName);
 
   return (
     <div className="chats-wrapper">
       <h2 className="chats">Chats</h2>
-      
+
       {filteredUsers.length
         ? filteredUsers.map(({ id, date, name, avatar, message, tick }) => (
             <div key={id}>

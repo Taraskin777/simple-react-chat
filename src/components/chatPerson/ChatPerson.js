@@ -1,9 +1,8 @@
-import React from "react";
-import PropTypes from "prop-types";
-import "./chatperson.css";
+import React from 'react';
+import PropTypes from 'prop-types';
+import './chatperson.css';
 
 const ChatPerson = ({ name, date, avatar, message, getUserData, id }) => {
-  
   return (
     <div className="chatperson" onClick={() => getUserData(name, avatar, id)}>
       <div className="user-img">
@@ -28,7 +27,7 @@ ChatPerson.propTypes = {
   name: PropTypes.string.isRequired,
   date: PropTypes.string.isRequired,
   avatar: PropTypes.string.isRequired,
-  message: PropTypes.string,
+  message: PropTypes.string
 };
 
 export default ChatPerson;

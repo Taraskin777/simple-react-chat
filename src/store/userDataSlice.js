@@ -2,15 +2,19 @@ import { createSlice } from "@reduxjs/toolkit";
 
 const initialState = {
   newComment: "",
-  testComment: "New comment",
+  searchName: "",
+  chuck: true,
+  
 };
 
 export const userDataSlice = createSlice({
   name: "userData",
   initialState,
-  reducers: {},
+  reducers: {
+   
+  },
 });
 
-export const comment = () => initialState;
+export const data = () => initialState;
 
 export default userDataSlice.reducer;

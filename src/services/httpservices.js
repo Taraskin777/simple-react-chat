@@ -32,7 +32,6 @@ export const changeLastMessage = async (
   url,
   id,
   avatar,
-  tick,
   date,
   comment,
   name
@@ -45,7 +44,6 @@ export const changeLastMessage = async (
       date,
       avatar,
       message: comment,
-      tick,
     }),
     headers: {
       "Content-type": "application/json",
@@ -54,24 +52,29 @@ export const changeLastMessage = async (
     .then((response) => {
       return response.json();
     })
-    .then((data) => {
-    });
+    .then((data) => {});
 };
 
 export const getUserList = async (url) => {
   const response = await fetch(url);
-  const data = await response.json();
+  const data = await response.json().catch((err) => {
+    console.error(err);
+  });
   return data;
 };
 
 export const chuckNorris = async () => {
   const response = await fetch(jokes);
-  const data = await response.json();
+  const data = await response.json().catch((err) => {
+    console.error(err);
+  });
   return data;
 };
 
 export const getListOfMessages = async (url) => {
   const response = await fetch(url);
-  const data = await response.json();
+  const data = await response.json().catch((err) => {
+    console.error(err);
+  });
   return data;
 };

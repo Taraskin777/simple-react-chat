@@ -14,22 +14,25 @@ import {
   chuckNorris,
   changeLastMessage,
 } from "./services/httpservices";
+import { useSelector } from "react-redux";
+import { data } from "./store/userDataSlice";
 
 import "./App.css";
 
-
 function App() {
-  const [filter, setFilter] = useState([]);
+  const [searchName, setSearchName] = useState("");
   const [name, setName] = useState("Sergio");
   const [avatar, setAvatar] = useState("/images/sergio.png");
   const [messagesList, setMessagesList] = useState([]);
   const [newComment, setNewComment] = useState("");
   const [id, setId] = useState(2);
 
+  const { chuck } = useSelector(data);
+
   console.count("app render");
 
   const onFilterChange = (e) => {
-    setFilter(e.target.value.toLowerCase());
+    setSearchName(e.target.value.toLowerCase());
   };
 
   const getUserData = (name, avatar, id) => {
@@ -109,7 +112,7 @@ function App() {
     setNewComment(e.target.value);
   };
 
-  const chuck = true;
+  // const chuck = true;
 
   const urlForPutLastMessage = "http://localhost:3001/users/" + id;
 
@@ -117,12 +120,12 @@ function App() {
 
   const onSendMessage = (e) => {
     e.preventDefault();
-    addComment(newUrl, timeForSingleChat, newComment);
+    addComment(newUrl, timeForListOfUsers, newComment);
     changeLastMessage(
       urlForPutLastMessage,
       id,
       avatar,
-      "/images/tick.png",
+      // "/images/tick.png",
       timeForListOfUsers,
       newComment,
       name
@@ -148,7 +151,9 @@ function App() {
   };
 
   useEffect(() => {
-    getListOfMessages(newUrl).then((data) => setMessagesList(data));
+    getListOfMessages(newUrl)
+      .then((data) => setMessagesList(data))
+      .catch((error) => console.log(error));
   }, [newUrl, newComment]);
 
   return (
@@ -158,17 +163,16 @@ function App() {
           <div className="leftside">
             <Filter
               className="filter"
-              filter={filter}
+              filter={searchName}
               onFilterChange={onFilterChange}
             />
             <Chats
               className="chats"
-              filter={filter}
+              searchName={searchName}
               searchUsers={searchUsers}
               time={timeForListOfUsers}
               getUserData={getUserData}
               newComment={newComment}
-              // commentId={commentId}
             />
           </div>
           <div className="singlechat">
@@ -180,7 +184,6 @@ function App() {
               onSendMessage={onSendMessage}
               newComment={newComment}
               getListOfMessages={getListOfMessages}
-              chuck={chuck}
               scrollToBottom={scrollToBottom}
               id={id}
             />
