@@ -29,6 +29,8 @@ function App() {
 
   const { chuck } = useSelector(data);
 
+  const users = process.env.REACT_APP_USERS;
+
   console.count("app render");
 
   const onFilterChange = (e) => {
@@ -114,7 +116,7 @@ function App() {
 
   // const chuck = true;
 
-  const urlForPutLastMessage = "http://localhost:3001/users/" + id;
+  const urlForPutLastMessage = users + id;
 
   console.log(urlForPutLastMessage);
 

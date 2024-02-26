@@ -3,8 +3,8 @@ export const commentsToSergio = "http://localhost:3001/messagesFromSergio";
 export const commentsToBarrera = "http://localhost:3001/messagesFromBarrera";
 export const commentsToVelasqez = "http://localhost:3001/messagesFromVelasqez";
 export const commentsToMia = "http://localhost:3001/messagesFromMia";
-export const sortedUsers = "http://localhost:3001/users?_sort=date&_order=desc";
-const jokes = "https://api.chucknorris.io/jokes/random";
+export const sortedUsers = process.env.REACT_APP_SORTED_USERS;
+const jokes = process.env.REACT_APP_JOKES;
 
 export const addComment = (toUser, date, comment, chuck) => {
   fetch(toUser, {

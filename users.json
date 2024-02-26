@@ -3,23 +3,23 @@
     {
       "id": 1,
       "name": "Alice Freeman",
-      "date": "Feb 23, 2024",
+      "date": "Feb 26, 2024",
       "avatar": "/images/alice.png",
-      "message": "dfgdfg"
+      "message": "dfdfdf"
     },
     {
       "id": 2,
       "name": "Sergio",
-      "date": "Feb 23, 2024",
+      "date": "Feb 26, 2024",
       "avatar": "/images/sergio.png",
-      "message": "gdgfdgfgdgf"
+      "message": "sdfdsf"
     },
     {
       "id": 3,
       "name": "Velasqez",
-      "date": "Feb 22, 2024",
+      "date": "Feb 26, 2024",
       "avatar": "/images/velasqez.png",
-      "message": "kj;opiopppi"
+      "message": "hjjf"
     },
     {
       "id": 4,
@@ -41,6 +41,17 @@
       "comment": "Hello",
       "date": "9/22/22, 07:02 PM",
       "id": 1
+    },
+    {
+      "comment": "dfdfdf",
+      "date": "Feb 26, 2024",
+      "id": 2
+    },
+    {
+      "comment": "Chuck Norris can squeeze cream from a crop",
+      "date": "2/26/24, 11:23 AM",
+      "chuck": true,
+      "id": 3
     }
   ],
   "messagesFromBarrera": [
@@ -252,6 +263,33 @@
       "date": "2/23/24, 08:06 PM",
       "chuck": true,
       "id": 37
+    },
+    {
+      "comment": "sdsafsfd",
+      "date": "Feb 26, 2024",
+      "id": 38
+    },
+    {
+      "comment": "sdfdsf",
+      "date": "Feb 26, 2024",
+      "id": 39
+    },
+    {
+      "comment": "Chuck Norris survived Alderaan.",
+      "date": "2/26/24, 11:22 AM",
+      "chuck": true,
+      "id": 40
+    },
+    {
+      "comment": "sfsfdsf",
+      "date": "Feb 26, 2024",
+      "id": 41
+    },
+    {
+      "comment": "Chuck Norris does not live in a yellow submarine.",
+      "date": "2/26/24, 11:28 AM",
+      "chuck": true,
+      "id": 42
     }
   ],
   "messagesFromVelasqez": [
@@ -259,6 +297,39 @@
       "comment": "Hello!",
       "date": "9/22/22, 05:17 PM",
       "id": 1
+    },
+    {
+      "comment": "sfdsdf",
+      "date": "Feb 26, 2024",
+      "id": 2
+    },
+    {
+      "comment": "You can get up to half a million dollars on the black market if you possess an authentic Chuck Norris pube.",
+      "date": "2/26/24, 11:24 AM",
+      "chuck": true,
+      "id": 3
+    },
+    {
+      "comment": "sfdffdf",
+      "date": "Feb 26, 2024",
+      "id": 4
+    },
+    {
+      "comment": "Chuck Norris' left buttocks can bench press 537 pounds while his right buttocks picks his nose.",
+      "date": "2/26/24, 11:24 AM",
+      "chuck": true,
+      "id": 5
+    },
+    {
+      "comment": "hjjf",
+      "date": "Feb 26, 2024",
+      "id": 6
+    },
+    {
+      "comment": "The buck stops at Chuck Norris.",
+      "date": "2/26/24, 11:24 AM",
+      "chuck": true,
+      "id": 7
     }
   ],
   "messagesFromMia": [
