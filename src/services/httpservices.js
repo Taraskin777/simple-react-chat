@@ -4,6 +4,7 @@ export const commentsToBarrera = "http://localhost:3001/messagesFromBarrera";
 export const commentsToVelasqez = "http://localhost:3001/messagesFromVelasqez";
 export const commentsToMia = "http://localhost:3001/messagesFromMia";
 export const sortedUsers = process.env.REACT_APP_SORTED_USERS;
+
 const jokes = process.env.REACT_APP_JOKES;
 
 export const addComment = (toUser, date, comment, chuck) => {

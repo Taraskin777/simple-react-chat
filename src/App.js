@@ -30,6 +30,7 @@ function App() {
   const { chuck } = useSelector(data);
 
   const users = process.env.REACT_APP_USERS;
+  const messageFromUser = process.env.REACT_APP_MESSAGES;
 
   console.count("app render");
 
@@ -153,6 +154,7 @@ function App() {
   };
 
   useEffect(() => {
+    // getListOfMessages(`${messageFromUser}${id}`)
     getListOfMessages(newUrl)
       .then((data) => setMessagesList(data))
       .catch((error) => console.log(error));
