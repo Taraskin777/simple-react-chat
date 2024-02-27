@@ -16,7 +16,7 @@ const SingleChat = ({
   scrollToBottom,
   id,
 }) => {
-  console.count("single chat render");
+  // console.count("single chat render");
 
   return (
     <div className="chat">

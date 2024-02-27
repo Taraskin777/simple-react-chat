@@ -3,314 +3,830 @@
     {
       "id": 1,
       "name": "Alice Freeman",
-      "date": "Feb 26, 2024",
+      "date": "Feb 27, 2024",
       "avatar": "/images/alice.png",
-      "message": "dfdfdf"
+      "message": "роропро"
     },
     {
       "id": 2,
       "name": "Sergio",
-      "date": "Feb 26, 2024",
+      "date": "Feb 27, 2024",
       "avatar": "/images/sergio.png",
-      "message": "sdfdsf"
+      "message": "dfsdfsdf"
     },
     {
       "id": 3,
       "name": "Velasqez",
-      "date": "Feb 26, 2024",
+      "date": "Feb 27, 2024",
       "avatar": "/images/velasqez.png",
-      "message": "hjjf"
+      "message": "dfdvdv"
     },
     {
       "id": 4,
       "name": "Barrera",
-      "date": "Feb 22, 2024",
+      "date": "Feb 27, 2024",
       "avatar": "/images/barera.png",
-      "message": "rtrttr"
+      "message": "ftytyty"
     },
     {
       "id": 5,
       "name": "Mia",
-      "date": "Feb 23, 2024",
+      "date": "Feb 27, 2024",
       "avatar": "/images/mia.png",
-      "message": "dgdfdfg"
-    }
-  ],
-  "messagesFromAlice": [
-    {
-      "comment": "Hello",
-      "date": "9/22/22, 07:02 PM",
-      "id": 1
-    },
-    {
-      "comment": "dfdfdf",
-      "date": "Feb 26, 2024",
-      "id": 2
-    },
-    {
-      "comment": "Chuck Norris can squeeze cream from a crop",
-      "date": "2/26/24, 11:23 AM",
-      "chuck": true,
-      "id": 3
-    },
-    {
-      "comment": "sdsdsd",
-      "date": "Feb 26, 2024",
-      "id": 4
-    },
-    {
-      "comment": "Chuck Norris found 1000 mini nukes and 1 Fat Man after leaving his vault.",
-      "date": "2/26/24, 09:15 PM",
-      "chuck": true,
-      "id": 5
-    },
-    {
-      "comment": "sdsd",
-      "date": "Feb 26, 2024",
-      "id": 6
-    },
-    {
-      "comment": "Chuck Norris can chug a 2 litter bottle of rootbeer in o.oooooooooooooooooooooo.01 of a second. Try to beat that!!!!",
-      "date": "2/26/24, 09:21 PM",
-      "chuck": true,
-      "id": 7
-    },
-    {
-      "comment": "sdsd",
-      "date": "Feb 26, 2024",
-      "id": 8
-    },
-    {
-      "comment": "Hitler killed himself because he got a death threat from Chuck Norris",
-      "date": "2/26/24, 09:35 PM",
-      "chuck": true,
-      "id": 9
-    }
-  ],
-  "messagesFromBarrera": [
-    {
-      "comment": "fsdfds",
-      "date": "9/22/22, 05:23 PM",
-      "id": 1
-    },
-    {
-      "comment": "dfdfdfg",
-      "date": "Feb 26, 2024",
-      "id": 2
-    },
-    {
-      "comment": "Chuck Norris once entered a drinking contest and one by drink everything in 1 second",
-      "date": "2/26/24, 11:29 AM",
-      "chuck": true,
-      "id": 3
-    },
-    {
-      "comment": "sdsds",
-      "date": "Feb 26, 2024",
-      "id": 4
-    },
-    {
-      "comment": "Chuck Norris once went to Sea World, and wrestled an orca to death.",
-      "date": "2/26/24, 09:18 PM",
-      "chuck": true,
-      "id": 5
-    },
-    {
-      "comment": "sdsd",
-      "date": "Feb 26, 2024",
-      "id": 6
-    },
-    {
-      "comment": "The world was a cube. Until Chuck Norris got there!",
-      "date": "2/26/24, 09:18 PM",
-      "chuck": true,
-      "id": 7
-    },
-    {
-      "comment": "sdsdsd",
-      "date": "Feb 26, 2024",
-      "id": 8
-    },
-    {
-      "comment": "Everytime Chuck Norris lands on a property in a game of monopoly he gets paid",
-      "date": "2/26/24, 09:35 PM",
-      "chuck": true,
-      "id": 9
-    }
-  ],
-  "messagesFromSergio": [
-    {
-      "comment": "Привіт!",
-      "date": "9/22/22, 05:15 PM",
-      "id": 1
-    },
-    {
-      "comment": "fdgfdgg",
-      "date": "2/23/24, 06:29 PM",
-      "id": 2
-    },
-    {
-      "comment": "Chuck Norris's Piss can be used as a preworkout!",
-      "date": "2/23/24, 06:29 PM",
-      "chuck": true,
-      "id": 3
-    },
-    {
-      "comment": "fdfdffd",
-      "date": "Feb 26, 2024",
-      "id": 4
-    },
-    {
-      "comment": "There is a light at the end of every tunnel, just pray it's not the frieght train called Chuck Norris.",
-      "date": "2/26/24, 09:32 PM",
-      "chuck": true,
-      "id": 5
-    },
-    {
-      "comment": "sdfdsf",
-      "date": "Feb 26, 2024",
-      "id": 6
-    },
-    {
-      "comment": "Jesus Walked on water. Chuck Norris Swam on land",
-      "date": "2/26/24, 09:40 PM",
-      "chuck": true,
-      "id": 7
-    },
-    {
-      "comment": "sdsdsd",
-      "date": "Feb 26, 2024",
-      "id": 8
-    },
-    {
-      "comment": "Chuck Norris doesnt play by the rules. the rules play by Chuck Norris",
-      "date": "2/26/24, 09:40 PM",
-      "chuck": true,
-      "id": 9
-    }
-  ],
-  "messagesFromVelasqez": [
-    {
-      "comment": "Hello!",
-      "date": "9/22/22, 05:17 PM",
-      "id": 1
-    },
-    {
-      "comment": "sdsd",
-      "date": "Feb 26, 2024",
-      "id": 2
-    },
-    {
-      "comment": "Bono cant find what he is looking for because Chuck Norris found it first",
-      "date": "2/26/24, 09:35 PM",
-      "chuck": true,
-      "id": 3
-    }
-  ],
-  "messagesFromMia": [
-    {
-      "comment": "xcxv",
-      "date": "9/22/22, 05:19 PM",
-      "id": 1
-    },
-    {
-      "comment": "Contrary to popular belief, the first Thanksgiving was actually celebrated in 34,587 B.C. after an ancestor of Chuck Norris stabbed to death a Teradactyl that was attacking Fred Flintstone.",
-      "date": "2/23/24, 07:31 PM",
-      "chuck": true,
-      "id": 3
-    },
-    {
-      "comment": "dsdsd",
-      "date": "Feb 26, 2024",
-      "id": 4
-    },
-    {
-      "comment": "Chuck Norris tells The Fonz to sit on it.",
-      "date": "2/26/24, 09:14 PM",
-      "chuck": true,
-      "id": 5
-    },
-    {
-      "comment": "dsd",
-      "date": "Feb 26, 2024",
-      "id": 6
-    },
-    {
-      "comment": "dsd",
-      "date": "Feb 26, 2024",
-      "id": 7
-    },
-    {
-      "comment": "'Deja Vu' is when nature replays, for the benefit of someone, what Chuck Norris did too quickly for his memory to correctly register",
-      "date": "2/26/24, 09:14 PM",
-      "chuck": true,
-      "id": 8
-    },
-    {
-      "comment": "Sasquatch once found a Chuck Norris footprint.",
-      "date": "2/26/24, 09:14 PM",
-      "chuck": true,
-      "id": 9
-    },
-    {
-      "comment": "sdsdsd",
-      "date": "Feb 26, 2024",
-      "id": 10
-    },
-    {
-      "comment": "The original title for Alien vs Predator used to be called Alien vs Chuck Norris. But no one wanted to pay $7.50 for a 10 second movie",
-      "date": "2/26/24, 09:35 PM",
-      "chuck": true,
-      "id": 11
-    },
-    {
-      "comment": "dsfdf",
-      "date": "Feb 26, 2024",
-      "id": 12
-    },
-    {
-      "comment": "when Chuck Norris went to see Santa as a kid, Santa pulled Chuck Norris' beard to see if it was real.",
-      "date": "2/26/24, 09:40 PM",
-      "chuck": true,
-      "id": 13
+      "message": "іавіва"
     }
   ],
   "messages": [
     {
-      "comment": "Hello",
-      "date": "9/22/22, 07:02 PM",
-      "id": 1,
-      "userId": 1
+      "comment": "Привіт!",
+      "date": "2/27/24, 05:46 PM",
+      "chuck": false,
+      "userId": 2,
+      "id": 1
     },
     {
-      "comment": "Hello",
-      "date": "9/22/22, 07:02 PM",
-      "id": 2,
-      "userId": 2
+      "comment": "Chuck Norris buries the hatchet... in the back of your head.",
+      "date": "2/27/24, 05:46 PM",
+      "chuck": true,
+      "userId": 2,
+      "id": 2
     },
     {
-      "comment": "Hello",
-      "date": "9/22/22, 07:02 PM",
-      "id": 3,
-      "userId": 3
+      "comment": "Як справи?",
+      "date": "2/27/24, 05:47 PM",
+      "chuck": false,
+      "userId": 1,
+      "id": 3
     },
     {
-      "comment": "Hello New User!",
-      "date": "9/22/22, 07:02 PM",
-      "id": 4,
-      "userId": 4
+      "comment": "Chuck Norris has a special stare that turns goat crap into gasoline",
+      "date": "2/27/24, 05:47 PM",
+      "chuck": true,
+      "userId": 1,
+      "id": 4
     },
     {
-      "comment": "Hello New User!",
-      "date": "9/22/22, 07:02 PM",
-      "id": 5,
-      "userId": 4
+      "comment": "Привіт",
+      "date": "2/27/24, 05:53 PM",
+      "chuck": false,
+      "userId": 3,
+      "id": 5
     },
     {
-      "comment": "Hello New User!",
-      "date": "9/22/22, 07:02 PM",
-      "id": 5,
-      "userId": 5
+      "comment": "The only time Chuck Norris was ever beaten was in a fictional movie, Way Of The Dragon, by Bruce Lee. Both Lee and his son Brandon would later die in mysterious curcumstances. This is not a motherfucking coincidence.",
+      "date": "2/27/24, 05:53 PM",
+      "chuck": true,
+      "userId": 3,
+      "id": 6
+    },
+    {
+      "comment": "як справи?",
+      "date": "2/27/24, 05:54 PM",
+      "chuck": false,
+      "userId": 3,
+      "id": 7
+    },
+    {
+      "comment": "як справи?",
+      "date": "2/27/24, 05:56 PM",
+      "chuck": false,
+      "userId": 2,
+      "id": 8
+    },
+    {
+      "comment": "Chuck Norris is, in theory, banned from visiting Greenland as his body heat will melt the glaciers. I say 'in theory' because nobody can fucking ban Chuck Norris from anywhere. It's just lucky that Chuck don't give a shit about Greenland.",
+      "date": "2/27/24, 05:56 PM",
+      "chuck": true,
+      "userId": 2,
+      "id": 9
+    },
+    {
+      "comment": "Привіт!",
+      "date": "2/27/24, 05:57 PM",
+      "chuck": false,
+      "userId": 5,
+      "id": 10
+    },
+    {
+      "comment": "There is a portal in Chuck Norris' beard that opens to Mr. T's mohawk.",
+      "date": "2/27/24, 05:57 PM",
+      "chuck": true,
+      "userId": 5,
+      "id": 11
+    },
+    {
+      "comment": "папапап",
+      "date": "2/27/24, 05:58 PM",
+      "chuck": false,
+      "userId": 5,
+      "id": 12
+    },
+    {
+      "comment": "One time while sparring with Wolverine, Chuck Norris accidentally lost his left testicle. You might be familiar with it to this very day by its technical term: Jupiter.",
+      "date": "2/27/24, 05:58 PM",
+      "chuck": true,
+      "userId": 5,
+      "id": 13
+    },
+    {
+      "comment": "івіавпаиаиа ",
+      "date": "2/27/24, 05:58 PM",
+      "chuck": false,
+      "userId": 5,
+      "id": 14
+    },
+    {
+      "comment": "віаіва",
+      "date": "2/27/24, 06:04 PM",
+      "chuck": false,
+      "userId": 2,
+      "id": 15
+    },
+    {
+      "comment": "Chuck Norris goes to the Dentist to get a tooth extracted. The Dentist ask do you want gas or a shot ? Chuck Norris answers your gonna need both. Moments after the procedure the Dentist(with blured vision and sore rectum)observes Chuck Norris slowly getting dressed.",
+      "date": "2/27/24, 06:04 PM",
+      "chuck": true,
+      "userId": 2,
+      "id": 16
+    },
+    {
+      "comment": "іваіваук",
+      "date": "2/27/24, 06:04 PM",
+      "chuck": false,
+      "userId": 2,
+      "id": 17
+    },
+    {
+      "comment": "Chuck Norris bungee jumps with an anchor chain.",
+      "date": "2/27/24, 06:04 PM",
+      "chuck": true,
+      "userId": 2,
+      "id": 18
+    },
+    {
+      "comment": "вавава",
+      "date": "2/27/24, 06:04 PM",
+      "chuck": false,
+      "userId": 2,
+      "id": 19
+    },
+    {
+      "comment": "Chuck Norris keeps his black belt tied in a bow around his wang.",
+      "date": "2/27/24, 06:04 PM",
+      "chuck": true,
+      "userId": 2,
+      "id": 20
+    },
+    {
+      "comment": "вавава",
+      "date": "2/27/24, 06:04 PM",
+      "chuck": false,
+      "userId": 2,
+      "id": 21
+    },
+    {
+      "comment": "children check under their beds and in there closets for the boogeyman but the boogeyman checks under his bed and in his closet for Chuck Norris.",
+      "date": "2/27/24, 06:04 PM",
+      "chuck": true,
+      "userId": 2,
+      "id": 22
+    },
+    {
+      "comment": "вавава",
+      "date": "2/27/24, 06:05 PM",
+      "chuck": false,
+      "userId": 3,
+      "id": 23
+    },
+    {
+      "comment": "Tom Brady can throw a football 60 yards. Chuck Norris can throw Tom Brady five times farther.",
+      "date": "2/27/24, 06:05 PM",
+      "chuck": true,
+      "userId": 3,
+      "id": 24
+    },
+    {
+      "comment": "вавава",
+      "date": "2/27/24, 06:05 PM",
+      "chuck": false,
+      "userId": 5,
+      "id": 25
+    },
+    {
+      "comment": "Chuck Norris has decided to start taking Square Dance lessons. He's tired of tap dancing on peoples faces.",
+      "date": "2/27/24, 06:05 PM",
+      "chuck": true,
+      "userId": 5,
+      "id": 26
+    },
+    {
+      "comment": "вававіа",
+      "date": "2/27/24, 06:05 PM",
+      "chuck": false,
+      "userId": 4,
+      "id": 27
+    },
+    {
+      "comment": "Mr T once beat Chuck Norris in a game of Tic-Tac-Toe, In retalation, Chuck Norris invented racism",
+      "date": "2/27/24, 06:05 PM",
+      "chuck": true,
+      "userId": 4,
+      "id": 28
+    },
+    {
+      "comment": "роропро",
+      "date": "2/27/24, 06:05 PM",
+      "chuck": false,
+      "userId": 1,
+      "id": 29
+    },
+    {
+      "comment": "Chuck Norris does not sleep. He waits.",
+      "date": "2/27/24, 06:05 PM",
+      "chuck": true,
+      "userId": 1,
+      "id": 30
+    },
+    {
+      "comment": "івавіа",
+      "date": "2/27/24, 06:06 PM",
+      "chuck": false,
+      "userId": 2,
+      "id": 31
+    },
+    {
+      "comment": "Chuck Norris entered the dragon from behind",
+      "date": "2/27/24, 06:06 PM",
+      "chuck": true,
+      "userId": 2,
+      "id": 32
+    },
+    {
+      "comment": "еннгнегнг",
+      "date": "2/27/24, 06:06 PM",
+      "chuck": false,
+      "userId": 2,
+      "id": 33
+    },
+    {
+      "comment": "Ironically, Chuck Norris once drowned an elephant in a 5,000 gallon vat of peanut oil.",
+      "date": "2/27/24, 06:06 PM",
+      "chuck": true,
+      "userId": 2,
+      "id": 34
+    },
+    {
+      "comment": "Привіт",
+      "date": "2/27/24, 06:06 PM",
+      "chuck": false,
+      "userId": 4,
+      "id": 35
+    },
+    {
+      "comment": "the first thing Chuck Norris said wen he was born was ..... i hate corey",
+      "date": "2/27/24, 06:06 PM",
+      "chuck": true,
+      "userId": 4,
+      "id": 36
+    },
+    {
+      "comment": "sfdsf",
+      "date": "2/27/24, 06:10 PM",
+      "chuck": false,
+      "userId": 2,
+      "id": 37
+    },
+    {
+      "comment": "\"Elect Chuck Norris for Pope\".",
+      "date": "2/27/24, 06:10 PM",
+      "chuck": true,
+      "userId": 2,
+      "id": 38
+    },
+    {
+      "comment": "fhfghfgh",
+      "date": "2/27/24, 06:10 PM",
+      "chuck": false,
+      "userId": 4,
+      "id": 39
+    },
+    {
+      "comment": "tytghfghfghgh",
+      "date": "2/27/24, 06:11 PM",
+      "chuck": false,
+      "userId": 2,
+      "id": 40
+    },
+    {
+      "comment": "Chuck Norris was vacationing in Spain and decided to participate in a bullfight. Chuck was disqualified because he didn't realize he wasn't supposed to knock the bull out.",
+      "date": "2/27/24, 06:11 PM",
+      "chuck": true,
+      "userId": 2,
+      "id": 41
+    },
+    {
+      "comment": "ssdsfsf",
+      "date": "2/27/24, 06:11 PM",
+      "chuck": false,
+      "userId": 4,
+      "id": 42
+    },
+    {
+      "comment": "Chuck Norris can cut someone in half.....by just looking at you.",
+      "date": "2/27/24, 06:11 PM",
+      "chuck": true,
+      "userId": 4,
+      "id": 43
+    },
+    {
+      "comment": "fdghfdhfh",
+      "date": "2/27/24, 06:11 PM",
+      "chuck": false,
+      "userId": 5,
+      "id": 44
+    },
+    {
+      "comment": "When Chuck Norris plays monopoly he doesn't pay to get a property.",
+      "date": "2/27/24, 06:11 PM",
+      "chuck": true,
+      "userId": 5,
+      "id": 45
+    },
+    {
+      "comment": "sdfdsfdf",
+      "date": "2/27/24, 06:13 PM",
+      "chuck": false,
+      "userId": 2,
+      "id": 46
+    },
+    {
+      "comment": "Jesus weeps. Chuck Norris doesn't.",
+      "date": "2/27/24, 06:13 PM",
+      "chuck": true,
+      "userId": 2,
+      "id": 47
+    },
+    {
+      "comment": "ggnhn",
+      "date": "2/27/24, 06:13 PM",
+      "chuck": false,
+      "userId": 2,
+      "id": 48
+    },
+    {
+      "comment": "dfdfdf",
+      "date": "2/27/24, 06:14 PM",
+      "chuck": false,
+      "userId": 2,
+      "id": 49
+    },
+    {
+      "comment": "Chuck Norris performs colonoscopies on himself.",
+      "date": "2/27/24, 06:14 PM",
+      "chuck": true,
+      "userId": 2,
+      "id": 50
+    },
+    {
+      "comment": "rrttrtrtyty",
+      "date": "2/27/24, 06:14 PM",
+      "chuck": false,
+      "userId": 2,
+      "id": 51
+    },
+    {
+      "comment": "The dildo was invented so every woman could experience the closest thing to sex with Chuck Norris they could get.",
+      "date": "2/27/24, 06:14 PM",
+      "chuck": true,
+      "userId": 2,
+      "id": 52
+    },
+    {
+      "comment": "bnbnbnbn",
+      "date": "2/27/24, 06:14 PM",
+      "chuck": false,
+      "userId": 2,
+      "id": 53
+    },
+    {
+      "comment": "King Canute failed when he tried to make the ocean waves obey him. Chuck Norris succeeded.",
+      "date": "2/27/24, 06:14 PM",
+      "chuck": true,
+      "userId": 2,
+      "id": 54
+    },
+    {
+      "comment": "uiuiuui",
+      "date": "2/27/24, 06:14 PM",
+      "chuck": false,
+      "userId": 2,
+      "id": 55
+    },
+    {
+      "comment": "WHERE DID THE TERMINATEOR GO WHEN HE SAID HIS FAMOUS WORDS \"I BE BACK\"? HE WENT TO FETCH CHUCK NORRIS",
+      "date": "2/27/24, 06:14 PM",
+      "chuck": true,
+      "userId": 2,
+      "id": 56
+    },
+    {
+      "comment": "ssdsdsd",
+      "date": "2/27/24, 06:14 PM",
+      "chuck": false,
+      "userId": 2,
+      "id": 57
+    },
+    {
+      "comment": "Chuck Norris once downloaded the entire Internet",
+      "date": "2/27/24, 06:14 PM",
+      "chuck": true,
+      "userId": 2,
+      "id": 58
+    },
+    {
+      "comment": "eeretryt",
+      "date": "2/27/24, 06:14 PM",
+      "chuck": false,
+      "userId": 2,
+      "id": 59
+    },
+    {
+      "comment": "Chuck Norris can bring a gun to a lightsaber duel",
+      "date": "2/27/24, 06:14 PM",
+      "chuck": true,
+      "userId": 2,
+      "id": 60
+    },
+    {
+      "comment": "gnyhgmuu,i",
+      "date": "2/27/24, 06:14 PM",
+      "chuck": false,
+      "userId": 2,
+      "id": 61
+    },
+    {
+      "comment": "Chuck Norris was bitten by a Zombie. Shortly thereafter, the Zombie displayed greatly increased muscle mass and some serious bad-ass tendencies.",
+      "date": "2/27/24, 06:14 PM",
+      "chuck": true,
+      "userId": 2,
+      "id": 62
+    },
+    {
+      "comment": "dfdsfsfsefr",
+      "date": "2/27/24, 06:14 PM",
+      "chuck": false,
+      "userId": 2,
+      "id": 63
+    },
+    {
+      "comment": "Chuck Norris does not age. Every birthday, it's just another year added to his existence, which sucks for you.",
+      "date": "2/27/24, 06:14 PM",
+      "chuck": true,
+      "userId": 2,
+      "id": 64
+    },
+    {
+      "comment": "cxvsdfeesgsd",
+      "date": "2/27/24, 06:14 PM",
+      "chuck": false,
+      "userId": 2,
+      "id": 65
+    },
+    {
+      "comment": "ChuCk Norris looks better of facebook..",
+      "date": "2/27/24, 06:14 PM",
+      "chuck": true,
+      "userId": 2,
+      "id": 66
+    },
+    {
+      "comment": "yuytuyytu",
+      "date": "2/27/24, 06:14 PM",
+      "chuck": false,
+      "userId": 4,
+      "id": 67
+    },
+    {
+      "comment": "івавіа",
+      "date": "2/27/24, 06:17 PM",
+      "chuck": false,
+      "userId": 2,
+      "id": 68
+    },
+    {
+      "comment": "Chuck Norris scratches his nuts with a cheese grater.",
+      "date": "2/27/24, 06:17 PM",
+      "chuck": true,
+      "userId": 2,
+      "id": 69
+    },
+    {
+      "comment": "цуцуцу",
+      "date": "2/27/24, 06:17 PM",
+      "chuck": false,
+      "userId": 2,
+      "id": 70
+    },
+    {
+      "comment": "Chuck Norris isn't as tuff as everyone says. What was that? It just sounded like someone kicked my door down.",
+      "date": "2/27/24, 06:17 PM",
+      "chuck": true,
+      "userId": 2,
+      "id": 71
+    },
+    {
+      "comment": "ghghghh",
+      "date": "2/27/24, 06:17 PM",
+      "chuck": false,
+      "userId": 5,
+      "id": 72
+    },
+    {
+      "comment": "If God knows all, sees all, and hears all, then God must be Chuck Norris.",
+      "date": "2/27/24, 06:17 PM",
+      "chuck": true,
+      "userId": 5,
+      "id": 73
+    },
+    {
+      "comment": "tytyt",
+      "date": "2/27/24, 06:17 PM",
+      "chuck": false,
+      "userId": 5,
+      "id": 74
+    },
+    {
+      "comment": "Chuck Norris can recline and swivel on a bar stool.",
+      "date": "2/27/24, 06:17 PM",
+      "chuck": true,
+      "userId": 5,
+      "id": 75
+    },
+    {
+      "comment": "ghgfhfgfgh",
+      "date": "2/27/24, 06:17 PM",
+      "chuck": false,
+      "userId": 5,
+      "id": 76
+    },
+    {
+      "comment": "Osama, Gaddhafi, and Kim Jong IL, died in 2011 because they forgot to pay tribute to CHUCK NORRIS!",
+      "date": "2/27/24, 06:17 PM",
+      "chuck": true,
+      "userId": 5,
+      "id": 77
+    },
+    {
+      "comment": "ftytyty",
+      "date": "2/27/24, 06:17 PM",
+      "chuck": false,
+      "userId": 4,
+      "id": 78
+    },
+    {
+      "comment": "God created the world in 7 days, Chuck Norris created the rest of the universe in one.",
+      "date": "2/27/24, 06:17 PM",
+      "chuck": true,
+      "userId": 4,
+      "id": 79
+    },
+    {
+      "comment": "іфаіаіва",
+      "date": "2/27/24, 06:37 PM",
+      "chuck": false,
+      "userId": 2,
+      "id": 80
+    },
+    {
+      "comment": "апавпапвапп",
+      "date": "2/27/24, 06:41 PM",
+      "chuck": false,
+      "userId": 2,
+      "id": 81
+    },
+    {
+      "comment": "When Chuck Norris smiles, someone dies. When he's smiling while roundhouse kicking someone, then two people die.",
+      "date": "2/27/24, 06:41 PM",
+      "chuck": true,
+      "userId": 2,
+      "id": 82
+    },
+    {
+      "comment": "іваіваіва",
+      "date": "2/27/24, 06:41 PM",
+      "chuck": false,
+      "userId": 2,
+      "id": 83
+    },
+    {
+      "comment": "Chuck Norris doesn't relieve himself in the bathroom.... He scares the poop away.",
+      "date": "2/27/24, 06:41 PM",
+      "chuck": true,
+      "userId": 2,
+      "id": 84
+    },
+    {
+      "comment": "итьтиьить",
+      "date": "2/27/24, 06:41 PM",
+      "chuck": false,
+      "userId": 2,
+      "id": 85
+    },
+    {
+      "comment": "Deccember 23, 2012 is not the end of the world. It is either the day Chuck Norris dies or become president.",
+      "date": "2/27/24, 06:41 PM",
+      "chuck": true,
+      "userId": 2,
+      "id": 86
+    },
+    {
+      "comment": "кккекеке",
+      "date": "2/27/24, 06:41 PM",
+      "chuck": false,
+      "userId": 2,
+      "id": 87
+    },
+    {
+      "comment": "іваіваіва",
+      "date": "2/27/24, 06:44 PM",
+      "chuck": false,
+      "userId": 3,
+      "id": 88
+    },
+    {
+      "comment": "Chuck Norris never 'attends' parties. He is the party.",
+      "date": "2/27/24, 06:44 PM",
+      "chuck": true,
+      "userId": 3,
+      "id": 89
+    },
+    {
+      "comment": "іавіва",
+      "date": "2/27/24, 06:44 PM",
+      "chuck": false,
+      "userId": 5,
+      "id": 90
+    },
+    {
+      "comment": "ghrjwgdfnbjkgdnkshx sorry Chuck Norris is informing me that the universe stared 13 billion years ago fgvhlfjdunhedhgsejkwxbwgdjh",
+      "date": "2/27/24, 06:44 PM",
+      "chuck": true,
+      "userId": 5,
+      "id": 91
+    },
+    {
+      "comment": "sdfdsfdf",
+      "date": "2/27/24, 06:45 PM",
+      "chuck": false,
+      "userId": 2,
+      "id": 92
+    },
+    {
+      "comment": "Chuck Norris sells weapons-grade plutonium to school kids.",
+      "date": "2/27/24, 06:45 PM",
+      "chuck": true,
+      "userId": 2,
+      "id": 93
+    },
+    {
+      "comment": "dsfsdfdfdfgdg",
+      "date": "2/27/24, 06:45 PM",
+      "chuck": false,
+      "userId": 2,
+      "id": 94
+    },
+    {
+      "comment": "Any conservitive estimate of the amount of presents Chuck Norris has received each year for Christmas is still in the billions.",
+      "date": "2/27/24, 06:45 PM",
+      "chuck": true,
+      "userId": 2,
+      "id": 95
+    },
+    {
+      "comment": "dfsdfsdf",
+      "date": "2/27/24, 06:56 PM",
+      "chuck": false,
+      "userId": 2,
+      "id": 96
+    },
+    {
+      "comment": "Chuck Norris was NOT born he willed himself into exsistance.",
+      "date": "2/27/24, 06:56 PM",
+      "chuck": true,
+      "userId": 2,
+      "id": 97
+    },
+    {
+      "comment": "dfsdfsdf",
+      "date": "2/27/24, 06:56 PM",
+      "chuck": false,
+      "userId": 2,
+      "id": 98
+    },
+    {
+      "comment": "I KILLED CHUCK NORRIS! lol just kidding, Chuck Norris killed me.",
+      "date": "2/27/24, 06:56 PM",
+      "chuck": true,
+      "userId": 2,
+      "id": 99
+    },
+    {
+      "comment": "dsfsdfdf",
+      "date": "2/27/24, 06:56 PM",
+      "chuck": false,
+      "userId": 3,
+      "id": 100
+    },
+    {
+      "comment": "Chuck Norris' father is Chuck Norris, his mother is America, his brother is freedom and his other brother is Sam... Sam Norris. Chuck Norris loves his family dearly, except for Sam, that is why Sam no longer exists.",
+      "date": "2/27/24, 06:56 PM",
+      "chuck": true,
+      "userId": 3,
+      "id": 101
+    },
+    {
+      "comment": "ererer",
+      "date": "2/27/24, 06:56 PM",
+      "chuck": false,
+      "userId": 3,
+      "id": 102
+    },
+    {
+      "comment": "It should go without saying, but it still bears repeating: don't knock on Chuck Norris' door on Halloween.",
+      "date": "2/27/24, 06:56 PM",
+      "chuck": true,
+      "userId": 3,
+      "id": 103
+    },
+    {
+      "comment": "vcbvcbcvb",
+      "date": "2/27/24, 06:56 PM",
+      "chuck": false,
+      "userId": 3,
+      "id": 104
+    },
+    {
+      "comment": "Chuck Norris doesn't play God of War. He is the God of War.",
+      "date": "2/27/24, 06:56 PM",
+      "chuck": true,
+      "userId": 3,
+      "id": 105
+    },
+    {
+      "comment": "qwqw",
+      "date": "2/27/24, 06:56 PM",
+      "chuck": false,
+      "userId": 3,
+      "id": 106
+    },
+    {
+      "comment": "When Chuck Norris get bitten by a zombie, Chuck Norris doesn't turn into a zombie, the zombie turns in to Chuck Norris.",
+      "date": "2/27/24, 06:56 PM",
+      "chuck": true,
+      "userId": 3,
+      "id": 107
+    },
+    {
+      "comment": "dsfsdff",
+      "date": "2/27/24, 06:57 PM",
+      "chuck": false,
+      "userId": 3,
+      "id": 108
+    },
+    {
+      "comment": "Some people show off by ripping phone books in half. Chuck Norris can rip them back into one piece.",
+      "date": "2/27/24, 06:57 PM",
+      "chuck": true,
+      "userId": 3,
+      "id": 109
+    },
+    {
+      "comment": "errerer",
+      "date": "2/27/24, 06:57 PM",
+      "chuck": false,
+      "userId": 3,
+      "id": 110
+    },
+    {
+      "comment": "Chuck Norris is allowed to say \"ni\" to The Knights Who Say Ni.",
+      "date": "2/27/24, 06:57 PM",
+      "chuck": true,
+      "userId": 3,
+      "id": 111
+    },
+    {
+      "comment": "dfdvdv",
+      "date": "2/27/24, 06:58 PM",
+      "chuck": false,
+      "userId": 3,
+      "id": 112
+    },
+    {
+      "comment": "A reporter asked Chuck Norris how he would describe Kim Kardasian: Actress? Socialite? Chuck pondered this and replied \"naw, she's mostly a soul brother-fucker\".",
+      "date": "2/27/24, 06:58 PM",
+      "chuck": true,
+      "userId": 3,
+      "id": 113
     }
   ]
 }

@@ -1,19 +1,15 @@
-export const commentsToAlice = "http://localhost:3001/messagesFromAlice";
-export const commentsToSergio = "http://localhost:3001/messagesFromSergio";
-export const commentsToBarrera = "http://localhost:3001/messagesFromBarrera";
-export const commentsToVelasqez = "http://localhost:3001/messagesFromVelasqez";
-export const commentsToMia = "http://localhost:3001/messagesFromMia";
 export const sortedUsers = process.env.REACT_APP_SORTED_USERS;
 
 const jokes = process.env.REACT_APP_JOKES;
 
-export const addComment = (toUser, date, comment, chuck) => {
+export const addComment = (toUser, date, comment, chuck, id) => {
   fetch(toUser, {
     method: "POST",
     body: JSON.stringify({
       comment,
       date,
       chuck,
+      userId: id,
     }),
     headers: {
       "Content-type": "application/json",
@@ -58,24 +54,19 @@ export const changeLastMessage = async (
 
 export const getUserList = async (url) => {
   const response = await fetch(url);
-  const data = await response.json().catch((err) => {
-    console.error(err);
-  });
+  const data = await response.json();
   return data;
 };
 
 export const chuckNorris = async () => {
   const response = await fetch(jokes);
-  const data = await response.json().catch((err) => {
-    console.error(err);
-  });
+  const data = await response.json();
   return data;
 };
 
 export const getListOfMessages = async (url) => {
+  console.log(url);
   const response = await fetch(url);
-  const data = await response.json().catch((err) => {
-    console.error(err);
-  });
+  const data = await response.json();
   return data;
 };

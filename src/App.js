@@ -4,18 +4,14 @@ import Filter from "./components/filter/Filter";
 import Chats from "./components/chats/Chats";
 import SingleChat from "./components/singlechat/SingleChat";
 import {
-  commentsToAlice,
-  commentsToSergio,
-  commentsToBarrera,
-  commentsToVelasqez,
-  commentsToMia,
   getListOfMessages,
   addComment,
   chuckNorris,
   changeLastMessage,
 } from "./services/httpservices";
-import { useSelector } from "react-redux";
-import { data } from "./store/userDataSlice";
+import { useSelector, useDispatch } from "react-redux";
+import { setNewComment, setSearchName } from "./store/userDataSlice";
+
 
 import "./App.css";
 
@@ -27,15 +23,18 @@ function App() {
   const [newComment, setNewComment] = useState("");
   const [id, setId] = useState(2);
 
-  const { chuck } = useSelector(data);
+  const chuck = useSelector((state) => state.data.chuck);
+  // const dispatch = useDispatch();
 
   const users = process.env.REACT_APP_USERS;
-  const messageFromUser = process.env.REACT_APP_MESSAGES;
+  const messageFromUser = process.env.REACT_APP_MESSAGES_FROM_USER;
+  const addMessage = process.env.REACT_APP_MESSAGES;
 
   console.count("app render");
 
   const onFilterChange = (e) => {
     setSearchName(e.target.value.toLowerCase());
+    // dispatch(setSearchName(e.target.value.toLowerCase()));
   };
 
   const getUserData = (name, avatar, id) => {
@@ -80,62 +79,64 @@ function App() {
     });
   };
 
-  const onChooseUser = (url) => {
-    switch (name) {
-      case "Alice Freeman":
-        url = commentsToAlice;
-        break;
-      case "Sergio":
-        url = commentsToSergio;
-        break;
-      case "Velasqez":
-        url = commentsToVelasqez;
-        break;
-      case "Barrera":
-        url = commentsToBarrera;
-        break;
-      case "Mia":
-        url = commentsToMia;
-        break;
-      default:
-        url = commentsToSergio;
-    }
-    return url;
-  };
-
-  const newUrl = onChooseUser();
-  console.log(newUrl, newComment);
-
-  // useEffect(() => {
-  //   getListOfMessages(commentsToSergio).then((data) => setMessagesList(data));
-  //   console.log("use effect");
-  // }, [newUrl]);
-
   const onMessageValue = (e) => {
     setNewComment(e.target.value);
+    // dispatch(setNewComment(e.target.value));
   };
 
-  // const chuck = true;
+  const urlForPutLastMessage = `${users}/${id}`;
 
-  const urlForPutLastMessage = users + id;
+  // const onSendMessage = (e) => {
+  //   e.preventDefault();
+  //   addComment(addMessage, timeForSingleChat, newComment, !chuck, id);
+  //   changeLastMessage(
+  //     urlForPutLastMessage,
+  //     id,
+  //     avatar,
+  //     timeForListOfUsers,
+  //     newComment,
+  //     name
+  //   ).then(() => {
+  //     const chuckTimer = setTimeout(() => {
+  //       chuckNorris().then((data) => {
+  //         addComment(addMessage, timeForSingleChat, data.value, chuck, id);
+  //         setMessagesList((prevdata) => [
+  //           ...prevdata,
+  //           {
+  //             comment: data.value,
+  //             date: timeForSingleChat,
+  //             chuck: chuck,
+  //             id: data.id,
+  //             userId: id,
+  //           },
+  //         ]);
+  //       });
+  //       return () => clearInterval(chuckTimer);
+  //     }, 3000);
+  //     getListOfMessages(`${messageFromUser}${id}`).then((data) =>
+  //       setMessagesList(data)
+  //     );
+  //     setNewComment("");
+  //   });
+  // };
 
-  console.log(urlForPutLastMessage);
-
-  const onSendMessage = (e) => {
+  const onSendMessage = async (e) => {
     e.preventDefault();
-    addComment(newUrl, timeForListOfUsers, newComment);
-    changeLastMessage(
-      urlForPutLastMessage,
-      id,
-      avatar,
-      // "/images/tick.png",
-      timeForListOfUsers,
-      newComment,
-      name
-    ).then(() => {
-      const chuckTimer = setTimeout(() => {
-        chuckNorris().then((data) => {
-          addComment(newUrl, timeForSingleChat, data.value, chuck);
+    try {
+      addComment(addMessage, timeForSingleChat, newComment, !chuck, id);
+      await changeLastMessage(
+        urlForPutLastMessage,
+        id,
+        avatar,
+        timeForListOfUsers,
+        newComment,
+        name
+      );
+
+      const chuckTimer = setTimeout(async () => {
+        try {
+          const data = await chuckNorris();
+          addComment(addMessage, timeForSingleChat, data.value, chuck, id);
           setMessagesList((prevdata) => [
             ...prevdata,
             {
@@ -143,22 +144,29 @@ function App() {
               date: timeForSingleChat,
               chuck: chuck,
               id: data.id,
+              userId: id,
             },
           ]);
-        });
-        return clearInterval(chuckTimer);
+        } catch (error) {
+          console.error("Error fetching Chuck Norris data:", error);
+        } finally {
+          return () => clearTimeout(chuckTimer);
+        }
       }, 3000);
-      getListOfMessages(newUrl).then((data) => setMessagesList(data));
+
+      const data = await getListOfMessages(`${messageFromUser}${id}`);
+      setMessagesList(data);
       setNewComment("");
-    });
+    } catch (error) {
+      console.error("Error:", error);
+    }
   };
 
   useEffect(() => {
-    // getListOfMessages(`${messageFromUser}${id}`)
-    getListOfMessages(newUrl)
+    getListOfMessages(`${messageFromUser}${id}`)
       .then((data) => setMessagesList(data))
       .catch((error) => console.log(error));
-  }, [newUrl, newComment]);
+  }, [id, newComment]);
 
   return (
     <section className="head">
