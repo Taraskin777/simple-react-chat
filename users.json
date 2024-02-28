@@ -10,9 +10,9 @@
     {
       "id": 2,
       "name": "Sergio",
-      "date": "Feb 27, 2024",
+      "date": "Feb 28, 2024",
       "avatar": "/images/sergio.png",
-      "message": "dfsdfsdf"
+      "message": "gffd"
     },
     {
       "id": 3,
@@ -827,6 +827,76 @@
       "chuck": true,
       "userId": 3,
       "id": 113
+    },
+    {
+      "comment": "dfgdfgdffg",
+      "date": "2/28/24, 10:59 AM",
+      "chuck": false,
+      "userId": 2,
+      "id": 114
+    },
+    {
+      "comment": "When Chuck Norris goes to bed. He checks the closest for bruce lee",
+      "date": "2/28/24, 10:59 AM",
+      "chuck": true,
+      "userId": 2,
+      "id": 115
+    },
+    {
+      "comment": "cvbcvbcvb",
+      "date": "2/28/24, 10:59 AM",
+      "chuck": false,
+      "userId": 2,
+      "id": 116
+    },
+    {
+      "comment": "It can be either called 'the war against terrorism', or 'the war FOR Chuck Norrism'.",
+      "date": "2/28/24, 10:59 AM",
+      "chuck": true,
+      "userId": 2,
+      "id": 117
+    },
+    {
+      "comment": "dsgdfg",
+      "date": "2/28/24, 01:44 PM",
+      "chuck": false,
+      "userId": 2,
+      "id": 118
+    },
+    {
+      "comment": "Chuck Norris never had a condom, thus the glad force flex bag was invented.",
+      "date": "2/28/24, 01:44 PM",
+      "chuck": true,
+      "userId": 2,
+      "id": 119
+    },
+    {
+      "comment": "sdsf",
+      "date": "2/28/24, 02:29 PM",
+      "chuck": false,
+      "userId": 2,
+      "id": 120
+    },
+    {
+      "comment": "Chuck Norris uses the HOV lane by himself.",
+      "date": "2/28/24, 02:29 PM",
+      "chuck": true,
+      "userId": 2,
+      "id": 121
+    },
+    {
+      "comment": "gffd",
+      "date": "2/28/24, 02:29 PM",
+      "chuck": false,
+      "userId": 2,
+      "id": 122
+    },
+    {
+      "comment": "on December 21 2012 the worlds ass will be putting up a vacancy sign and Chuck Norris foot is looking for a room and that's how the world will end",
+      "date": "2/28/24, 02:29 PM",
+      "chuck": true,
+      "userId": 2,
+      "id": 123
     }
   ]
 }

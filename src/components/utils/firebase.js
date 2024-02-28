@@ -1,8 +1,8 @@
 import { initializeApp } from "firebase/app";
-import { getFirestore } from "@firebase/firestore";
+import { getDatabase } from "firebase/database";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyBjFqgey5X7pgr_xegxVVTAEFBmpBjnv0w",
+  apiKey: process.env.REACT_APP_API_KEY,
   authDomain: "chat-528e5.firebaseapp.com",
   databaseURL:
     "https://chat-528e5-default-rtdb.europe-west1.firebasedatabase.app",
@@ -14,4 +14,4 @@ const firebaseConfig = {
 
 const app = initializeApp(firebaseConfig);
 
-export const firestore = getFirestore(app);
+export const db = getDatabase(app);

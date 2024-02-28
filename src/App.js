@@ -12,16 +12,20 @@ import {
 import { useSelector, useDispatch } from "react-redux";
 import { setNewComment, setSearchName } from "./store/userDataSlice";
 
+import { db } from "./components/utils/firebase";
+import { onValue, ref } from "firebase/database";
 
 import "./App.css";
 
 function App() {
-  const [searchName, setSearchName] = useState("");
+  // const [searchName, setSearchName] = useState("");
   const [name, setName] = useState("Sergio");
   const [avatar, setAvatar] = useState("/images/sergio.png");
   const [messagesList, setMessagesList] = useState([]);
   const [newComment, setNewComment] = useState("");
   const [id, setId] = useState(2);
+
+  const [projects, setProjects] = useState([]);
 
   const chuck = useSelector((state) => state.data.chuck);
   // const dispatch = useDispatch();
@@ -32,10 +36,27 @@ function App() {
 
   console.count("app render");
 
-  const onFilterChange = (e) => {
-    setSearchName(e.target.value.toLowerCase());
-    // dispatch(setSearchName(e.target.value.toLowerCase()));
-  };
+
+// get data from firebase
+
+  useEffect(() => {
+    const query = ref(db, "users");
+    return onValue(query, (snapshot) => {
+      const data = snapshot.val();
+
+      if (snapshot.exists()) {
+        Object.values(data).map((project) => {
+          return setProjects((projects) => [...projects, project]);
+        });
+      }
+    });
+  }, []);
+
+  console.log(projects);
+
+  // const onFilterChange = (e) => {
+  //   setSearchName(e.target.value.toLowerCase());
+  // };
 
   const getUserData = (name, avatar, id) => {
     setName(name);
@@ -175,12 +196,9 @@ function App() {
           <div className="leftside">
             <Filter
               className="filter"
-              filter={searchName}
-              onFilterChange={onFilterChange}
             />
             <Chats
               className="chats"
-              searchName={searchName}
               searchUsers={searchUsers}
               time={timeForListOfUsers}
               getUserData={getUserData}

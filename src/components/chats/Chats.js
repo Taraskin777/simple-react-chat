@@ -3,17 +3,20 @@ import { useState, useEffect } from 'react';
 import ChatPerson from '../chatPerson/ChatPerson';
 
 import { sortedUsers, getUserList } from '../../services/httpservices';
+import { useSelector } from 'react-redux';
 
 import './chats.css';
 
-const Chats = ({ searchName, searchUsers, getUserData, newComment }) => {
+const Chats = ({ searchUsers, getUserData, newComment }) => {
   const [usersData, setUsersData] = useState([]);
+
+  const searchValue = useSelector((state) => state.data.searchName);
 
   useEffect(() => {
     getUserList(sortedUsers).then((data) => setUsersData(data));
   }, [newComment]);
 
-  const filteredUsers = searchUsers(usersData, searchName);
+  const filteredUsers = searchUsers(usersData, searchValue);
 
   return (
     <div className="chats-wrapper">
