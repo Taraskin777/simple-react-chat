@@ -10,7 +10,7 @@ import {
   changeLastMessage,
 } from "./services/httpservices";
 import { useSelector, useDispatch } from "react-redux";
-import { setNewComment, setSearchName } from "./store/userDataSlice";
+import { setNewComment } from "./store/userDataSlice";
 
 import { db } from "./components/utils/firebase";
 import { onValue, ref } from "firebase/database";
@@ -18,17 +18,16 @@ import { onValue, ref } from "firebase/database";
 import "./App.css";
 
 function App() {
-  // const [searchName, setSearchName] = useState("");
   const [name, setName] = useState("Sergio");
   const [avatar, setAvatar] = useState("/images/sergio.png");
   const [messagesList, setMessagesList] = useState([]);
-  const [newComment, setNewComment] = useState("");
   const [id, setId] = useState(2);
 
   const [projects, setProjects] = useState([]);
 
   const chuck = useSelector((state) => state.data.chuck);
-  // const dispatch = useDispatch();
+  const newComment = useSelector((state) => state.data.newComment);
+  const dispatch = useDispatch();
 
   const users = process.env.REACT_APP_USERS;
   const messageFromUser = process.env.REACT_APP_MESSAGES_FROM_USER;
@@ -54,9 +53,6 @@ function App() {
 
   console.log(projects);
 
-  // const onFilterChange = (e) => {
-  //   setSearchName(e.target.value.toLowerCase());
-  // };
 
   const getUserData = (name, avatar, id) => {
     setName(name);
@@ -100,46 +96,9 @@ function App() {
     });
   };
 
-  const onMessageValue = (e) => {
-    setNewComment(e.target.value);
-    // dispatch(setNewComment(e.target.value));
-  };
 
   const urlForPutLastMessage = `${users}/${id}`;
 
-  // const onSendMessage = (e) => {
-  //   e.preventDefault();
-  //   addComment(addMessage, timeForSingleChat, newComment, !chuck, id);
-  //   changeLastMessage(
-  //     urlForPutLastMessage,
-  //     id,
-  //     avatar,
-  //     timeForListOfUsers,
-  //     newComment,
-  //     name
-  //   ).then(() => {
-  //     const chuckTimer = setTimeout(() => {
-  //       chuckNorris().then((data) => {
-  //         addComment(addMessage, timeForSingleChat, data.value, chuck, id);
-  //         setMessagesList((prevdata) => [
-  //           ...prevdata,
-  //           {
-  //             comment: data.value,
-  //             date: timeForSingleChat,
-  //             chuck: chuck,
-  //             id: data.id,
-  //             userId: id,
-  //           },
-  //         ]);
-  //       });
-  //       return () => clearInterval(chuckTimer);
-  //     }, 3000);
-  //     getListOfMessages(`${messageFromUser}${id}`).then((data) =>
-  //       setMessagesList(data)
-  //     );
-  //     setNewComment("");
-  //   });
-  // };
 
   const onSendMessage = async (e) => {
     e.preventDefault();
@@ -177,7 +136,7 @@ function App() {
 
       const data = await getListOfMessages(`${messageFromUser}${id}`);
       setMessagesList(data);
-      setNewComment("");
+      dispatch(setNewComment(""));
     } catch (error) {
       console.error("Error:", error);
     }
@@ -210,7 +169,6 @@ function App() {
               name={name}
               avatar={avatar}
               messagesList={messagesList}
-              onMessageValue={onMessageValue}
               onSendMessage={onSendMessage}
               newComment={newComment}
               getListOfMessages={getListOfMessages}

@@ -43,7 +43,7 @@ const SingleChat = ({
         ))}
       </div>
       <InputForSendMessage
-        onMessageValue={onMessageValue}
+        // onMessageValue={onMessageValue}
         onSendMessage={onSendMessage}
         newComment={newComment}
         scrollToBottom={scrollToBottom}

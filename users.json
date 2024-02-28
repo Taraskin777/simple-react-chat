@@ -3,37 +3,37 @@
     {
       "id": 1,
       "name": "Alice Freeman",
-      "date": "Feb 27, 2024",
+      "date": "Feb 28, 2024",
       "avatar": "/images/alice.png",
-      "message": "роропро"
+      "message": "rtrtet"
     },
     {
       "id": 2,
       "name": "Sergio",
       "date": "Feb 28, 2024",
       "avatar": "/images/sergio.png",
-      "message": "gffd"
+      "message": "kllfdorgrdgf"
     },
     {
       "id": 3,
       "name": "Velasqez",
-      "date": "Feb 27, 2024",
+      "date": "Feb 28, 2024",
       "avatar": "/images/velasqez.png",
-      "message": "dfdvdv"
+      "message": "sfsdfdf"
     },
     {
       "id": 4,
       "name": "Barrera",
-      "date": "Feb 27, 2024",
+      "date": "Feb 28, 2024",
       "avatar": "/images/barera.png",
-      "message": "ftytyty"
+      "message": "sdfsdfsdf"
     },
     {
       "id": 5,
       "name": "Mia",
-      "date": "Feb 27, 2024",
+      "date": "Feb 28, 2024",
       "avatar": "/images/mia.png",
-      "message": "іавіва"
+      "message": "dfdsfd"
     }
   ],
   "messages": [
@@ -897,6 +897,244 @@
       "chuck": true,
       "userId": 2,
       "id": 123
+    },
+    {
+      "comment": "sdfsdf",
+      "date": "2/28/24, 02:34 PM",
+      "chuck": false,
+      "userId": 2,
+      "id": 124
+    },
+    {
+      "comment": "Sasquatch brings Chuck Norris Jack Links beef jerky.",
+      "date": "2/28/24, 02:34 PM",
+      "chuck": true,
+      "userId": 2,
+      "id": 125
+    },
+    {
+      "comment": "fdgdfg",
+      "date": "2/28/24, 02:37 PM",
+      "chuck": false,
+      "userId": 2,
+      "id": 126
+    },
+    {
+      "comment": "Chuck Norris' favorite hobby is to create orphans.",
+      "date": "2/28/24, 02:37 PM",
+      "chuck": true,
+      "userId": 2,
+      "id": 127
+    },
+    {
+      "comment": "",
+      "date": "2/28/24, 02:40 PM",
+      "chuck": false,
+      "userId": 2,
+      "id": 128
+    },
+    {
+      "comment": "Contrary to popular belief Chuck Norris began the website www.roundhousekicktothefacebook.com, it has since been shortened to facebook.com and filled with people Mr. Norris will roundhouse kick to the face.",
+      "date": "2/28/24, 02:40 PM",
+      "chuck": true,
+      "userId": 2,
+      "id": 129
+    },
+    {
+      "comment": "dfdf",
+      "date": "2/28/24, 02:42 PM",
+      "chuck": false,
+      "userId": 2,
+      "id": 130
+    },
+    {
+      "comment": "Fanboys such as Genwunners are made when Chuck Norris is hungry for the exact part of the brain that accepts opinions.",
+      "date": "2/28/24, 02:42 PM",
+      "chuck": true,
+      "userId": 2,
+      "id": 131
+    },
+    {
+      "comment": "hgjhgjhj",
+      "date": "2/28/24, 02:42 PM",
+      "chuck": false,
+      "userId": 2,
+      "id": 132
+    },
+    {
+      "comment": "Chuck Norris can detect gravitational waves with his penis.",
+      "date": "2/28/24, 02:42 PM",
+      "chuck": true,
+      "userId": 2,
+      "id": 133
+    },
+    {
+      "comment": "dfdsfd",
+      "date": "2/28/24, 02:42 PM",
+      "chuck": false,
+      "userId": 5,
+      "id": 134
+    },
+    {
+      "comment": "Chuck Norris invented stuffed turkey, cranberries and sweet potatoes. He also invented 'the wheel'. In America we celebrate Thanksgiving because Chuck Norris doesn't make us eat wheels too.",
+      "date": "2/28/24, 02:42 PM",
+      "chuck": true,
+      "userId": 5,
+      "id": 135
+    },
+    {
+      "comment": "tryrtyrty",
+      "date": "2/28/24, 02:43 PM",
+      "chuck": false,
+      "userId": 4,
+      "id": 136
+    },
+    {
+      "comment": "Chuck Norris can call checkmate, before the pieces are setup on the chessboard.",
+      "date": "2/28/24, 02:43 PM",
+      "chuck": true,
+      "userId": 4,
+      "id": 137
+    },
+    {
+      "comment": "sdfsdfsdf",
+      "date": "2/28/24, 02:44 PM",
+      "chuck": false,
+      "userId": 4,
+      "id": 138
+    },
+    {
+      "comment": "macgyver can make a plane with only a paper clip and a shoe string not to be out done Chuck Norris made a jet fighter plane out of macgyver.",
+      "date": "2/28/24, 02:44 PM",
+      "chuck": true,
+      "userId": 4,
+      "id": 139
+    },
+    {
+      "comment": "dsfdsfs",
+      "date": "2/28/24, 02:44 PM",
+      "chuck": false,
+      "userId": 2,
+      "id": 140
+    },
+    {
+      "comment": "ChuCk Norris looks better of facebook..",
+      "date": "2/28/24, 02:44 PM",
+      "chuck": true,
+      "userId": 2,
+      "id": 141
+    },
+    {
+      "comment": "fdgdfg",
+      "date": "2/28/24, 02:44 PM",
+      "chuck": false,
+      "userId": 2,
+      "id": 142
+    },
+    {
+      "comment": "Chuck Norris can place his handprint in dry cement.",
+      "date": "2/28/24, 02:44 PM",
+      "chuck": true,
+      "userId": 2,
+      "id": 143
+    },
+    {
+      "comment": "fgfg",
+      "date": "2/28/24, 02:45 PM",
+      "chuck": false,
+      "userId": 2,
+      "id": 144
+    },
+    {
+      "comment": "In the 80's, Chuck Norris wore what stylists referred to as 'a Fuck-You Mullet'.",
+      "date": "2/28/24, 02:45 PM",
+      "chuck": true,
+      "userId": 2,
+      "id": 145
+    },
+    {
+      "comment": "rtrtet",
+      "date": "2/28/24, 02:45 PM",
+      "chuck": false,
+      "userId": 1,
+      "id": 146
+    },
+    {
+      "comment": "Chuck Norris once shot a chicken in the head, without a gun, and a bullet, and a chicken present!",
+      "date": "2/28/24, 02:45 PM",
+      "chuck": true,
+      "userId": 1,
+      "id": 147
+    },
+    {
+      "comment": "sdasds",
+      "date": "2/28/24, 02:46 PM",
+      "chuck": false,
+      "userId": 2,
+      "id": 148
+    },
+    {
+      "comment": "Even as a kid he's not afraid of the Dark, Dark is afraid of CHUCK NORRIS.",
+      "date": "2/28/24, 02:46 PM",
+      "chuck": true,
+      "userId": 2,
+      "id": 149
+    },
+    {
+      "comment": "sadsadsad",
+      "date": "2/28/24, 02:46 PM",
+      "chuck": false,
+      "userId": 2,
+      "id": 150
+    },
+    {
+      "comment": "It wasn't the North Star the Three Wise Men were following it was Chuck Norris' aura.",
+      "date": "2/28/24, 02:46 PM",
+      "chuck": true,
+      "userId": 2,
+      "id": 151
+    },
+    {
+      "comment": "kllfdorgrdgf",
+      "date": "2/28/24, 02:46 PM",
+      "chuck": false,
+      "userId": 2,
+      "id": 152
+    },
+    {
+      "comment": "Chuck Norris oncd spent his entire weekend eating Duracell Batteries. He did this so that on Monday he could crap out a fire-developed tank round to fire at the short bus that drives by his house. He then give the bus a roundhouse kick to the face!",
+      "date": "2/28/24, 02:46 PM",
+      "chuck": true,
+      "userId": 2,
+      "id": 153
+    },
+    {
+      "comment": "kllfdorgrdgf",
+      "date": "2/28/24, 02:46 PM",
+      "chuck": false,
+      "userId": 2,
+      "id": 154
+    },
+    {
+      "comment": "Chuck Norris beat a man to death with his own corpse.",
+      "date": "2/28/24, 02:46 PM",
+      "chuck": true,
+      "userId": 2,
+      "id": 155
+    },
+    {
+      "comment": "sfsdfdf",
+      "date": "2/28/24, 02:46 PM",
+      "chuck": false,
+      "userId": 3,
+      "id": 156
+    },
+    {
+      "comment": "Chuck Norris can write Haiku poetry in Hexadecimal without need for Binary Interface tables.",
+      "date": "2/28/24, 02:46 PM",
+      "chuck": true,
+      "userId": 3,
+      "id": 157
     }
   ]
 }
