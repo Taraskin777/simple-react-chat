@@ -2,7 +2,7 @@
 import React from "react";
 import { useEffect } from "react";
 import { useSelector } from "react-redux";
-import { data } from "../../store/userDataSlice";
+
 import "./chatofsingleuser.css";
 
 const ChatOfSingleUser = ({ comment, date, avatar, scrollToBottom, chuck }) => {
@@ -29,7 +29,7 @@ const ChatOfSingleUser = ({ comment, date, avatar, scrollToBottom, chuck }) => {
         <div>
           <div
             className="userphoto"
-            style={chuck ? { display: "block" } : { display: "none" }}
+            style={!chuck ? { display: "block" } : { display: "none" }}
           >
             <img src={avatar ? avatar : "/images/sergio.png"} alt="avatar" />
           </div>

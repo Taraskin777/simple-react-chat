@@ -7,7 +7,7 @@ import { useSelector } from 'react-redux';
 
 import './chats.css';
 
-const Chats = ({ searchUsers, getUserData, newComment }) => {
+const Chats = ({ searchUsers, newComment }) => {
   const [usersData, setUsersData] = useState([]);
 
   const searchValue = useSelector((state) => state.data.searchName);
@@ -32,7 +32,6 @@ const Chats = ({ searchUsers, getUserData, newComment }) => {
                 avatar={avatar}
                 message={message}
                 tick={tick}
-                getUserData={getUserData}
                 filteredUsers={filteredUsers}
               />
             </div>

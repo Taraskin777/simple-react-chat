@@ -13,20 +13,17 @@ import { useSelector, useDispatch } from "react-redux";
 import { setNewComment } from "./store/userDataSlice";
 
 import { db } from "./components/utils/firebase";
-import { onValue, ref } from "firebase/database";
+import { equalTo, onValue, orderByChild, ref, query } from "firebase/database";
 
 import "./App.css";
 
 function App() {
-  const [name, setName] = useState("Sergio");
-  const [avatar, setAvatar] = useState("/images/sergio.png");
   const [messagesList, setMessagesList] = useState([]);
-  const [id, setId] = useState(2);
 
-  const [projects, setProjects] = useState([]);
+  const { chuck, newComment, name, id, avatar } = useSelector(
+    (state) => state.data
+  );
 
-  const chuck = useSelector((state) => state.data.chuck);
-  const newComment = useSelector((state) => state.data.newComment);
   const dispatch = useDispatch();
 
   const users = process.env.REACT_APP_USERS;
@@ -35,30 +32,49 @@ function App() {
 
   console.count("app render");
 
+  // get users from firebase
 
-// get data from firebase
+  // useEffect(() => {
+  //   const query = ref(db, "users");
 
-  useEffect(() => {
-    const query = ref(db, "users");
-    return onValue(query, (snapshot) => {
-      const data = snapshot.val();
+  //   return onValue(query, (snapshot) => {
+  //     const data = snapshot.val();
 
-      if (snapshot.exists()) {
-        Object.values(data).map((project) => {
-          return setProjects((projects) => [...projects, project]);
-        });
-      }
-    });
-  }, []);
+  //     if (snapshot.exists()) {
+  //       Object.values(data).map((user) => {
+  //         return setUsersList((users) => [...users, user]);
+  //       });
+  //     }
+  //   });
+  // }, []);
 
-  console.log(projects);
+  // console.log(usersList);
 
+  // get messages by particular user ID
 
-  const getUserData = (name, avatar, id) => {
-    setName(name);
-    setAvatar(avatar);
-    setId(id);
-  };
+  // useEffect(() => {
+  //   // Створюємо посилання на колекцію "messages"
+  //   const messagesRef = ref(db, "messages");
+
+  //   // Створюємо запит з вказанням фільтрації
+  //   const filteredQuery = query(
+  //     messagesRef,
+  //     orderByChild("userId"),
+  //     equalTo(id)
+  //   );
+
+  //   // Встановлюємо обробник подій для запиту
+  //   return onValue(filteredQuery, (snapshot) => {
+  //     const data = snapshot.val();
+
+  //     if (snapshot.exists()) {
+  //       const messages = Object.values(data);
+  //       setMessagesById(messages);
+  //     }
+  //   });
+  // }, [id]);
+
+  // console.log(messagesById);
 
   const scrollToBottom = (id) => {
     const element = document.getElementById(id);
@@ -96,11 +112,8 @@ function App() {
     });
   };
 
-
-  const urlForPutLastMessage = `${users}/${id}`;
-
-
   const onSendMessage = async (e) => {
+    const urlForPutLastMessage = `${users}/${id}`;
     e.preventDefault();
     try {
       addComment(addMessage, timeForSingleChat, newComment, !chuck, id);
@@ -153,27 +166,21 @@ function App() {
       <div className="container">
         <div className="row">
           <div className="leftside">
-            <Filter
-              className="filter"
-            />
+            <Filter className="filter" />
             <Chats
               className="chats"
               searchUsers={searchUsers}
               time={timeForListOfUsers}
-              getUserData={getUserData}
               newComment={newComment}
             />
           </div>
           <div className="singlechat">
             <SingleChat
-              name={name}
-              avatar={avatar}
               messagesList={messagesList}
               onSendMessage={onSendMessage}
               newComment={newComment}
               getListOfMessages={getListOfMessages}
               scrollToBottom={scrollToBottom}
-              id={id}
             />
           </div>
         </div>
