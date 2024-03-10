@@ -3,37 +3,37 @@
     {
       "id": 1,
       "name": "Alice Freeman",
-      "date": "Mar 1, 2024",
+      "date": "Mar 10, 2024",
       "avatar": "/images/alice.png",
-      "message": "sadsad"
+      "message": "sfsfsf"
     },
     {
       "id": 2,
       "name": "Sergio",
-      "date": "Mar 1, 2024",
+      "date": "Mar 10, 2024, 03:27 PM",
       "avatar": "../images/sergio.png",
-      "message": "asdsadd"
+      "message": "sdsdsdsd"
     },
     {
       "id": 3,
       "name": "Velasqez",
-      "date": "Mar 1, 2024",
+      "date": "Mar 10, 2024, 03:26 PM",
       "avatar": "/images/velasqez.png",
-      "message": "safdsdf"
+      "message": "sdsdsd"
     },
     {
       "id": 4,
       "name": "Barrera",
-      "date": "Mar 1, 2024",
+      "date": "Mar 10, 2024, 03:27 PM",
       "avatar": "/images/barera.png",
-      "message": "sadsdsdsd"
+      "message": "sadsadsad"
     },
     {
       "id": 5,
       "name": "Mia",
-      "date": "Mar 1, 2024",
+      "date": "Mar 10, 2024, 03:27 PM",
       "avatar": "/images/mia.png",
-      "message": "ssffsdf"
+      "message": "asdasd"
     }
   ],
   "messages": [
@@ -1835,6 +1835,472 @@
       "chuck": true,
       "userId": 5,
       "id": 257
+    },
+    {
+      "comment": "sdfssfdf",
+      "date": "3/7/24, 08:59 PM",
+      "chuck": false,
+      "userId": 2,
+      "id": 258
+    },
+    {
+      "comment": "dsfdsfsdf",
+      "date": "3/7/24, 09:02 PM",
+      "chuck": false,
+      "userId": 2,
+      "id": 259
+    },
+    {
+      "comment": "Chuck Norris created the Sasquatch by setting fire to a Yeti with a flame thrower.",
+      "date": "3/7/24, 09:02 PM",
+      "chuck": true,
+      "userId": 2,
+      "id": 260
+    },
+    {
+      "comment": "rtfddfghdf",
+      "date": "3/7/24, 09:02 PM",
+      "chuck": false,
+      "userId": 5,
+      "id": 261
+    },
+    {
+      "comment": "Chuck Norris gave the Pope permission to have a cuncubine.",
+      "date": "3/7/24, 09:02 PM",
+      "chuck": true,
+      "userId": 5,
+      "id": 262
+    },
+    {
+      "comment": "sdfdssdfdf",
+      "date": "3/10/24, 02:54 PM",
+      "chuck": false,
+      "userId": 2,
+      "id": 263
+    },
+    {
+      "comment": "A man once tried to beat Chuck Norris with his pennis,,,that man is now known as Rosie O'Donnell!!",
+      "date": "3/10/24, 02:54 PM",
+      "chuck": true,
+      "userId": 2,
+      "id": 264
+    },
+    {
+      "comment": "dfdfdffdff",
+      "date": "3/10/24, 02:56 PM",
+      "chuck": false,
+      "userId": 4,
+      "id": 265
+    },
+    {
+      "comment": "Chuck Norris can bake a turkey, a ham and 3 pumpkin pies, all at once inside an easy-bake oven",
+      "date": "3/10/24, 02:56 PM",
+      "chuck": true,
+      "userId": 4,
+      "id": 266
+    },
+    {
+      "comment": "dfdfeerereddfdfdf",
+      "date": "3/10/24, 02:56 PM",
+      "chuck": false,
+      "userId": 4,
+      "id": 267
+    },
+    {
+      "comment": "The owl knows how many licks it takes to get to the center of a toostie-roll-pop. Chuck Norris knows how many licks it takes to get to the center of a 5,000 pound boulder. Both take 3, only because Chuck was savoring the flavor.",
+      "date": "3/10/24, 02:56 PM",
+      "chuck": true,
+      "userId": 4,
+      "id": 268
+    },
+    {
+      "comment": "dsfdsffsd",
+      "date": "3/10/24, 02:58 PM",
+      "chuck": false,
+      "userId": 4,
+      "id": 269
+    },
+    {
+      "comment": "When refueling his Hummer at the gas station Chuck Norris likes to smoke big fat cigars and stare at the attendant.",
+      "date": "3/10/24, 02:58 PM",
+      "chuck": true,
+      "userId": 4,
+      "id": 270
+    },
+    {
+      "comment": "sdfsdf",
+      "date": "3/10/24, 03:00 PM",
+      "chuck": false,
+      "userId": 4,
+      "id": 271
+    },
+    {
+      "comment": "Chuck Norris doesnt mingle. he mangles.",
+      "date": "3/10/24, 03:00 PM",
+      "chuck": true,
+      "userId": 4,
+      "id": 272
+    },
+    {
+      "comment": "sfdsf",
+      "date": "3/10/24, 03:02 PM",
+      "chuck": false,
+      "userId": 4,
+      "id": 273
+    },
+    {
+      "comment": "dsfdsfddsf",
+      "date": "3/10/24, 03:02 PM",
+      "chuck": false,
+      "userId": 2,
+      "id": 274
+    },
+    {
+      "comment": "Chuck Norris' dog is a Velociraptor.",
+      "date": "3/10/24, 03:02 PM",
+      "chuck": true,
+      "userId": 2,
+      "id": 275
+    },
+    {
+      "comment": "sdsdsdsd",
+      "date": "3/10/24, 03:02 PM",
+      "chuck": false,
+      "userId": 3,
+      "id": 276
+    },
+    {
+      "comment": "In any given room, there are at least 1357 things that Chuck Norris can use to kill you........including the room itself!",
+      "date": "3/10/24, 03:02 PM",
+      "chuck": true,
+      "userId": 3,
+      "id": 277
+    },
+    {
+      "comment": "sdsdsdsd",
+      "date": "3/10/24, 03:02 PM",
+      "chuck": false,
+      "userId": 4,
+      "id": 278
+    },
+    {
+      "comment": "the reason nobody can find bigfoot is because is because Chuck Norris found him first.",
+      "date": "3/10/24, 03:02 PM",
+      "chuck": true,
+      "userId": 4,
+      "id": 279
+    },
+    {
+      "comment": "sdsfsfwere",
+      "date": "3/10/24, 03:03 PM",
+      "chuck": false,
+      "userId": 4,
+      "id": 280
+    },
+    {
+      "comment": "Chuck Norris can lick his own elboe.",
+      "date": "3/10/24, 03:03 PM",
+      "chuck": true,
+      "userId": 4,
+      "id": 281
+    },
+    {
+      "comment": "sdfefeerdf",
+      "date": "3/10/24, 03:03 PM",
+      "chuck": false,
+      "userId": 4,
+      "id": 282
+    },
+    {
+      "comment": "Chuck Norris can head-butt a cannonball back into the cannon it was fired from. Without blinking.",
+      "date": "3/10/24, 03:03 PM",
+      "chuck": true,
+      "userId": 4,
+      "id": 283
+    },
+    {
+      "comment": "erererer",
+      "date": "3/10/24, 03:03 PM",
+      "chuck": false,
+      "userId": 1,
+      "id": 284
+    },
+    {
+      "comment": "Chuck Norris found the end of pie.",
+      "date": "3/10/24, 03:03 PM",
+      "chuck": true,
+      "userId": 1,
+      "id": 285
+    },
+    {
+      "comment": "sfsfsf",
+      "date": "3/10/24, 03:04 PM",
+      "chuck": false,
+      "userId": 1,
+      "id": 286
+    },
+    {
+      "comment": "sdsdsdsd",
+      "date": "3/10/24, 03:04 PM",
+      "chuck": false,
+      "userId": 5,
+      "id": 287
+    },
+    {
+      "comment": "Chuck Norris sprinkles iron filings on his cappacinos.",
+      "date": "3/10/24, 03:04 PM",
+      "chuck": true,
+      "userId": 5,
+      "id": 288
+    },
+    {
+      "comment": "wewdfdfdf",
+      "date": "3/10/24, 03:04 PM",
+      "chuck": false,
+      "userId": 5,
+      "id": 289
+    },
+    {
+      "comment": "The Incas used to sacrifice their most beautiful women to the Sun God. The Sun God was their title for Chuck Norris.",
+      "date": "3/10/24, 03:04 PM",
+      "chuck": true,
+      "userId": 5,
+      "id": 290
+    },
+    {
+      "comment": "dssdwevd",
+      "date": "3/10/24, 03:05 PM",
+      "chuck": false,
+      "userId": 2,
+      "id": 291
+    },
+    {
+      "comment": "Chuck Norris has a distended scrotum due solely to the size of his three testicles.",
+      "date": "3/10/24, 03:05 PM",
+      "chuck": true,
+      "userId": 2,
+      "id": 292
+    },
+    {
+      "comment": "wewecsf",
+      "date": "3/10/24, 03:05 PM",
+      "chuck": false,
+      "userId": 2,
+      "id": 293
+    },
+    {
+      "comment": "When Chuck Norris tells you something, you fucking pay attention.",
+      "date": "3/10/24, 03:05 PM",
+      "chuck": true,
+      "userId": 2,
+      "id": 294
+    },
+    {
+      "comment": "sddcefdf",
+      "date": "3/10/24, 03:08 PM",
+      "chuck": false,
+      "userId": 2,
+      "id": 295
+    },
+    {
+      "comment": "Chuck Norris does not sleep. He waits.",
+      "date": "3/10/24, 03:08 PM",
+      "chuck": true,
+      "userId": 2,
+      "id": 296
+    },
+    {
+      "comment": "sdeddvvfg",
+      "date": "3/10/24, 03:09 PM",
+      "chuck": false,
+      "userId": 2,
+      "id": 297
+    },
+    {
+      "comment": "Whenever Chuck Norris strangles a tiger, he gets Frosted Flakes.",
+      "date": "3/10/24, 03:09 PM",
+      "chuck": true,
+      "userId": 2,
+      "id": 298
+    },
+    {
+      "comment": "dcdfdf",
+      "date": "3/10/24, 03:09 PM",
+      "chuck": false,
+      "userId": 2,
+      "id": 299
+    },
+    {
+      "comment": "Chuck Norris went on deal or no deal... the banker offered him 100 billion when he got all the top numbers on his fisrt round. he then raised it by 10 times when Chuck Norris said no.... the banker was then killed by picking up the rong phone",
+      "date": "3/10/24, 03:09 PM",
+      "chuck": true,
+      "userId": 2,
+      "id": 300
+    },
+    {
+      "comment": "sdsfdfdf",
+      "chuck": false,
+      "userId": 2,
+      "id": 301
+    },
+    {
+      "comment": "MR T pity's the fool. Chuck Norris pities Mr T",
+      "chuck": true,
+      "userId": 2,
+      "id": 302
+    },
+    {
+      "comment": "dsdsd",
+      "chuck": false,
+      "userId": 2,
+      "id": 303
+    },
+    {
+      "comment": "Chuck Norris can't test for equality because he has no equal.",
+      "date": "3/10/24, 03:19 PM",
+      "chuck": true,
+      "userId": 2,
+      "id": 304
+    },
+    {
+      "comment": "fdsfdf",
+      "date": "3/10/24, 03:20 PM",
+      "chuck": false,
+      "userId": 2,
+      "id": 305
+    },
+    {
+      "comment": "When many people end a threat with \"or else,\" the \"or else\" is pain or punishment. When Chuck Norris uses \"or else,\" it means horrible death.",
+      "date": "3/10/24, 03:20 PM",
+      "chuck": true,
+      "userId": 2,
+      "id": 306
+    },
+    {
+      "comment": "sdsds",
+      "date": "3/10/24, 03:24 PM",
+      "chuck": false,
+      "userId": 2,
+      "id": 307
+    },
+    {
+      "comment": "Darth Vader once tried to choke Chuck Norris but he won't be trying it again.",
+      "date": "3/10/24, 03:24 PM",
+      "chuck": true,
+      "userId": 2,
+      "id": 308
+    },
+    {
+      "comment": "sdsdsdd",
+      "date": "3/10/24, 03:24 PM",
+      "chuck": false,
+      "userId": 5,
+      "id": 309
+    },
+    {
+      "comment": "Thunder is just another result of Chuck Norris sneezing.",
+      "date": "3/10/24, 03:24 PM",
+      "chuck": true,
+      "userId": 5,
+      "id": 310
+    },
+    {
+      "comment": "sdsdsdsd",
+      "date": "3/10/24, 03:25 PM",
+      "chuck": false,
+      "userId": 5,
+      "id": 311
+    },
+    {
+      "comment": "Chuck Norris was bitten by a Zombie. Shortly thereafter, the Zombie displayed greatly increased muscle mass and some serious bad-ass tendencies.",
+      "date": "3/10/24, 03:25 PM",
+      "chuck": true,
+      "userId": 5,
+      "id": 312
+    },
+    {
+      "comment": "sdsdsdsd",
+      "date": "3/10/24, 03:26 PM",
+      "chuck": false,
+      "userId": 3,
+      "id": 313
+    },
+    {
+      "comment": "Chuck Norris was in a bear fight, he tapped the bear with his finger and the bear fainted and died",
+      "date": "3/10/24, 03:26 PM",
+      "chuck": true,
+      "userId": 3,
+      "id": 314
+    },
+    {
+      "comment": "sdsdsd",
+      "date": "3/10/24, 03:26 PM",
+      "chuck": false,
+      "userId": 3,
+      "id": 315
+    },
+    {
+      "comment": "When God said: \"LET THERE BE LIGHT!\" Chuck Norris said: \"Say please.\"",
+      "date": "3/10/24, 03:26 PM",
+      "chuck": true,
+      "userId": 3,
+      "id": 316
+    },
+    {
+      "comment": "saddsad",
+      "date": "3/10/24, 03:26 PM",
+      "chuck": false,
+      "userId": 2,
+      "id": 317
+    },
+    {
+      "comment": "The Rolling Stones would have disbanded less than six months after they formed if Chuck Norris hadn't attended one of their early gigs and jumped onstage to play a devastatingly awesome guitar solo, thus terrifying them into staying together for decades. (Oh, and he also pimp-slapped Mick Jagger in the lips, permanently disfigureing him.)",
+      "date": "3/10/24, 03:26 PM",
+      "chuck": true,
+      "userId": 2,
+      "id": 318
+    },
+    {
+      "comment": "sadsadsad",
+      "date": "3/10/24, 03:27 PM",
+      "chuck": false,
+      "userId": 4,
+      "id": 319
+    },
+    {
+      "comment": "The only reason the battle of San Jacinto lasted 18 minutes because Chuck Norris was 17 minutes late",
+      "date": "3/10/24, 03:27 PM",
+      "chuck": true,
+      "userId": 4,
+      "id": 320
+    },
+    {
+      "comment": "sdsdsdsd",
+      "date": "3/10/24, 03:27 PM",
+      "chuck": false,
+      "userId": 2,
+      "id": 321
+    },
+    {
+      "comment": "when you split an atom, inside it says OWNED BY CHUCK NORRIS",
+      "date": "3/10/24, 03:27 PM",
+      "chuck": true,
+      "userId": 2,
+      "id": 322
+    },
+    {
+      "comment": "asdasd",
+      "date": "3/10/24, 03:27 PM",
+      "chuck": false,
+      "userId": 5,
+      "id": 323
+    },
+    {
+      "comment": "Chuck Norris can sneeze your face off.",
+      "date": "3/10/24, 03:27 PM",
+      "chuck": true,
+      "userId": 5,
+      "id": 324
     }
   ]
 }

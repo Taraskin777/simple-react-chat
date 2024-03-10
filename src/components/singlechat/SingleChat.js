@@ -8,7 +8,6 @@ const SingleChat = ({
   messagesList,
   onSendMessage,
   newComment,
-  scrollToBottom,
 }) => {
   const { name, avatar, id } = useSelector((state) => state.data);
 
@@ -32,7 +31,7 @@ const SingleChat = ({
               comment={comment}
               date={date}
               avatar={avatar}
-              scrollToBottom={scrollToBottom}
+              // scrollToBottom={scrollToBottom}
               chuck={chuck}
             />
           </div>
@@ -41,7 +40,6 @@ const SingleChat = ({
       <InputForSendMessage
         onSendMessage={onSendMessage}
         newComment={newComment}
-        scrollToBottom={scrollToBottom}
         id={id}
       />
     </div>

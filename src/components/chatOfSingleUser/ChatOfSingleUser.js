@@ -5,15 +5,20 @@ import { useSelector } from "react-redux";
 
 import "./chatofsingleuser.css";
 
-const ChatOfSingleUser = ({ comment, date, avatar, scrollToBottom, chuck }) => {
+const ChatOfSingleUser = ({ comment, date, avatar, chuck }) => {
   const styleForChuck = {
     backgroundColor: "#696969",
     color: "white",
   };
 
+  const scrollToBottom = (id) => {
+    const element = document.getElementById(id);
+    element.scrollTop = element.scrollHeight;
+  };
+
   useEffect(() => {
     scrollToBottom("chatscroll");
-  }, []);
+  }, [comment]);
 
 
 

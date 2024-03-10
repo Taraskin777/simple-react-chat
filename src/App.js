@@ -1,21 +1,25 @@
-import React from "react";
-import { useState, useEffect } from "react";
-import Filter from "./components/filter/Filter";
-import Chats from "./components/chats/Chats";
-import SingleChat from "./components/singlechat/SingleChat";
+import React from 'react';
+import { useState, useEffect } from 'react';
+import Filter from './components/filter/Filter';
+import Chats from './components/chats/Chats';
+import SingleChat from './components/singlechat/SingleChat';
 import {
   getListOfMessages,
   addComment,
   chuckNorris,
   changeLastMessage,
-} from "./services/httpservices";
-import { useSelector, useDispatch } from "react-redux";
-import { setNewComment } from "./store/userDataSlice";
+} from './services/httpservices';
+import { useSelector, useDispatch } from 'react-redux';
+import { setNewComment } from './store/userDataSlice';
+import {
+  timeForListOfUsers,
+  timeForSingleChat,
+} from './components/utils/dateUtils';
 
-import { db } from "./components/utils/firebase";
-import { equalTo, onValue, orderByChild, ref, query } from "firebase/database";
+import { db } from './components/utils/firebase';
+import { equalTo, onValue, orderByChild, ref, query } from 'firebase/database';
 
-import "./App.css";
+import './App.css';
 
 function App() {
   const [messagesList, setMessagesList] = useState([]);
@@ -30,7 +34,7 @@ function App() {
   const messageFromUser = process.env.REACT_APP_MESSAGES_FROM_USER;
   const addMessage = process.env.REACT_APP_MESSAGES;
 
-  console.count("app render");
+  console.count('app render');
 
   // get users from firebase
 
@@ -76,52 +80,22 @@ function App() {
 
   // console.log(messagesById);
 
-  const scrollToBottom = (id) => {
-    const element = document.getElementById(id);
-    element.scrollTop = element.scrollHeight;
-    console.log("scroll");
-  };
-
-  const options1 = {
-    year: "numeric",
-    month: "short",
-    day: "numeric",
-  };
-
-  const timeForListOfUsers = new Intl.DateTimeFormat(
-    "en-US",
-    options1
-  ).format();
-
-  const options2 = {
-    year: "2-digit",
-    month: "numeric",
-    day: "numeric",
-    hour: "2-digit",
-    minute: "2-digit",
-  };
-
-  const timeForSingleChat = new Intl.DateTimeFormat("en-US", options2).format();
-
-  const searchUsers = (users, filter) => {
-    if (filter.length === 0) {
-      return users;
-    }
-    return users.filter((user) => {
-      return user.name.toLowerCase().indexOf(filter) > -1;
-    });
-  };
-
   const onSendMessage = async (e) => {
     const urlForPutLastMessage = `${users}/${id}`;
     e.preventDefault();
     try {
-      addComment(addMessage, timeForSingleChat, newComment, !chuck, id);
+      addComment(
+        addMessage,
+        timeForSingleChat(new Date()),
+        newComment,
+        !chuck,
+        id
+      );
       await changeLastMessage(
         urlForPutLastMessage,
         id,
         avatar,
-        timeForListOfUsers,
+        timeForListOfUsers(new Date()),
         newComment,
         name
       );
@@ -129,19 +103,25 @@ function App() {
       const chuckTimer = setTimeout(async () => {
         try {
           const data = await chuckNorris();
-          addComment(addMessage, timeForSingleChat, data.value, chuck, id);
+          addComment(
+            addMessage,
+            timeForSingleChat(new Date()),
+            data.value,
+            chuck,
+            id
+          );
           setMessagesList((prevdata) => [
             ...prevdata,
             {
               comment: data.value,
-              date: timeForSingleChat,
+              date: timeForSingleChat(new Date()),
               chuck: chuck,
               id: data.id,
               userId: id,
             },
           ]);
         } catch (error) {
-          console.error("Error fetching Chuck Norris data:", error);
+          console.error('Error fetching Chuck Norris data:', error);
         } finally {
           return () => clearTimeout(chuckTimer);
         }
@@ -149,9 +129,9 @@ function App() {
 
       const data = await getListOfMessages(`${messageFromUser}${id}`);
       setMessagesList(data);
-      dispatch(setNewComment(""));
+      dispatch(setNewComment(''));
     } catch (error) {
-      console.error("Error:", error);
+      console.error('Error:', error);
     }
   };
 
@@ -162,25 +142,19 @@ function App() {
   }, [id, newComment]);
 
   return (
-    <section className="head">
-      <div className="container">
-        <div className="row">
-          <div className="leftside">
-            <Filter className="filter" />
-            <Chats
-              className="chats"
-              searchUsers={searchUsers}
-              time={timeForListOfUsers}
-              newComment={newComment}
-            />
+    <section className='head'>
+      <div className='container'>
+        <div className='row'>
+          <div className='leftside'>
+            <Filter className='filter' />
+            <Chats className='chats' />
           </div>
-          <div className="singlechat">
+          <div className='singlechat'>
             <SingleChat
               messagesList={messagesList}
               onSendMessage={onSendMessage}
               newComment={newComment}
               getListOfMessages={getListOfMessages}
-              scrollToBottom={scrollToBottom}
             />
           </div>
         </div>

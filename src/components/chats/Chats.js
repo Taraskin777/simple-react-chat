@@ -7,16 +7,25 @@ import { useSelector } from 'react-redux';
 
 import './chats.css';
 
-const Chats = ({ searchUsers, newComment }) => {
+const Chats = () => {
   const [usersData, setUsersData] = useState([]);
 
-  const searchValue = useSelector((state) => state.data.searchName);
+  const {searchName, newComment} = useSelector((state) => state.data);
+
+  const searchUsers = (users, filter) => {
+    if (filter.length === 0) {
+      return users;
+    }
+    return users.filter((user) => {
+      return user.name.toLowerCase().indexOf(filter) > -1;
+    });
+  };
 
   useEffect(() => {
     getUserList(sortedUsers).then((data) => setUsersData(data));
   }, [newComment]);
 
-  const filteredUsers = searchUsers(usersData, searchValue);
+  const filteredUsers = searchUsers(usersData, searchName);
 
   return (
     <div className="chats-wrapper">

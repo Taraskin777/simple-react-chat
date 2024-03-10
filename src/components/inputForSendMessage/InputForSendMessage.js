@@ -6,7 +6,7 @@ import "./inputforsendmessage.css";
 const InputForSendMessage = ({
   onSendMessage,
 }) => {
-  const newComment = useSelector((state) => state.data.newComment);
+  const {newComment, id, avatar, name, chuck} = useSelector((state) => state.data);
 
   const dispatch = useDispatch();
 
